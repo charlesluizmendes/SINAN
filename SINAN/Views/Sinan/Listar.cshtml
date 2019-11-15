@@ -107,7 +107,7 @@
                                 @Html.DisplayFor(model => item.num_cartaosus)
                             </td>
                             <td>                               
-                                @{ string motivo_ocorrencia = item.motivo_ocorrencia.ToDescription(); }
+                                @{ string motivo_ocorrencia = item.motivo_ocorrencia == 0 ? "" : item.motivo_ocorrencia.ToDescription(); }
                                 @Html.DisplayFor(model => motivo_ocorrencia)
                             </td>
                             <td>

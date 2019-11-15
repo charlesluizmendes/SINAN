@@ -11,12 +11,12 @@ namespace SINAN.Domain.Services
 {
     public class UsuarioService : Service<Usuario>, IUsuarioService
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IUsuarioRepository _usuarioRepository;
 
-        public UsuarioService(IUnitOfWork unitOfWork)
-            : base(unitOfWork)
+        public UsuarioService(IUsuarioRepository usuarioRepository)
+            : base(usuarioRepository)
         {
-            _unitOfWork = unitOfWork;
+            _usuarioRepository = usuarioRepository;
         }
     }
 }

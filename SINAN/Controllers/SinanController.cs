@@ -9,6 +9,7 @@ using PagedList.Mvc;
 using AutoMapper;
 using PagedList;
 using SINAN.Domain.Entities;
+using SINAN.Domain.Interfaces.Repository;
 using SINAN.Application.Interfaces;
 using SINAN.Application.ViewModel;
 using SINAN.Infrastructure.CrossCutting.Helpers;
@@ -18,55 +19,19 @@ namespace SINAN.Controllers
     [Authorize]
     public class SinanController : Controller
     {
-        private readonly ISinanAppService _sinanApp;
-        private readonly ISinan_DadosDaOcorrenciaAppService _sinanDadosDaOcorrenciaApp;
-        private readonly ISinan_DadosDePessoaAtendidaAppService _sinanDadosDePessoaAtendidaApp;
-        private readonly ISinan_DadosDoProvavelAutorDaViolenciaAppService _sinanDadosDoProvavelAutorDaViolenciaApp;
-        private readonly ISinan_DadosFinaisAppService _sinanDadosFinaisApp;
-        private readonly ISinan_DadosGeraisAppService _sinanDadosGeraisApp;
-        private readonly ISinan_DadosResidenciaAppService _sinanDadosResidenciaApp;
-        private readonly ISinan_EncaminhamentoAppService _sinanEncaminhamentoApp;
-        private readonly ISinan_NotificacaoIndividualAppService _sinanNotificacaoIndividualApp;
-        private readonly ISinan_NotificadorAppService _sinanNotificadorApp;
-        private readonly ISinan_ObservacoesAppService _sinanObservacoesApp;
-        private readonly ISinan_ViolenciaAppService _sinanViolenciaApp;
-        private readonly ISinan_ViolenciaSexualAppService _sinanViolenciaSexualApp;
+        private readonly IUnitOfWork _uow;        
         private readonly IBairroAppService _bairroApp;
         private readonly ILogradouroAppService _logradouroApp;
         private readonly IMunicipioAppService _municipioApp;
         private readonly IUnidadeAppService _unidadeApp;
 
-        public SinanController(ISinanAppService sinanApp,
-            ISinan_DadosDaOcorrenciaAppService sinanDadosDaOcorrenciaApp,
-            ISinan_DadosDePessoaAtendidaAppService sinanDadosDePessoaAtendidaApp,
-            ISinan_DadosDoProvavelAutorDaViolenciaAppService sinanDadosDoProvavelAutorDaViolenciaApp,
-            ISinan_DadosFinaisAppService sinanDadosFinaisApp,
-            ISinan_DadosGeraisAppService sinanDadosGeraisApp,
-            ISinan_DadosResidenciaAppService sinanDadosResidenciaApp,
-            ISinan_EncaminhamentoAppService sinanEncaminhamentoApp,
-            ISinan_NotificacaoIndividualAppService sinanNotificacaoIndividualApp,
-            ISinan_NotificadorAppService sinanNotificadorApp,
-            ISinan_ObservacoesAppService sinanObservacoesApp,
-            ISinan_ViolenciaAppService sinanViolenciaApp,
-            ISinan_ViolenciaSexualAppService sinanViolenciaSexualApp,
+        public SinanController(IUnitOfWork uow,            
             IBairroAppService bairroApp,
             ILogradouroAppService logradouroApp,
             IMunicipioAppService municipioApp,
             IUnidadeAppService unidadeApp)
         {
-            _sinanApp = sinanApp;
-            _sinanDadosDaOcorrenciaApp = sinanDadosDaOcorrenciaApp;
-            _sinanDadosDePessoaAtendidaApp = sinanDadosDePessoaAtendidaApp;
-            _sinanDadosDoProvavelAutorDaViolenciaApp = sinanDadosDoProvavelAutorDaViolenciaApp;
-            _sinanDadosFinaisApp = sinanDadosFinaisApp;
-            _sinanDadosGeraisApp = sinanDadosGeraisApp;
-            _sinanDadosResidenciaApp = sinanDadosResidenciaApp;
-            _sinanEncaminhamentoApp = sinanEncaminhamentoApp;
-            _sinanNotificacaoIndividualApp = sinanNotificacaoIndividualApp;
-            _sinanNotificadorApp = sinanNotificadorApp;
-            _sinanObservacoesApp = sinanObservacoesApp;
-            _sinanViolenciaApp = sinanViolenciaApp;
-            _sinanViolenciaSexualApp = sinanViolenciaSexualApp;
+            _uow = uow;            
             _bairroApp = bairroApp;
             _logradouroApp = logradouroApp;
             _municipioApp = municipioApp;
@@ -82,10 +47,10 @@ namespace SINAN.Controllers
             DateTime? searchDataEnvio,
             int? page)
         {
-            var obj = (from sinan in _sinanApp.Get()
-                       join sinanNoticacaoIndividual in _sinanNotificacaoIndividualApp.Get() on sinan.id equals sinanNoticacaoIndividual.id
-                       join sinanDadosGerais in _sinanDadosGeraisApp.Get() on sinan.id equals sinanDadosGerais.id
-                       join sinanViolencia in _sinanViolenciaApp.Get() on sinan.id equals sinanViolencia.id
+            var obj = (from sinan in _uow.sinan.Get()
+                       join sinanNoticacaoIndividual in _uow.sinanNotificacaoIndividual.Get() on sinan.id equals sinanNoticacaoIndividual.id
+                       join sinanDadosGerais in _uow.sinanDadosGerais.Get() on sinan.id equals sinanDadosGerais.id
+                       join sinanViolencia in _uow.sinanViolencia.Get() on sinan.id equals sinanViolencia.id
                        select new
                        {
                            searchNome,
@@ -167,50 +132,38 @@ namespace SINAN.Controllers
                     data_envio = DateTime.Now
                 };
 
-                _sinanApp.Insert(sinan);
-                _sinanApp.Commit();
+                _uow.sinan.Insert(sinan);
+                _uow.sinan.Commit();
 
                 var sinanDadosGerais = Mapper.Map<Sinan_DadosGeraisViewModel, Sinan_DadosGerais>(viewmodel.Sinan_DadosGeraisViewModel);
                 sinanDadosGerais.id = sinan.id;
-
-                _sinanDadosGeraisApp.Insert(sinanDadosGerais);
-                _sinanDadosGeraisApp.Commit();
+                _uow.sinanDadosGerais.Insert(sinanDadosGerais);
 
                 var sinanNotificacaoIndividual = Mapper.Map<Sinan_NotificacaoIndividualViewModel, Sinan_NotificacaoIndividual>(viewmodel.Sinan_NotificacaoIndividualViewModel);
                 sinanNotificacaoIndividual.id = sinan.id;
-
-                _sinanNotificacaoIndividualApp.Insert(sinanNotificacaoIndividual);
-                _sinanNotificacaoIndividualApp.Commit();
+                _uow.sinanNotificacaoIndividual.Insert(sinanNotificacaoIndividual);
 
                 var sinanDadosResidencia = Mapper.Map<Sinan_DadosResidenciaViewModel, Sinan_DadosResidencia>(viewmodel.Sinan_DadosResidenciaViewModel);
                 sinanDadosResidencia.id = sinan.id;
-
-                _sinanDadosResidenciaApp.Insert(sinanDadosResidencia);
-                _sinanDadosResidenciaApp.Commit();
+                _uow.sinanDadosResidencia.Insert(sinanDadosResidencia);
 
                 var sinanDadosDePessoaAtendida = Mapper.Map<Sinan_DadosDePessoaAtendidaViewModel, Sinan_DadosDePessoaAtendida>(viewmodel.Sinan_DadosDePessoaAtendidaViewModel);
                 sinanDadosDePessoaAtendida.id = sinan.id;
-
-                _sinanDadosDePessoaAtendidaApp.Insert(sinanDadosDePessoaAtendida);
-                _sinanDadosDePessoaAtendidaApp.Commit();
+                _uow.sinanDadosDePessoaAtendida.Insert(sinanDadosDePessoaAtendida);
 
                 var sinanDadosDaOcorrencia = Mapper.Map<Sinan_DadosDaOcorrenciaViewModel, Sinan_DadosDaOcorrencia>(viewmodel.Sinan_DadosDaOcorrenciaViewModel);
                 sinanDadosDaOcorrencia.id = sinan.id;
-
-                _sinanDadosDaOcorrenciaApp.Insert(sinanDadosDaOcorrencia);
-                _sinanDadosDaOcorrenciaApp.Commit();
+                _uow.sinanDadosDaOcorrencia.Insert(sinanDadosDaOcorrencia);
 
                 var sinanViolencia = Mapper.Map<Sinan_ViolenciaViewModel, Sinan_Violencia>(viewmodel.Sinan_ViolenciaViewModel);
                 sinanViolencia.id = sinan.id;
-
-                _sinanViolenciaApp.Insert(sinanViolencia);
-                _sinanViolenciaApp.Commit();
+                _uow.sinanViolencia.Insert(sinanViolencia);
 
                 var sinanViolenciaSexual = Mapper.Map<Sinan_ViolenciaSexualViewModel, Sinan_ViolenciaSexual>(viewmodel.Sinan_ViolenciaSexualViewModel);
                 sinanViolenciaSexual.id = sinan.id;
+                _uow.sinanViolenciaSexual.Insert(sinanViolenciaSexual);
 
-                _sinanViolenciaSexualApp.Insert(sinanViolenciaSexual);
-                _sinanViolenciaSexualApp.Commit();
+                _uow.Commit();
 
                 TempData["Success"] = "SINAN Cadastrado";
 
@@ -225,14 +178,14 @@ namespace SINAN.Controllers
         // GET: Sinan/Editar      
         public ActionResult Editar(int Id)
         {
-            var sinan = _sinanApp.GetById(Id);
-            var sinanDadosGerais = _sinanDadosGeraisApp.GetById(Id);
-            var sinanNotificacaoIndividual = _sinanNotificacaoIndividualApp.GetById(Id);
-            var sinanDadosResidencia = _sinanDadosResidenciaApp.GetById(Id);
-            var sinanDadosDePessoaAtendida = _sinanDadosDePessoaAtendidaApp.GetById(Id);
-            var sinanDadosDaOcorrencia = _sinanDadosDaOcorrenciaApp.GetById(Id);
-            var sinanViolencia = _sinanViolenciaApp.GetById(Id);
-            var sinanViolenciaSexual = _sinanViolenciaSexualApp.GetById(Id);
+            var sinan = _uow.sinan.GetById(Id);
+            var sinanDadosGerais = _uow.sinanDadosGerais.GetById(Id);
+            var sinanNotificacaoIndividual = _uow.sinanNotificacaoIndividual.GetById(Id);
+            var sinanDadosResidencia = _uow.sinanDadosResidencia.GetById(Id);
+            var sinanDadosDePessoaAtendida = _uow.sinanDadosDePessoaAtendida.GetById(Id);
+            var sinanDadosDaOcorrencia = _uow.sinanDadosDaOcorrencia.GetById(Id);
+            var sinanViolencia = _uow.sinanViolencia.GetById(Id);
+            var sinanViolenciaSexual = _uow.sinanViolenciaSexual.GetById(Id);
 
             var viewmodel = new SinanViewModel
             {
@@ -264,51 +217,37 @@ namespace SINAN.Controllers
                     usu_codigo = Convert.ToInt32(Session["usu_codigo"]),
                     data_envio = DateTime.Now
                 };
-
-                _sinanApp.Update(sinan);
-                _sinanApp.Commit();
+                _uow.sinan.Update(sinan);
 
                 var sinanDadosGerais = Mapper.Map<Sinan_DadosGeraisViewModel, Sinan_DadosGerais>(viewmodel.Sinan_DadosGeraisViewModel);
                 sinanDadosGerais.id = sinan.id;
-
-                _sinanDadosGeraisApp.Update(sinanDadosGerais);
-                _sinanDadosGeraisApp.Commit();
+                _uow.sinanDadosGerais.Update(sinanDadosGerais);
 
                 var sinanNotificacaoIndividual = Mapper.Map<Sinan_NotificacaoIndividualViewModel, Sinan_NotificacaoIndividual>(viewmodel.Sinan_NotificacaoIndividualViewModel);
                 sinanNotificacaoIndividual.id = sinan.id;
-
-                _sinanNotificacaoIndividualApp.Update(sinanNotificacaoIndividual);
-                _sinanNotificacaoIndividualApp.Commit();
+                _uow.sinanNotificacaoIndividual.Update(sinanNotificacaoIndividual);
 
                 var sinanDadosResidencia = Mapper.Map<Sinan_DadosResidenciaViewModel, Sinan_DadosResidencia>(viewmodel.Sinan_DadosResidenciaViewModel);
                 sinanDadosResidencia.id = sinan.id;
-
-                _sinanDadosResidenciaApp.Update(sinanDadosResidencia);
-                _sinanDadosResidenciaApp.Commit();
+                _uow.sinanDadosResidencia.Update(sinanDadosResidencia);
 
                 var sinanDadosDePessoaAtendida = Mapper.Map<Sinan_DadosDePessoaAtendidaViewModel, Sinan_DadosDePessoaAtendida>(viewmodel.Sinan_DadosDePessoaAtendidaViewModel);
                 sinanDadosDePessoaAtendida.id = sinan.id;
-
-                _sinanDadosDePessoaAtendidaApp.Update(sinanDadosDePessoaAtendida);
-                _sinanDadosDePessoaAtendidaApp.Commit();
+                _uow.sinanDadosDePessoaAtendida.Update(sinanDadosDePessoaAtendida);
 
                 var sinanDadosDaOcorrencia = Mapper.Map<Sinan_DadosDaOcorrenciaViewModel, Sinan_DadosDaOcorrencia>(viewmodel.Sinan_DadosDaOcorrenciaViewModel);
                 sinanDadosDaOcorrencia.id = sinan.id;
-
-                _sinanDadosDaOcorrenciaApp.Update(sinanDadosDaOcorrencia);
-                _sinanDadosDaOcorrenciaApp.Commit();
+                _uow.sinanDadosDaOcorrencia.Update(sinanDadosDaOcorrencia);
 
                 var sinanViolencia = Mapper.Map<Sinan_ViolenciaViewModel, Sinan_Violencia>(viewmodel.Sinan_ViolenciaViewModel);
                 sinanViolencia.id = sinan.id;
-
-                _sinanViolenciaApp.Update(sinanViolencia);
-                _sinanViolenciaApp.Commit();
+                _uow.sinanViolencia.Update(sinanViolencia);
 
                 var sinanViolenciaSexual = Mapper.Map<Sinan_ViolenciaSexualViewModel, Sinan_ViolenciaSexual>(viewmodel.Sinan_ViolenciaSexualViewModel);
                 sinanViolenciaSexual.id = sinan.id;
+                _uow.sinanViolenciaSexual.Update(sinanViolenciaSexual);
 
-                _sinanViolenciaSexualApp.Update(sinanViolenciaSexual);
-                _sinanViolenciaSexualApp.Commit();
+                _uow.Commit();
 
                 TempData["Success"] = "SINAN Alterado";
 

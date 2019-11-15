@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using SINAN.Domain.Entities;
 
-namespace SINAN.Application.Interfaces
+namespace SINAN.Domain.Interfaces.Repository
 {
-    public interface ISinan_ViolenciaSexualAppService : IAppService<Sinan_ViolenciaSexual>
+    public interface IMunicipioRepository : IRepository<Municipio>
     {
     }
 }

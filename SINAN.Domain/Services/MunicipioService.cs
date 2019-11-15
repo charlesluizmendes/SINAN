@@ -11,12 +11,12 @@ namespace SINAN.Domain.Services
 {
     public class MunicipioService : Service<Municipio>, IMunicipioService
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IMunicipioRepository _municipioRepository;
 
-        public MunicipioService(IUnitOfWork unitOfWork)
-            : base(unitOfWork)
+        public MunicipioService(IMunicipioRepository municipioRepository)
+            : base(municipioRepository)
         {
-            _unitOfWork = unitOfWork;
+            _municipioRepository = municipioRepository;
         }
     }
 }

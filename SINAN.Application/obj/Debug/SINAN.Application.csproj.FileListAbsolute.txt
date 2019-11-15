@@ -30,40 +30,6 @@ D:\Desktop\SINAN\SINAN.Application\obj\Debug\SINAN.Application.csprojAssemblyRef
 D:\Desktop\SINAN\SINAN.Application\obj\Debug\SINAN.Application.csproj.CopyComplete
 D:\Desktop\SINAN\SINAN.Application\obj\Debug\SINAN.Application.dll
 D:\Desktop\SINAN\SINAN.Application\obj\Debug\SINAN.Application.pdb
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Application.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Application.pdb
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\AutoMapper.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\Microsoft.Web.Infrastructure.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Domain.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Infrastructure.CrossCutting.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.ValueTuple.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Helpers.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Mvc.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Razor.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.Deployment.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.Razor.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Domain.pdb
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Infrastructure.CrossCutting.pdb
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\AutoMapper.pdb
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\AutoMapper.xml
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.ValueTuple.xml
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Helpers.xml
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Mvc.xml
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Razor.xml
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.xml
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.Deployment.xml
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.Razor.xml
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.Helpers.resources.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.Mvc.resources.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.Razor.resources.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.WebPages.resources.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.WebPages.Deployment.resources.dll
-D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.WebPages.Razor.resources.dll
-D:\Visual Studio\SINAN\SINAN.Application\obj\Debug\SINAN.Application.csprojAssemblyReference.cache
-D:\Visual Studio\SINAN\SINAN.Application\obj\Debug\SINAN.Application.csproj.CopyComplete
-D:\Visual Studio\SINAN\SINAN.Application\obj\Debug\SINAN.Application.dll
-D:\Visual Studio\SINAN\SINAN.Application\obj\Debug\SINAN.Application.pdb
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Application\bin\Debug\SINAN.Application.dll
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Application\bin\Debug\SINAN.Application.pdb
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Application\bin\Debug\AutoMapper.dll
@@ -98,3 +64,37 @@ C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Application\obj\Debug\SINA
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Application\obj\Debug\SINAN.Application.csproj.CopyComplete
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Application\obj\Debug\SINAN.Application.dll
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Application\obj\Debug\SINAN.Application.pdb
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Application.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Application.pdb
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\AutoMapper.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Domain.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Infrastructure.CrossCutting.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.ValueTuple.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Helpers.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Mvc.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Razor.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Domain.pdb
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\SINAN.Infrastructure.CrossCutting.pdb
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\AutoMapper.pdb
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\AutoMapper.xml
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.ValueTuple.xml
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Helpers.xml
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Mvc.xml
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.Razor.xml
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.xml
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.Helpers.resources.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.Mvc.resources.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.Razor.resources.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.WebPages.resources.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\Visual Studio\SINAN\SINAN.Application\bin\Debug\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\Visual Studio\SINAN\SINAN.Application\obj\Debug\SINAN.Application.csprojAssemblyReference.cache
+D:\Visual Studio\SINAN\SINAN.Application\obj\Debug\SINAN.Application.csproj.CopyComplete
+D:\Visual Studio\SINAN\SINAN.Application\obj\Debug\SINAN.Application.dll
+D:\Visual Studio\SINAN\SINAN.Application\obj\Debug\SINAN.Application.pdb

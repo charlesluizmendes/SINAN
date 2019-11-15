@@ -13,9 +13,9 @@ namespace SINAN.Infrastructure.Data.Repository
     {
         private readonly Contexto _context;       
 
-        public Repository(Contexto _context)
+        public Repository(Contexto context)
         {
-            this._context = _context;
+            _context = context;
         }
 
         public IEnumerable<T> Get()

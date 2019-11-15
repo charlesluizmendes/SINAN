@@ -11,12 +11,12 @@ namespace SINAN.Domain.Services
 {
     public class LogradouroService : Service<Logradouro>, ILogradouroService
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly ILogradouroRepository _logradouroRepository;
 
-        public LogradouroService(IUnitOfWork unitOfWork)
-            : base(unitOfWork)
+        public LogradouroService(ILogradouroRepository logradouroRepository)
+            : base(logradouroRepository)
         {
-            _unitOfWork = unitOfWork;
+            _logradouroRepository = logradouroRepository;
         }
     }
 }

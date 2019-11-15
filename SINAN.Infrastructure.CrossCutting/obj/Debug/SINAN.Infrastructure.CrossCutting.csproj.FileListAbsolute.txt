@@ -14,14 +14,6 @@ D:\Desktop\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructur
 D:\Desktop\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.csproj.CopyComplete
 D:\Desktop\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.dll
 D:\Desktop\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.pdb
-D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\bin\Debug\SINAN.Infrastructure.CrossCutting.dll
-D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\bin\Debug\SINAN.Infrastructure.CrossCutting.pdb
-D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\bin\Debug\System.ValueTuple.dll
-D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\bin\Debug\System.ValueTuple.xml
-D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.csprojAssemblyReference.cache
-D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.csproj.CopyComplete
-D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.dll
-D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.pdb
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.CrossCutting\bin\Debug\SINAN.Infrastructure.CrossCutting.dll
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.CrossCutting\bin\Debug\SINAN.Infrastructure.CrossCutting.pdb
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.CrossCutting\bin\Debug\System.ValueTuple.dll
@@ -30,3 +22,10 @@ C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.CrossCuttin
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.csproj.CopyComplete
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.dll
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.pdb
+D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\bin\Debug\SINAN.Infrastructure.CrossCutting.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\bin\Debug\SINAN.Infrastructure.CrossCutting.pdb
+D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\bin\Debug\System.ValueTuple.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\bin\Debug\System.ValueTuple.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.csproj.CopyComplete
+D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.CrossCutting\obj\Debug\SINAN.Infrastructure.CrossCutting.pdb

@@ -10,13 +10,11 @@ namespace SINAN.Domain.Services
 {
     public class Service<T> : IService<T> where T : class
     {
-        private readonly IUnitOfWork _unitOfWork;
         private readonly IRepository<T> _repository;
         
-        public Service(IUnitOfWork unitOfWork)
+        public Service(IRepository<T> repository)
         {
-            _unitOfWork = unitOfWork;
-            _repository = _unitOfWork.Repository<T>();
+            _repository = repository;
         }
 
         public void Delete(T entidade)
@@ -46,12 +44,12 @@ namespace SINAN.Domain.Services
 
         public void Commit()
         {
-            _unitOfWork.Commit();         
+            _repository.Commit();         
         }
 
         public void Dispose()
         {
-            _unitOfWork.Dispose();            
+            _repository.Dispose();            
         }       
     }
 }

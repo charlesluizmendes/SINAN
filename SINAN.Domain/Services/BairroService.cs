@@ -11,12 +11,12 @@ namespace SINAN.Domain.Services
 {
     public class BairroService : Service<Bairro>, IBairroService
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IBairroRepository _bairroRepository;
 
-        public BairroService(IUnitOfWork unitOfWork)
-            : base(unitOfWork)
+        public BairroService(IBairroRepository bairroRepository)
+            : base(bairroRepository)
         {
-            _unitOfWork = unitOfWork;
+            _bairroRepository = bairroRepository;
         }
     }
 }
