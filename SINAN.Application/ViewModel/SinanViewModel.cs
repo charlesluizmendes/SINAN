@@ -37,9 +37,13 @@ namespace SINAN.Application.ViewModel
 
         public Sinan_DadosDaOcorrenciaViewModel Sinan_DadosDaOcorrenciaViewModel { get; set; }
 
-        // Sinan Violencia
+        // Violencia
 
         public Sinan_ViolenciaViewModel Sinan_ViolenciaViewModel { get; set; }
+
+        // Violência Sexual
+
+        public Sinan_ViolenciaSexualViewModel Sinan_ViolenciaSexualViewModel { get; set; }
 
     }
 }

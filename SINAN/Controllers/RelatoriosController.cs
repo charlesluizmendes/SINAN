@@ -66,6 +66,7 @@ namespace SINAN.Controllers
             var sinanDadosDePessoaAtendida = _sinanDadosDePessoaAtendidaApp.GetById(Id);
             var sinanDadosDaOcorrencia = _sinanDadosDaOcorrenciaApp.GetById(Id);
             var sinanViolencia = _sinanViolenciaApp.GetById(Id);
+            var sinanViolenciaSexual = _sinanViolenciaSexualApp.GetById(Id);
 
             var viewmodel = new SinanViewModel
             {
@@ -77,7 +78,8 @@ namespace SINAN.Controllers
                 Sinan_DadosResidenciaViewModel = Mapper.Map<Sinan_DadosResidencia, Sinan_DadosResidenciaViewModel>(sinanDadosResidencia),
                 Sinan_DadosDePessoaAtendidaViewModel = Mapper.Map<Sinan_DadosDePessoaAtendida, Sinan_DadosDePessoaAtendidaViewModel>(sinanDadosDePessoaAtendida),
                 Sinan_DadosDaOcorrenciaViewModel = Mapper.Map<Sinan_DadosDaOcorrencia, Sinan_DadosDaOcorrenciaViewModel>(sinanDadosDaOcorrencia),
-                Sinan_ViolenciaViewModel = Mapper.Map<Sinan_Violencia, Sinan_ViolenciaViewModel>(sinanViolencia)
+                Sinan_ViolenciaViewModel = Mapper.Map<Sinan_Violencia, Sinan_ViolenciaViewModel>(sinanViolencia),
+                Sinan_ViolenciaSexualViewModel = Mapper.Map<Sinan_ViolenciaSexual, Sinan_ViolenciaSexualViewModel>(sinanViolenciaSexual)
             };            
 
             return new PdfActionResult("Sinan", viewmodel);

@@ -79,6 +79,20 @@ namespace SINAN.Application.AutoMapper
                 .AfterMap((v, e) => e.objeto_contindente = v.objeto_contindente == null ? 0 : (int)v.objeto_contindente)
                 .AfterMap((v, e) => e.envenenamento_intoxicacao = v.envenenamento_intoxicacao == null ? 0 : (int)v.envenenamento_intoxicacao)
                 .AfterMap((v, e) => e.agressao_outros = v.agressao_outros == null ? 0 : (int)v.agressao_outros);
+            CreateMap<Sinan_ViolenciaSexualViewModel, Sinan_ViolenciaSexual>()
+                .AfterMap((v, e) => e.assedio_sexual = v.assedio_sexual == null ? 0 : (int)v.assedio_sexual)
+                .AfterMap((v, e) => e.estupro = v.estupro == null ? 0 : (int)v.estupro)
+                .AfterMap((v, e) => e.pornorafia_infantil = v.pornorafia_infantil == null ? 0 : (int)v.pornorafia_infantil)
+                .AfterMap((v, e) => e.exploracao_sexual = v.exploracao_sexual == null ? 0 : (int)v.exploracao_sexual)
+                .AfterMap((v, e) => e.outros_violencia_sexual = v.outros_violencia_sexual == null ? 0 : (int)v.outros_violencia_sexual)
+                .AfterMap((v, e) => e.profilaxia_dst = v.profilaxia_dst == null ? 0 : (int)v.profilaxia_dst)
+                .AfterMap((v, e) => e.porfilaxia_hepatite_b = v.porfilaxia_hepatite_b == null ? 0 : (int)v.porfilaxia_hepatite_b)
+                .AfterMap((v, e) => e.coleta_de_semen = v.coleta_de_semen == null ? 0 : (int)v.coleta_de_semen)
+                .AfterMap((v, e) => e.contracepcao_de_emergencia = v.contracepcao_de_emergencia == null ? 0 : (int)v.contracepcao_de_emergencia)
+                .AfterMap((v, e) => e.profilacia_hiv = v.profilacia_hiv == null ? 0 : (int)v.profilacia_hiv)
+                .AfterMap((v, e) => e.coleta_de_sangue = v.coleta_de_sangue == null ? 0 : (int)v.coleta_de_sangue)
+                .AfterMap((v, e) => e.coleta_de_secrecao_vaginal = v.coleta_de_secrecao_vaginal == null ? 0 : (int)v.coleta_de_secrecao_vaginal)
+                .AfterMap((v, e) => e.aborto_previsto_em_lei = v.aborto_previsto_em_lei == null ? 0 : (int)v.aborto_previsto_em_lei);
         }
     }
 }

@@ -77,6 +77,20 @@ namespace SINAN.Application.AutoMapper
                 .AfterMap((e, v) => v.objeto_contindente = (SimNaoIgnorado)e.objeto_contindente)
                 .AfterMap((e, v) => v.envenenamento_intoxicacao = (SimNaoIgnorado)e.envenenamento_intoxicacao)
                 .AfterMap((e, v) => v.agressao_outros = (SimNaoIgnorado)e.agressao_outros);
+            CreateMap<Sinan_ViolenciaSexual, Sinan_ViolenciaSexualViewModel>()
+                .AfterMap((e, v) => v.assedio_sexual = (SimNaoNaoSeAplicaIgnorado)e.assedio_sexual)
+                .AfterMap((e, v) => v.estupro = (SimNaoNaoSeAplicaIgnorado)e.estupro)
+                .AfterMap((e, v) => v.pornorafia_infantil = (SimNaoNaoSeAplicaIgnorado)e.pornorafia_infantil)
+                .AfterMap((e, v) => v.exploracao_sexual = (SimNaoNaoSeAplicaIgnorado)e.exploracao_sexual)
+                .AfterMap((e, v) => v.outros_violencia_sexual = (SimNaoNaoSeAplicaIgnorado)e.outros_violencia_sexual)
+                .AfterMap((e, v) => v.profilaxia_dst = (SimNaoNaoSeAplicaIgnorado)e.profilaxia_dst)
+                .AfterMap((e, v) => v.porfilaxia_hepatite_b = (SimNaoNaoSeAplicaIgnorado)e.porfilaxia_hepatite_b)
+                .AfterMap((e, v) => v.coleta_de_semen = (SimNaoNaoSeAplicaIgnorado)e.coleta_de_semen)
+                .AfterMap((e, v) => v.contracepcao_de_emergencia = (SimNaoNaoSeAplicaIgnorado)e.contracepcao_de_emergencia)
+                .AfterMap((e, v) => v.profilacia_hiv = (SimNaoNaoSeAplicaIgnorado)e.profilacia_hiv)
+                .AfterMap((e, v) => v.coleta_de_sangue = (SimNaoNaoSeAplicaIgnorado)e.coleta_de_sangue)
+                .AfterMap((e, v) => v.coleta_de_secrecao_vaginal = (SimNaoNaoSeAplicaIgnorado)e.coleta_de_secrecao_vaginal)
+                .AfterMap((e, v) => v.aborto_previsto_em_lei = (SimNaoNaoSeAplicaIgnorado)e.aborto_previsto_em_lei);
         }
     }
 }
