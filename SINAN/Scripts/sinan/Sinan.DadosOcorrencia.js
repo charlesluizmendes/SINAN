@@ -122,6 +122,10 @@
         $("#comp_ocorrencia").val('');
         $("#numero_ocorrencia").val('');
 
+        uf_ocorrencia_ = null;
+        mun_ocorrencia_ = null;
+        bairro_ocorrencia_ = null;
+
         var ufe_sg_ = $("#uf_ocorrencia option:selected").text();
 
         $.fn.list_mun_ocorrencia(ufe_sg_);
@@ -136,6 +140,9 @@
         $("#comp_ocorrencia").val('');
         $("#numero_ocorrencia").val('');
 
+        mun_ocorrencia_ = null;
+        bairro_ocorrencia_ = null;
+
         $.fn.cod_ibge_ocorrencia();
     });
 
@@ -143,6 +150,8 @@
 
         var cod_ocorrencia = $("#cod_ocorrencia");
         cod_ocorrencia.val('');
+
+        bairro_ocorrencia_ = null;
 
         if ($("#bairro_ocorrencia").val() > 0) {
 

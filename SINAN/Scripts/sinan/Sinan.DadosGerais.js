@@ -158,6 +158,11 @@
         $("#cod_cnes").val('');
         $("#cod_unidade").val('');
 
+        uf_origem_ = null;
+        mun_origem_ = null;
+        cod_ibge_ = null;
+        unidade_saude_ = null;
+
         var ufe_sg_ = $("#uf_origem option:selected").text();
 
         $.fn.list_mun_origem(ufe_sg_);
@@ -170,6 +175,10 @@
         $("#cod_cnes").val('');
         $("#cod_unidade").val('');
 
+        mun_origem_ = null;
+        cod_ibge_ = null;
+        unidade_saude_ = null;
+
         $.fn.cod_ibge_origem();
     });
 
@@ -177,6 +186,9 @@
 
         $("#cod_cnes").val('');
         $("#cod_unidade").val('');
+
+        cod_ibge_ = null;
+        unidade_saude_ = null;
 
         $.fn.cod_cnes();
     });

@@ -181,6 +181,10 @@
         $("#comp_residencia").val('');
         $("#numero_residencia").val('');
 
+        uf_residencia_ = null;
+        municipio_residencia_ = null;
+        bairro_residencia_ = null;
+
         var ufe_sg_ = $("#uf_residencia option:selected").text();
 
         $.fn.list_mun_residencia(ufe_sg_);
@@ -195,6 +199,9 @@
         $("#comp_residencia").val('');
         $("#numero_residencia").val('');
 
+        municipio_residencia_ = null;
+        bairro_residencia_ = null;
+
         $.fn.cod_ibge_residencia();
     });
 
@@ -202,6 +209,8 @@
 
         var cod_residencia = $("#cod_residencia");
         cod_residencia.val('');
+
+        bairro_residencia_ = null;
 
         if ($("#bairro_residencia").val() > 0) {
 
