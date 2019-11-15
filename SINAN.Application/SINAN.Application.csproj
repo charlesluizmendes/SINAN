@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF8AAA1E-2287-4C15-B6D6-81B4CE269AB6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SINAN.Application</RootNamespace>
+    <AssemblyName>SINAN.Application</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=7.0.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.7.0.1\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoMapper\AutoMapperConfig.cs" />
+    <Compile Include="AutoMapper\EntitiesToViewModel.cs" />
+    <Compile Include="AutoMapper\ViewModelToEntities.cs" />
+    <Compile Include="Enums\ContinuaEstudando.cs" />
+    <Compile Include="Enums\Escolaridade.cs" />
+    <Compile Include="Enums\IdentidadeGenero.cs" />
+    <Compile Include="Enums\LocalOcorrencia.cs" />
+    <Compile Include="Enums\OrientacaoSexual.cs" />
+    <Compile Include="Enums\Perfil.cs" />
+    <Compile Include="Enums\Raca.cs" />
+    <Compile Include="Enums\SimNaoIgnorado.cs" />
+    <Compile Include="Enums\SimNaoNaoSeAplicaIgnorado.cs" />
+    <Compile Include="Enums\SituacaoConjugal.cs" />
+    <Compile Include="Enums\ViolenciaMotivada.cs" />
+    <Compile Include="Enums\Sexo.cs" />
+    <Compile Include="Enums\TipoNotificacao.cs" />
+    <Compile Include="Enums\Gestante.cs" />
+    <Compile Include="Enums\AnoEscolaridade.cs" />
+    <Compile Include="Enums\RedeEnsino.cs" />
+    <Compile Include="Enums\EsferaEnsino.cs" />
+    <Compile Include="Enums\TemNomePaiRegistro.cs" />
+    <Compile Include="Enums\Zona.cs" />
+    <Compile Include="Enums\UF.cs" />
+    <Compile Include="Enums\UnidadeNotificadora.cs" />
+    <Compile Include="Helpers\EnumExtensions.cs" />
+    <Compile Include="Interfaces\IAppService.cs" />
+    <Compile Include="Interfaces\IBairroAppService.cs" />
+    <Compile Include="Interfaces\ILogradouroAppService.cs" />
+    <Compile Include="Interfaces\IMunicipioAppService.cs" />
+    <Compile Include="Interfaces\ISinan.DadosDaOcorrenciaAppService.cs" />
+    <Compile Include="Interfaces\ISinan.DadosDePessoaAtendidaAppService.cs" />
+    <Compile Include="Interfaces\ISinan.DadosDoProvavelAutorDaViolenciaAppService.cs" />
+    <Compile Include="Interfaces\ISinan.DadosFinaisAppService.cs" />
+    <Compile Include="Interfaces\ISinan.DadosGeraisAppService.cs" />
+    <Compile Include="Interfaces\ISinan.DadosResidenciaAppService.cs" />
+    <Compile Include="Interfaces\ISinan.EncaminhamentoAppService.cs" />
+    <Compile Include="Interfaces\ISinan.NotificacaoIndividualAppService.cs" />
+    <Compile Include="Interfaces\ISinan.NotificadorAppService.cs" />
+    <Compile Include="Interfaces\ISinan.ObservacoesAppService.cs" />
+    <Compile Include="Interfaces\ISinan.ViolenciaAppService.cs" />
+    <Compile Include="Interfaces\ISinan.ViolenciaSexualAppService.cs" />
+    <Compile Include="Interfaces\ISinanAppService.cs" />
+    <Compile Include="Interfaces\IUnidadeAppService.cs" />
+    <Compile Include="Interfaces\IUsuarioAppService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AppService.cs" />
+    <Compile Include="Services\Sinan.ViolenciaSexualAppService.cs" />
+    <Compile Include="Services\Sinan.ViolenciaAppService.cs" />
+    <Compile Include="Services\Sinan.ObservacoesAppService.cs" />
+    <Compile Include="Services\Sinan.NotificadorAppService.cs" />
+    <Compile Include="Services\Sinan.NotificacaoIndividualAppService.cs" />
+    <Compile Include="Services\Sinan.EncaminhamentoAppService.cs" />
+    <Compile Include="Services\Sinan.DadosResidenciaAppService.cs" />
+    <Compile Include="Services\Sinan.DadosGeraisAppService.cs" />
+    <Compile Include="Services\Sinan.DadosDoProvavelAutorDaViolenciaAppService.cs" />
+    <Compile Include="Services\Sinan.DadosFinaisAppService.cs" />
+    <Compile Include="Services\Sinan.DadosDePessoaAtendidaAppService.cs" />
+    <Compile Include="Services\UnidadeAppService.cs" />
+    <Compile Include="Services\MunicipioAppService.cs" />
+    <Compile Include="Services\LogradouroAppService.cs" />
+    <Compile Include="Services\BairroAppService.cs" />
+    <Compile Include="Services\SinanAppService.cs" />
+    <Compile Include="Services\SInan.DadosDaOcorrenciaAppService.cs" />
+    <Compile Include="Services\UsuarioAppService.cs" />
+    <Compile Include="ViewModel\AlterarSenhaViewModel.cs" />
+    <Compile Include="ViewModel\CriarContaViewModel.cs" />
+    <Compile Include="ViewModel\ListarViewModel.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="ViewModel\RecuperarSenhaViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.DadosFinaisViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.DadosGeraisViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.DadosDaOcorrenciaViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.DadosDePessoaAtendidaViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.DadosDoProvavelAutorViolenciaViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.DadosResidenciaViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.EncaminhamentoViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.NotificacaoIndividualViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.NotificadorViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.ObservacoesViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.ViolenciaSexualViewModel.cs" />
+    <Compile Include="ViewModel\Sinan.ViolenciaViewModel.cs" />
+    <Compile Include="ViewModel\SinanViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SINAN.Domain\SINAN.Domain.csproj">
+      <Project>{3a46db84-54da-423c-acfa-35dbca0eb47d}</Project>
+      <Name>SINAN.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SINAN.Infrastructure.CrossCutting\SINAN.Infrastructure.CrossCutting.csproj">
+      <Project>{e404942d-a896-48fa-8086-1ef970355b6e}</Project>
+      <Name>SINAN.Infrastructure.CrossCutting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

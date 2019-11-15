@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3A46DB84-54DA-423C-ACFA-35DBCA0EB47D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SINAN.Domain</RootNamespace>
+    <AssemblyName>SINAN.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Bairro.cs" />
+    <Compile Include="Entities\Logradouro.cs" />
+    <Compile Include="Entities\Municipio.cs" />
+    <Compile Include="Entities\Sinan.cs" />
+    <Compile Include="Entities\Sinan.DadosDaOcorrencia.cs" />
+    <Compile Include="Entities\Sinan.DadosDoProvavelAutorDaViolencia.cs" />
+    <Compile Include="Entities\Sinan.DadosFinais.cs" />
+    <Compile Include="Entities\Sinan.DadosGerais.cs" />
+    <Compile Include="Entities\Sinan.DadosDePessoaAtendida.cs" />
+    <Compile Include="Entities\Sinan.DadosResidencia.cs" />
+    <Compile Include="Entities\Sinan.Encaminhamento.cs" />
+    <Compile Include="Entities\Sinan.NotificacaoIndividual.cs" />
+    <Compile Include="Entities\Sinan.Notificador.cs" />
+    <Compile Include="Entities\Sinan.Observacoes.cs" />
+    <Compile Include="Entities\Sinan.Violencia.cs" />
+    <Compile Include="Entities\Sinan.ViolenciaSexual.cs" />
+    <Compile Include="Entities\Unidade.cs" />
+    <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Interfaces\Repository\IRepository.cs" />
+    <Compile Include="Interfaces\Repository\IUnitOfWork.cs" />
+    <Compile Include="Interfaces\Services\IBairroService.cs" />
+    <Compile Include="Interfaces\Services\ILogradouroService.cs" />
+    <Compile Include="Interfaces\Services\IMunicipioService.cs" />
+    <Compile Include="Interfaces\Services\IService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.DadosDaOcorrenciaService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.DadosDePessoaAtendidaService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.DadosDoProvavelAutorDaViolenciaService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.DadosFinaisService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.DadosGeraisService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.EncaminhamentoService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.NotificacaoIndividualService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.NotificadorService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.ObservacoesService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.ViolenciaService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.ViolenciaSexualService.cs" />
+    <Compile Include="Interfaces\Services\ISinanService.cs" />
+    <Compile Include="Interfaces\Services\ISinan.DadosResidenciaService.cs" />
+    <Compile Include="Interfaces\Services\IUnidadeService.cs" />
+    <Compile Include="Interfaces\Services\IUsuarioService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BairroService.cs" />
+    <Compile Include="Services\LogradouroService.cs" />
+    <Compile Include="Services\MunicipioService.cs" />
+    <Compile Include="Services\Service.cs" />
+    <Compile Include="Services\Sinan.DadosDaOcorrenciaService.cs" />
+    <Compile Include="Services\Sinan.DadosDePessoaAtendidaService.cs" />
+    <Compile Include="Services\Sinan.DadosDoProvavelAutorDaViolenciaService.cs" />
+    <Compile Include="Services\Sinan.DadosFinaisService.cs" />
+    <Compile Include="Services\Sinan.DadosGeraisService.cs" />
+    <Compile Include="Services\Sinan.DadosResidenciaService.cs" />
+    <Compile Include="Services\Sinan.EncaminhamentoService.cs" />
+    <Compile Include="Services\Sinan.NotificacaoIndividualService.cs" />
+    <Compile Include="Services\Sinan.NotificadorService.cs" />
+    <Compile Include="Services\Sinan.ObservacoesService.cs" />
+    <Compile Include="Services\Sinan.ViolenciaService.cs" />
+    <Compile Include="Services\Sinan.ViolenciaSexualService.cs" />
+    <Compile Include="Services\SinanService.cs" />
+    <Compile Include="Services\UnidadeService.cs" />
+    <Compile Include="Services\UsuarioService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

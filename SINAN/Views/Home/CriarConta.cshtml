@@ -1,0 +1,106 @@
+﻿@model SINAN.Application.ViewModel.CriarContaViewModel
+@{
+    ViewBag.Title = "Criar Conta";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<br>
+<br>
+<br>
+
+@using (Html.BeginForm("CriarConta", "Home", FormMethod.Post,
+     new { id = "criarconta", @class = "form-signin" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 order-md-2 mb-4">
+            </div>
+            <div class="col-md-8 order-md-1">
+                <div class="row">
+                    <div class="py-5 text-center">
+                        <h2>Criar Conta</h2>
+                    </div>
+                    <br>
+                    <div class="col-md-6 mb-3">
+                        <label for="nome">Nome</label>
+                        @Html.TextBoxFor(model => model.usu_nome, new { @class = "form-control", @placeholder = "Seu nome completo", autofocus = "" })
+                        @Html.ValidationMessageFor(model => model.usu_nome, "", new { @class = "text-danger" })
+                        <div class="invalid-feedback">
+                            <br />
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="cpf">CPF</label>
+                        @Html.TextBoxFor(model => model.usu_cpf, new { @class = "form-control", @placeholder = "123.456.789-00" })
+                        @Html.ValidationMessageFor(model => model.usu_cpf, "", new { @class = "text-danger" })
+                        <div class="invalid-feedback">
+                            <br />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="email">Email</label>
+                        @Html.TextBoxFor(model => model.usu_email, new { @class = "form-control", @placeholder = "email@exemplo.com" })
+                        @Html.ValidationMessageFor(model => model.usu_email, "", new { @class = "text-danger" })
+                        <div class="invalid-feedback">
+                            <br />
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="telefone">Telefone</label>
+                        @Html.TextBoxFor(model => model.usu_telefone, new { @class = "form-control", @placeholder = "(21) 12345-7890" })
+                        @Html.ValidationMessageFor(model => model.usu_telefone, "", new { @class = "text-danger" })
+                        <div class="invalid-feedback">
+                            <br />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mb-6">
+                        <label for="senha">Perfil</label>
+                        @Html.EnumDropDownListFor(model => model.usu_perfil, "-- selecione --", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.usu_perfil, "", new { @class = "text-danger" })
+                        <div class="invalid-feedback">
+                            <br />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="senha">Senha</label>
+                        @Html.PasswordFor(model => model.usu_senha, new { @class = "form-control", @placeholder = "*****" })
+                        @Html.ValidationMessageFor(model => model.usu_senha, "", new { @class = "text-danger" })
+                        <div class="invalid-feedback">
+                            <br />
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="confirmarSenha">Confirmar Senha</label>
+                        @Html.PasswordFor(model => model.usu_senha_confirma, new { @class = "form-control", @placeholder = "*****" })
+                        @Html.ValidationMessageFor(model => model.usu_senha_confirma, "", new { @class = "text-danger" })
+                        <div class="invalid-feedback">
+                            <div class="invalid-feedback">
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 order-md-2 mb-4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 order-md-2 mb-2">
+            </div>
+            <div class="col-md-8 order-md-8 mb-2">
+                <br />
+                <input class="btn btn-lg btn-danger btn-block" type="submit" value="Salvar">
+                <br />
+            </div>
+            <div class="col-md-2 order-md-2 mb-2">
+            </div>
+        </div>
+    </div>
+}

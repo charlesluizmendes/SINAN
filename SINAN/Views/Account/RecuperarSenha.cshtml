@@ -1,0 +1,53 @@
+﻿@model SINAN.Application.ViewModel.RecuperarSenhaViewModel
+@{
+    ViewBag.Title = "Recuperar Senha";
+    Layout = "~/Views/Shared/_LayoutAccount.cshtml";
+}
+
+@using (Html.BeginForm("RecuperarSenha", "Account", FormMethod.Post,
+     new { id = "recuperarsenha", @class = "form-recovery" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="row">
+        <div class="col-md-4 order-md-2 mb-2">
+        </div>
+        <div class="col-md-4 order-md-4">
+            <div class="py-5 text-center">
+                <h2>Recuperar Senha</h2>
+            </div>
+            <div class="mb-3">
+                <label for="cpf">CPF</label>
+                <div>
+                    @Html.TextBoxFor(model => model.usu_cpf, new { @class = "form-control", @placeholder = "123.456.789-00" })
+                    @Html.ValidationMessageFor(model => model.usu_cpf, "", new { @class = "text-danger" })
+                </div>
+                <div class="invalid-feedback">
+                    <br>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="email">Email</label>
+                <div>
+                    @Html.TextBoxFor(model => model.usu_email, new { @class = "form-control", @placeholder = "email@exemplo.com" })
+                    @Html.ValidationMessageFor(model => model.usu_email, "", new { @class = "text-danger" })
+                </div>
+                <div class="invalid-feedback">
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 order-md-2 mb-2">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 order-md-2 mb-2">
+        </div>
+        <div class="col-md-4 order-md-4 mb-1">
+            <br>
+            <input class="btn btn-lg btn-danger btn-block" type="submit" value="Enviar">
+            <br>    
+        </div>
+        <div class="col-md-4 order-md-2 mb-2">
+        </div>
+    </div>
+}

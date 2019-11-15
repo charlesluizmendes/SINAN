@@ -1,0 +1,17 @@
+﻿#dash {
+    text-align: center;
+    margin-top: 16%;
+    vertical-align: central;
+}
+
+.btn-dash {
+    width: 200px;
+    height: 120px;
+    margin-bottom: 5px;
+}
+
+@media (max-width:767px) {
+    #dash {
+        margin-top: 40%;
+    }
+}

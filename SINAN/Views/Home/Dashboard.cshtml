@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<br>
+<br>
+
+<div id="dash">
+    <input class="btn btn-primary btn-lg btn-dash" type="button" value="Listar Ficha" onclick="location.href='@Url.Action("Listar", "Sinan")'" />
+    <input class="btn btn-primary btn-lg btn-dash" type="button" value="Nova Ficha" onclick="location.href='@Url.Action("Criar", "Sinan")'" />
+</div>

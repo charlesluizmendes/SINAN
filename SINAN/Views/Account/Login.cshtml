@@ -1,0 +1,37 @@
+﻿@model SINAN.Application.ViewModel.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutAccount.cshtml";
+}
+
+<div class="row">
+    <img src="@Url.Content("~/Content/img/logo_marica.png")" />
+</div>
+<div>
+    <img class="logo_cmdca" src="@Url.Content("~/Content/img/logo_cmdca.png")" />
+</div>
+<br>
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post,
+     new { id = "login", @class = "form-signin" }))
+{
+    @Html.AntiForgeryToken()
+    <h5 class="h5 mb-3 font-weight-normal">Sistema de Informação de Agravos de Notificação</h5>
+    <div>
+        @Html.TextBoxFor(model => model.usu_email, new { @class = "form-control", @placeholder = "Email", autofocus = "" })
+        @Html.ValidationMessageFor(model => model.usu_email, "", new { @class = "text-danger" })
+    </div>
+    <div>
+        @Html.PasswordFor(model => model.usu_senha, new { @class = "form-control", @placeholder = "Senha" })
+        @Html.ValidationMessageFor(model => model.usu_senha, "", new { @class = "text-danger" })
+    </div>
+    <input class="btn btn-lg btn-danger btn-block" type="submit" value="Entrar">
+    <div class="form-links">
+        @Html.ActionLink("Esqueceu sua senha?", "RecuperarSenha")
+    </div>
+}
+
+<div class="logo_movimento row">
+    <img src="@Url.Content("~/Content/img/movimento.png")" />
+    <img src="@Url.Content("~/Content/img/tecendo_redes.png")" />
+</div>

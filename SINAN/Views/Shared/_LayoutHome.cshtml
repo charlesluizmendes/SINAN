@@ -1,0 +1,55 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Style{
+    <!-- CSS -->
+    <link href="@Url.Content("~/Content/css/home/home.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/css/home/dashboard.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/css/home/criar.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/css/home/alterar.css")" rel="stylesheet" />    
+
+    @RenderSection("Style", false)
+}
+
+<nav class="navbar navbar-light">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="logo" class="navbar-brand">
+                <img alt="" src="">
+            </a>
+            <a class="navbar-brand">SINAN</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="@Url.Action("Dashboard", "Home")"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="@Url.Action("CriarConta", "Home")"><span class="glyphicon glyphicon-user"></span> Criar Conta</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a id="alterarSenha" href="@Url.Action("AlterarSenha", "Home")"><span class="glyphicon glyphicon-lock"></span> Alterar Senha</a></li>
+                <li><a id="sair" href="@Url.Action("Logout", "Home")"><span class="glyphicon glyphicon-log-out"></span> Sair</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+@RenderBody()
+
+<footer class="footer navbar-fixed-bottom">
+    <p style="margin: 5px;">
+        <span id="year"> &copy; @DateTime.Now.Year - </span> SINAN v @typeof(SINAN.MvcApplication).Assembly.GetName().Version.ToString()
+        <a id="labelECO" href="http://www.ecosistemas.com.br">www.ecosistemas.com.br</a> <img id="logoEco" src="@Url.Content("~/Content/img/logo_eco.png")" />
+    </p>
+</footer>
+
+@section Script{
+    <!-- JS -->
+    <script src="@Url.Content("~/Scripts/home/Home.js")"></script>
+
+    @RenderSection("Script", false)
+}

@@ -1,0 +1,151 @@
+﻿@using PagedList.Mvc;
+@using SINAN.Application.Helpers;
+
+@model PagedList.IPagedList<SINAN.Application.ViewModel.ListarViewModel>
+
+@{
+    ViewBag.Title = "Listar";
+    Layout = "~/Views/Shared/_LayoutSinan.cshtml";
+}
+
+<br>
+<br>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="py-5 text-center">
+            <h2>Listar SINAN</h2>
+        </div>
+        <br>
+        @using (Html.BeginForm("Listar", "Sinan", FormMethod.Get,
+            new { id = "Listar", @class = "form-signin" }))
+        {
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label>Nome</label>
+                    @Html.TextBoxFor(model => model.FirstOrDefault().searchNome, new { @type = "text", @class = "form-control", @placeholder = "Nome", autofocus = "" })
+                </div>
+                <div class="form-group col-md-2">
+                    <label>Data Nascimento</label>
+                    @Html.TextBoxFor(model => model.FirstOrDefault().searchDataNascimento, new { @type = "date", @class = "form-control" })
+                </div>
+                <div class="form-group col-md-2">
+                    <label>Cartão SUS</label>
+                    @Html.TextBoxFor(model => model.FirstOrDefault().searchCartaoSUS, new { @type = "text", @class = "form-control", @placeholder = "Cartão SUS" })
+                </div>
+                <div class="form-group col-md-2">
+                    <label>Motivo Ocorrência</label>
+                    @Html.EnumDropDownListFor(model => model.FirstOrDefault().searchMotivoOcorrencia, "-- selecione --", new { @class = "form-control" })
+                </div>
+                <div class="form-group col-md-2">
+                    <label>Data Ocorrência</label>
+                    @Html.TextBoxFor(model => model.FirstOrDefault().searchDataOcorrencia, null, new { @type = "date", @class = "form-control" })
+                </div>
+                <div class="form-group col-md-2">
+                    <label>Data Envio</label>
+                    @Html.TextBoxFor(model => model.FirstOrDefault().searchDataEnvio, null, new { @type = "date", @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                </div>
+                <div class="form-group col-md-2" style="text-align:center">
+                    <input class="btn btn-md btn-danger" type="submit" name="submit" value="Procurar" />
+                </div>
+                <div class="form-group col-md-5">
+                </div>
+            </div>
+        }
+    </div>
+    <div class="row">
+        <div class="col-md-12 order-md-12 mb-12">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                #
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model => model.First().nome_paciente)
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model => model.First().data_nascimento)
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model => model.First().num_cartaosus)
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model => model.First().motivo_ocorrencia)
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model => model.First().data_violencia)
+                            </th>
+                            <th scope="col">
+                                @Html.DisplayNameFor(model => model.First().data_envio)
+                            </th>
+                            <th scope="col">
+                                #
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                        <tr>
+                            <th scope="row">
+                                @Html.ActionLink("Editar", "Editar", new { id = item.id })
+                            </th>
+                            <td>
+                                @Html.DisplayFor(model => item.nome_paciente)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => item.data_nascimento)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => item.num_cartaosus)
+                            </td>
+                            <td>                               
+                                @{ string motivo_ocorrencia = item.motivo_ocorrencia.ToDescription(); }
+                                @Html.DisplayFor(model => motivo_ocorrencia)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => item.data_violencia)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => item.data_envio)
+                            </td>
+                            <th>
+                                <a href="@Url.Action("Sinan", "Relatorios", new { id = item.id })" target="_blank">Imprimir</a>
+                            </th>
+                        </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 order-md-1 mb-1">
+        </div>
+        <div id='Paging' class="col-md-4 order-md-1 mb-1" style="text-align:center">
+            Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+            of @Model.PageCount
+
+            @Html.PagedListPager(Model, page => Url.Action("Listar", "Sinan", new
+            {
+                page,
+                searchNome = Request.QueryString["searchNome"],
+                searchDataNascimento = Request.QueryString["searchDataNascimento"],
+                searchCartaoSUS = Request.QueryString["searchCartaoSUS"],
+                searchMotivoOcorrencia = Request.QueryString["searchMotivoOcorrencia"],
+                searchDataOcorrencia = Request.QueryString["searchDataOcorrencia"],
+                searchDataEnvio = Request.QueryString["searchDataEnvio"]
+            }))
+        </div>
+        <div class="col-md-4 order-md-1 mb-1">
+        </div>
+    </div>
+    <br>
+</div>

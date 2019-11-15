@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Criar";
+    Layout = "~/Views/Shared/_LayoutSinan.cshtml";
+}
+
+@using (Html.BeginForm("Criar", "Sinan", FormMethod.Post,
+     new { @class = "form-signin" }))
+{
+    @Html.AntiForgeryToken()
+    @RenderPage("~/Views/Sinan/Sinan.cshtml")   
+}

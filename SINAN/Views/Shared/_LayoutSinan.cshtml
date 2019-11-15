@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+@section Style{
+    <!-- CSS -->
+    <link href="@Url.Content("~/Content/css/sinan/listar.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/css/sinan/sinan.css")" rel="stylesheet" />
+}
+
+@RenderBody()
+
+@section Script{
+    <!-- JS -->
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.DadosGerais.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.DadosResidencia.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.NotificacaoIndividual.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.DadosPessoaAtendida.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.DadosOcorrencia.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.Violencia.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.ViolenciaSexual.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.DadosProvavelAutorViolencia.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.Encaminhamento.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.DadosFinais.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.Observacoes.js")"></script>
+    <script src="@Url.Content("~/Scripts/sinan/Sinan.Notificador.js")"></script>
+}

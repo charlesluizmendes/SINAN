@@ -1,0 +1,209 @@
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Infrastructure.dll.config
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Infrastructure.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Infrastructure.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework6.Npgsql.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\Npgsql.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Domain.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\System.Buffers.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\System.Memory.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\System.ValueTuple.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Domain.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework6.Npgsql.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\Npgsql.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\Npgsql.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\System.Buffers.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\System.Memory.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\bin\Debug\System.ValueTuple.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.csprojAssemblyReference.cache
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.csproj.CopyComplete
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.pdb
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Infrastructure.dll.config
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Infrastructure.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Infrastructure.pdb
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework6.Npgsql.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\Npgsql.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Domain.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\System.Buffers.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\System.Memory.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\System.ValueTuple.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Domain.pdb
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\EntityFramework6.Npgsql.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\Npgsql.pdb
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\Npgsql.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\System.Buffers.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\System.Memory.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure\bin\Debug\System.ValueTuple.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.csprojAssemblyReference.cache
+D:\Visual Studio\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Visual Studio\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.csproj.CopyComplete
+D:\Visual Studio\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.pdb
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Infrastructure.dll.config
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Infrastructure.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Infrastructure.pdb
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\netstandard.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.AppContext.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Collections.Concurrent.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Collections.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Collections.NonGeneric.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Collections.Specialized.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.ComponentModel.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Console.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Data.Common.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Diagnostics.Debug.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Diagnostics.Process.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Diagnostics.Tools.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Drawing.Primitives.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Dynamic.Runtime.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Globalization.Calendars.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Globalization.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Globalization.Extensions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.IO.Compression.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.IO.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.IO.FileSystem.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.IO.Pipes.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Linq.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Linq.Expressions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Linq.Parallel.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Linq.Queryable.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Net.Http.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Net.NameResolution.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Net.NetworkInformation.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Net.Ping.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Net.Primitives.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Net.Requests.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Net.Security.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Net.Sockets.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Net.WebSockets.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.ObjectModel.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Reflection.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Reflection.Extensions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Reflection.Primitives.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Resources.Reader.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Resources.ResourceManager.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Resources.Writer.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.Extensions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.Handles.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.InteropServices.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.Numerics.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Security.Claims.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Security.Principal.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Security.SecureString.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Text.Encoding.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Text.RegularExpressions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.Overlapped.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.Tasks.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.Thread.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.ThreadPool.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.Timer.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Xml.XDocument.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Xml.XmlDocument.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Xml.XPath.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Npgsql.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Remotion.Linq.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Domain.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Buffers.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Collections.Immutable.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Interactive.Async.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Memory.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Numerics.Vectors.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.ValueTuple.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\SINAN.Domain.pdb
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.EntityFrameworkCore.Design.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Npgsql.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\Remotion.Linq.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Buffers.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Collections.Immutable.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Interactive.Async.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Memory.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Numerics.Vectors.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\bin\Debug\System.ValueTuple.xml
+D:\Desktop\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Desktop\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.csproj.CopyComplete
+D:\Desktop\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.dll
+D:\Desktop\SINAN\SINAN.Infrastructure\obj\Debug\SINAN.Infrastructure.pdb

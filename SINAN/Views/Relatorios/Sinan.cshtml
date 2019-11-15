@@ -1,0 +1,29 @@
+﻿@model SINAN.Application.ViewModel.SinanViewModel
+
+@{
+    ViewBag.Title = "Relatório SINAN";
+    Layout = "~/Views/Shared/_LayoutRelatorios.cshtml";
+}
+<table>
+    <tr>
+        <td align="center"><h3>SINAN</h3></td>
+        <td><h5>Sistema de Notificação de Agravos e Violência</h5></td>
+    </tr>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Código do Usuário</th>
+            <th>Data de Envio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="width:100px;">@Model.Id</td>
+            <td style="width:200px;">@Model.usu_codigo</td>
+            <td style="width:200px;">@Model.data_envio</td>
+        </tr>
+    </tbody>
+</table>

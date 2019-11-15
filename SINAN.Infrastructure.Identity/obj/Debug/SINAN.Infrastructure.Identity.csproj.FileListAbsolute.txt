@@ -1,0 +1,334 @@
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Identity.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Identity.pdb
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Domain.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Data.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\netstandard.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Interactive.Async.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Remotion.Linq.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.Immutable.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Npgsql.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Domain.pdb
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Data.pdb
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Data.dll.config
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Interactive.Async.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Remotion.Linq.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.Immutable.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Npgsql.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.csprojAssemblyReference.cache
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.csproj.CopyComplete
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.dll
+D:\Desktop\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.pdb
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Identity.dll.config
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Identity.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Identity.pdb
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\netstandard.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.AppContext.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.Concurrent.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.NonGeneric.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.Specialized.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ComponentModel.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Console.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Data.Common.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.Debug.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.Process.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.Tools.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Drawing.Primitives.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Dynamic.Runtime.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Globalization.Calendars.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Globalization.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Globalization.Extensions.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.Compression.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.FileSystem.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.Pipes.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Linq.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Linq.Expressions.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Linq.Parallel.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Linq.Queryable.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Http.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.NameResolution.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.NetworkInformation.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Ping.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Primitives.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Requests.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Security.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Sockets.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.WebSockets.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ObjectModel.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Reflection.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Reflection.Extensions.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Reflection.Primitives.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Resources.Reader.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Resources.ResourceManager.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Resources.Writer.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Extensions.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Handles.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.InteropServices.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Numerics.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Claims.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Principal.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.SecureString.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Text.Encoding.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Text.RegularExpressions.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.Overlapped.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.Tasks.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.Thread.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.ThreadPool.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.Timer.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ValueTuple.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.XDocument.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.XmlDocument.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.XPath.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Remotion.Linq.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Domain.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Data.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.Immutable.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Interactive.Async.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Npgsql.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Domain.pdb
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Data.pdb
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Data.dll.config
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Remotion.Linq.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.Immutable.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Interactive.Async.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Npgsql.xml
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.csprojAssemblyReference.cache
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.csproj.CopyComplete
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.dll
+D:\Visual Studio\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Identity.dll.config
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Identity.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Identity.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\netstandard.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.AppContext.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.Specialized.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ComponentModel.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Console.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Data.Common.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Globalization.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.Compression.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.FileSystem.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.Pipes.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Linq.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Linq.Expressions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Linq.Parallel.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Linq.Queryable.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Http.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.NameResolution.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Ping.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Requests.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Security.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.Sockets.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Net.WebSockets.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ObjectModel.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Reflection.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Resources.Reader.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Resources.Writer.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Handles.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Claims.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.Principal.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Security.SecureString.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Text.Encoding.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.Tasks.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.Thread.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Threading.Timer.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ValueTuple.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.XDocument.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.XPath.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Remotion.Linq.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Domain.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Data.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.Immutable.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Interactive.Async.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Npgsql.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Domain.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Data.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\SINAN.Infrastructure.Data.dll.config
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Remotion.Linq.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Collections.Immutable.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Interactive.Async.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\bin\Debug\Npgsql.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.csprojAssemblyReference.cache
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.csproj.CopyComplete
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Infrastructure.Identity\obj\Debug\SINAN.Infrastructure.Identity.pdb

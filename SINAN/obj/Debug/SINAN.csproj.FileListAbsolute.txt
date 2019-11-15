@@ -1,0 +1,944 @@
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\SINAN.dll.config
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\SINAN.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\SINAN.pdb
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\csc.exe
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\csc.exe.config
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\csc.rsp
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\csi.exe
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\csi.rsp
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\System.AppContext.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\System.Collections.Immutable.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\System.Reflection.Metadata.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\vbc.exe
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\vbc.exe.config
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\vbc.rsp
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe.config
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\EntityFramework.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\EntityFramework.SqlServer.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\EntityFramework6.Npgsql.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\Microsoft.Web.Infrastructure.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\Npgsql.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\SINAN.BusinessLogic.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\SINAN.Entities.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Buffers.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Memory.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.ValueTuple.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Helpers.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Mvc.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Razor.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Webpages.Deployment.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Webpages.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Webpages.Razor.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\itextsharp.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\Newtonsoft.Json.Net35.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\SINAN.BusinessLogic.pdb
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\SINAN.Entities.pdb
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\EntityFramework.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\EntityFramework.SqlServer.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\EntityFramework6.Npgsql.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\Npgsql.pdb
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\Npgsql.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Buffers.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Memory.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.ValueTuple.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Razor.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Webpages.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Webpages.Deployment.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Webpages.Razor.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Helpers.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\System.Web.Mvc.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\pt-br\System.Web.Razor.resources.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\pt-br\System.Web.Webpages.resources.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\pt-br\System.Web.Helpers.resources.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\bin\pt-br\System.Web.Mvc.resources.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\obj\Debug\SINAN.csprojAssemblyReference.cache
+D:\Visual Studio\REFACTORY\SINAN\SINAN\obj\Debug\SINAN.csproj.CopyComplete
+D:\Visual Studio\REFACTORY\SINAN\SINAN\obj\Debug\SINAN.dll
+D:\Visual Studio\REFACTORY\SINAN\SINAN\obj\Debug\SINAN.pdb
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.dll.config
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.pdb
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\csc.exe
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\csc.exe.config
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\csc.rsp
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\csi.exe
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\csi.rsp
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\System.AppContext.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\System.Collections.Immutable.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\System.Reflection.Metadata.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\vbc.exe
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\vbc.exe.config
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\vbc.rsp
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe
+D:\Visual Studio\X\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe.config
+D:\Visual Studio\X\SINAN\SINAN\bin\EntityFramework.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\EntityFramework.SqlServer.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\EntityFramework6.Npgsql.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\Microsoft.Web.Infrastructure.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\Npgsql.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.BusinessLogic.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.Entities.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Buffers.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Memory.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\System.ValueTuple.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Helpers.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Mvc.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Razor.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Webpages.Deployment.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Webpages.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Webpages.Razor.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.Repository.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\itextsharp.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\Newtonsoft.Json.Net35.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.Context.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.BusinessLogic.pdb
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.Entities.pdb
+D:\Visual Studio\X\SINAN\SINAN\bin\EntityFramework.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\EntityFramework.SqlServer.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\EntityFramework6.Npgsql.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\Npgsql.pdb
+D:\Visual Studio\X\SINAN\SINAN\bin\Npgsql.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Buffers.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Memory.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\System.ValueTuple.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Razor.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Webpages.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Webpages.Deployment.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Webpages.Razor.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Helpers.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\System.Web.Mvc.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.Repository.pdb
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.Repository.dll.config
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.Context.pdb
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.Context.dll.config
+D:\Visual Studio\X\SINAN\SINAN\bin\pt-br\System.Web.Razor.resources.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\pt-br\System.Web.Webpages.resources.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\pt-br\System.Web.Helpers.resources.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\pt-br\System.Web.Mvc.resources.dll
+D:\Visual Studio\X\SINAN\SINAN\obj\Debug\SINAN.csprojAssemblyReference.cache
+D:\Visual Studio\X\SINAN\SINAN\obj\Debug\SINAN.csproj.CopyComplete
+D:\Visual Studio\X\SINAN\SINAN\obj\Debug\SINAN.dll
+D:\Visual Studio\X\SINAN\SINAN\obj\Debug\SINAN.pdb
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.Roles.dll
+D:\Visual Studio\X\SINAN\SINAN\bin\SINAN.Roles.pdb
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.dll.config
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.pdb
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\csc.exe
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\csc.exe.config
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\csc.rsp
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\csi.exe
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\csi.rsp
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\System.AppContext.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\vbc.exe
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\vbc.exe.config
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\vbc.rsp
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\EntityFramework.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\EntityFramework.SqlServer.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\EntityFramework6.Npgsql.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\Npgsql.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.BusinessLogic.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.Entities.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.Roles.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Buffers.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Memory.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.ValueTuple.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Helpers.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Mvc.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Razor.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Webpages.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Webpages.Razor.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.Repository.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\itextsharp.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\Newtonsoft.Json.Net35.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.Context.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.BusinessLogic.pdb
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.Entities.pdb
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.Roles.pdb
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\EntityFramework.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\EntityFramework.SqlServer.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\EntityFramework6.Npgsql.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\Npgsql.pdb
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\Npgsql.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Buffers.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Memory.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.ValueTuple.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Razor.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Webpages.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Webpages.Razor.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Helpers.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\System.Web.Mvc.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.Repository.pdb
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.Repository.dll.config
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.Context.pdb
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\SINAN.Context.dll.config
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\obj\Debug\SINAN.csprojAssemblyReference.cache
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\obj\Debug\SINAN.csproj.CoreCompileInputs.cache
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\obj\Debug\SINAN.csproj.CopyComplete
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\obj\Debug\SINAN.dll
+C:\Users\Charles\Documents\SINAN\SINAN\SINAN\obj\Debug\SINAN.pdb
+D:\Desktop\SINAN\SINAN\bin\SINAN.dll.config
+D:\Desktop\SINAN\SINAN\bin\SINAN.dll
+D:\Desktop\SINAN\SINAN\bin\SINAN.pdb
+D:\Desktop\SINAN\SINAN\bin\roslyn\csc.exe
+D:\Desktop\SINAN\SINAN\bin\roslyn\csc.exe.config
+D:\Desktop\SINAN\SINAN\bin\roslyn\csc.rsp
+D:\Desktop\SINAN\SINAN\bin\roslyn\csi.exe
+D:\Desktop\SINAN\SINAN\bin\roslyn\csi.rsp
+D:\Desktop\SINAN\SINAN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Desktop\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Desktop\SINAN\SINAN\bin\roslyn\System.AppContext.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\System.Collections.Immutable.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\System.Reflection.Metadata.dll
+D:\Desktop\SINAN\SINAN\bin\roslyn\vbc.exe
+D:\Desktop\SINAN\SINAN\bin\roslyn\vbc.exe.config
+D:\Desktop\SINAN\SINAN\bin\roslyn\vbc.rsp
+D:\Desktop\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe
+D:\Desktop\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe.config
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Win32.Primitives.dll
+D:\Desktop\SINAN\SINAN\bin\netstandard.dll
+D:\Desktop\SINAN\SINAN\bin\System.AppContext.dll
+D:\Desktop\SINAN\SINAN\bin\System.Collections.Concurrent.dll
+D:\Desktop\SINAN\SINAN\bin\System.Collections.dll
+D:\Desktop\SINAN\SINAN\bin\System.Collections.NonGeneric.dll
+D:\Desktop\SINAN\SINAN\bin\System.Collections.Specialized.dll
+D:\Desktop\SINAN\SINAN\bin\System.ComponentModel.dll
+D:\Desktop\SINAN\SINAN\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Desktop\SINAN\SINAN\bin\System.ComponentModel.Primitives.dll
+D:\Desktop\SINAN\SINAN\bin\System.ComponentModel.TypeConverter.dll
+D:\Desktop\SINAN\SINAN\bin\System.Console.dll
+D:\Desktop\SINAN\SINAN\bin\System.Data.Common.dll
+D:\Desktop\SINAN\SINAN\bin\System.Diagnostics.Contracts.dll
+D:\Desktop\SINAN\SINAN\bin\System.Diagnostics.Debug.dll
+D:\Desktop\SINAN\SINAN\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Desktop\SINAN\SINAN\bin\System.Diagnostics.Process.dll
+D:\Desktop\SINAN\SINAN\bin\System.Diagnostics.StackTrace.dll
+D:\Desktop\SINAN\SINAN\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Desktop\SINAN\SINAN\bin\System.Diagnostics.Tools.dll
+D:\Desktop\SINAN\SINAN\bin\System.Diagnostics.TraceSource.dll
+D:\Desktop\SINAN\SINAN\bin\System.Diagnostics.Tracing.dll
+D:\Desktop\SINAN\SINAN\bin\System.Drawing.Primitives.dll
+D:\Desktop\SINAN\SINAN\bin\System.Dynamic.Runtime.dll
+D:\Desktop\SINAN\SINAN\bin\System.Globalization.Calendars.dll
+D:\Desktop\SINAN\SINAN\bin\System.Globalization.dll
+D:\Desktop\SINAN\SINAN\bin\System.Globalization.Extensions.dll
+D:\Desktop\SINAN\SINAN\bin\System.IO.Compression.dll
+D:\Desktop\SINAN\SINAN\bin\System.IO.Compression.ZipFile.dll
+D:\Desktop\SINAN\SINAN\bin\System.IO.dll
+D:\Desktop\SINAN\SINAN\bin\System.IO.FileSystem.dll
+D:\Desktop\SINAN\SINAN\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Desktop\SINAN\SINAN\bin\System.IO.FileSystem.Primitives.dll
+D:\Desktop\SINAN\SINAN\bin\System.IO.FileSystem.Watcher.dll
+D:\Desktop\SINAN\SINAN\bin\System.IO.IsolatedStorage.dll
+D:\Desktop\SINAN\SINAN\bin\System.IO.MemoryMappedFiles.dll
+D:\Desktop\SINAN\SINAN\bin\System.IO.Pipes.dll
+D:\Desktop\SINAN\SINAN\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Desktop\SINAN\SINAN\bin\System.Linq.dll
+D:\Desktop\SINAN\SINAN\bin\System.Linq.Expressions.dll
+D:\Desktop\SINAN\SINAN\bin\System.Linq.Parallel.dll
+D:\Desktop\SINAN\SINAN\bin\System.Linq.Queryable.dll
+D:\Desktop\SINAN\SINAN\bin\System.Net.Http.dll
+D:\Desktop\SINAN\SINAN\bin\System.Net.NameResolution.dll
+D:\Desktop\SINAN\SINAN\bin\System.Net.NetworkInformation.dll
+D:\Desktop\SINAN\SINAN\bin\System.Net.Ping.dll
+D:\Desktop\SINAN\SINAN\bin\System.Net.Primitives.dll
+D:\Desktop\SINAN\SINAN\bin\System.Net.Requests.dll
+D:\Desktop\SINAN\SINAN\bin\System.Net.Security.dll
+D:\Desktop\SINAN\SINAN\bin\System.Net.Sockets.dll
+D:\Desktop\SINAN\SINAN\bin\System.Net.WebHeaderCollection.dll
+D:\Desktop\SINAN\SINAN\bin\System.Net.WebSockets.Client.dll
+D:\Desktop\SINAN\SINAN\bin\System.Net.WebSockets.dll
+D:\Desktop\SINAN\SINAN\bin\System.ObjectModel.dll
+D:\Desktop\SINAN\SINAN\bin\System.Reflection.dll
+D:\Desktop\SINAN\SINAN\bin\System.Reflection.Extensions.dll
+D:\Desktop\SINAN\SINAN\bin\System.Reflection.Primitives.dll
+D:\Desktop\SINAN\SINAN\bin\System.Resources.Reader.dll
+D:\Desktop\SINAN\SINAN\bin\System.Resources.ResourceManager.dll
+D:\Desktop\SINAN\SINAN\bin\System.Resources.Writer.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.Extensions.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.Handles.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.InteropServices.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.Numerics.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.Serialization.Formatters.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.Serialization.Json.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.Serialization.Primitives.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.Serialization.Xml.dll
+D:\Desktop\SINAN\SINAN\bin\System.Security.Claims.dll
+D:\Desktop\SINAN\SINAN\bin\System.Security.Cryptography.Algorithms.dll
+D:\Desktop\SINAN\SINAN\bin\System.Security.Cryptography.Csp.dll
+D:\Desktop\SINAN\SINAN\bin\System.Security.Cryptography.Encoding.dll
+D:\Desktop\SINAN\SINAN\bin\System.Security.Cryptography.Primitives.dll
+D:\Desktop\SINAN\SINAN\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Desktop\SINAN\SINAN\bin\System.Security.Principal.dll
+D:\Desktop\SINAN\SINAN\bin\System.Security.SecureString.dll
+D:\Desktop\SINAN\SINAN\bin\System.Text.Encoding.dll
+D:\Desktop\SINAN\SINAN\bin\System.Text.Encoding.Extensions.dll
+D:\Desktop\SINAN\SINAN\bin\System.Text.RegularExpressions.dll
+D:\Desktop\SINAN\SINAN\bin\System.Threading.dll
+D:\Desktop\SINAN\SINAN\bin\System.Threading.Overlapped.dll
+D:\Desktop\SINAN\SINAN\bin\System.Threading.Tasks.dll
+D:\Desktop\SINAN\SINAN\bin\System.Threading.Tasks.Parallel.dll
+D:\Desktop\SINAN\SINAN\bin\System.Threading.Thread.dll
+D:\Desktop\SINAN\SINAN\bin\System.Threading.ThreadPool.dll
+D:\Desktop\SINAN\SINAN\bin\System.Threading.Timer.dll
+D:\Desktop\SINAN\SINAN\bin\System.Xml.ReaderWriter.dll
+D:\Desktop\SINAN\SINAN\bin\System.Xml.XDocument.dll
+D:\Desktop\SINAN\SINAN\bin\System.Xml.XmlDocument.dll
+D:\Desktop\SINAN\SINAN\bin\System.Xml.XmlSerializer.dll
+D:\Desktop\SINAN\SINAN\bin\System.Xml.XPath.dll
+D:\Desktop\SINAN\SINAN\bin\System.Xml.XPath.XDocument.dll
+D:\Desktop\SINAN\SINAN\bin\AutoMapper.dll
+D:\Desktop\SINAN\SINAN\bin\log4net.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Design.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Logging.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Options.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Primitives.dll
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Web.Infrastructure.dll
+D:\Desktop\SINAN\SINAN\bin\Npgsql.dll
+D:\Desktop\SINAN\SINAN\bin\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Desktop\SINAN\SINAN\bin\PagedList.dll
+D:\Desktop\SINAN\SINAN\bin\PagedList.Mvc.dll
+D:\Desktop\SINAN\SINAN\bin\Remotion.Linq.dll
+D:\Desktop\SINAN\SINAN\bin\SINAN.Application.dll
+D:\Desktop\SINAN\SINAN\bin\SINAN.Domain.dll
+D:\Desktop\SINAN\SINAN\bin\System.Buffers.dll
+D:\Desktop\SINAN\SINAN\bin\System.Collections.Immutable.dll
+D:\Desktop\SINAN\SINAN\bin\System.ComponentModel.Annotations.dll
+D:\Desktop\SINAN\SINAN\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Desktop\SINAN\SINAN\bin\System.Interactive.Async.dll
+D:\Desktop\SINAN\SINAN\bin\System.Memory.dll
+D:\Desktop\SINAN\SINAN\bin\System.Numerics.Vectors.dll
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Desktop\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.dll
+D:\Desktop\SINAN\SINAN\bin\System.ValueTuple.dll
+D:\Desktop\SINAN\SINAN\bin\System.Web.Helpers.dll
+D:\Desktop\SINAN\SINAN\bin\System.Web.Mvc.dll
+D:\Desktop\SINAN\SINAN\bin\System.Web.Razor.dll
+D:\Desktop\SINAN\SINAN\bin\System.Web.Webpages.Deployment.dll
+D:\Desktop\SINAN\SINAN\bin\System.Web.Webpages.dll
+D:\Desktop\SINAN\SINAN\bin\System.Web.Webpages.Razor.dll
+D:\Desktop\SINAN\SINAN\bin\itextsharp.dll
+D:\Desktop\SINAN\SINAN\bin\SINAN.Application.pdb
+D:\Desktop\SINAN\SINAN\bin\SINAN.Domain.pdb
+D:\Desktop\SINAN\SINAN\bin\AutoMapper.pdb
+D:\Desktop\SINAN\SINAN\bin\AutoMapper.xml
+D:\Desktop\SINAN\SINAN\bin\log4net.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Design.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Logging.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Options.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.Extensions.Primitives.xml
+D:\Desktop\SINAN\SINAN\bin\Npgsql.xml
+D:\Desktop\SINAN\SINAN\bin\PagedList.xml
+D:\Desktop\SINAN\SINAN\bin\PagedList.Mvc.xml
+D:\Desktop\SINAN\SINAN\bin\Remotion.Linq.xml
+D:\Desktop\SINAN\SINAN\bin\System.Buffers.xml
+D:\Desktop\SINAN\SINAN\bin\System.Collections.Immutable.xml
+D:\Desktop\SINAN\SINAN\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Desktop\SINAN\SINAN\bin\System.Interactive.Async.xml
+D:\Desktop\SINAN\SINAN\bin\System.Memory.xml
+D:\Desktop\SINAN\SINAN\bin\System.Numerics.Vectors.xml
+D:\Desktop\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Desktop\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.xml
+D:\Desktop\SINAN\SINAN\bin\System.ValueTuple.xml
+D:\Desktop\SINAN\SINAN\bin\System.Web.Razor.xml
+D:\Desktop\SINAN\SINAN\bin\System.Web.Webpages.xml
+D:\Desktop\SINAN\SINAN\bin\System.Web.Webpages.Deployment.xml
+D:\Desktop\SINAN\SINAN\bin\System.Web.Webpages.Razor.xml
+D:\Desktop\SINAN\SINAN\bin\System.Web.Helpers.xml
+D:\Desktop\SINAN\SINAN\bin\System.Web.Mvc.xml
+D:\Desktop\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Desktop\SINAN\SINAN\bin\pt-br\System.Web.Razor.resources.dll
+D:\Desktop\SINAN\SINAN\bin\pt-br\System.Web.Webpages.resources.dll
+D:\Desktop\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+D:\Desktop\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+D:\Desktop\SINAN\SINAN\bin\pt-br\System.Web.Helpers.resources.dll
+D:\Desktop\SINAN\SINAN\bin\pt-br\System.Web.Mvc.resources.dll
+D:\Desktop\SINAN\SINAN\obj\Debug\SINAN.csprojAssemblyReference.cache
+D:\Desktop\SINAN\SINAN\obj\Debug\SINAN.csproj.CopyComplete
+D:\Desktop\SINAN\SINAN\obj\Debug\SINAN.dll
+D:\Desktop\SINAN\SINAN\obj\Debug\SINAN.pdb
+D:\Desktop\SINAN\SINAN\bin\SimpleInjector.dll
+D:\Desktop\SINAN\SINAN\bin\SimpleInjector.Integration.Web.dll
+D:\Desktop\SINAN\SINAN\bin\SimpleInjector.Integration.Web.Mvc.dll
+D:\Desktop\SINAN\SINAN\bin\SINAN.Infrastructure.CrossCutting.dll
+D:\Desktop\SINAN\SINAN\bin\SINAN.Infrastructure.Data.dll
+D:\Desktop\SINAN\SINAN\bin\SINAN.Infrastructure.Identity.dll
+D:\Desktop\SINAN\SINAN\bin\SINAN.Infrastructure.IoC.dll
+D:\Desktop\SINAN\SINAN\bin\SINAN.Infrastructure.CrossCutting.pdb
+D:\Desktop\SINAN\SINAN\bin\SINAN.Infrastructure.Data.pdb
+D:\Desktop\SINAN\SINAN\bin\SINAN.Infrastructure.Data.dll.config
+D:\Desktop\SINAN\SINAN\bin\SINAN.Infrastructure.Identity.pdb
+D:\Desktop\SINAN\SINAN\bin\SINAN.Infrastructure.IoC.pdb
+D:\Desktop\SINAN\SINAN\bin\SINAN.Infrastructure.IoC.dll.config
+D:\Desktop\SINAN\SINAN\bin\SimpleInjector.xml
+D:\Desktop\SINAN\SINAN\bin\SimpleInjector.Integration.Web.xml
+D:\Desktop\SINAN\SINAN\bin\SimpleInjector.Integration.Web.Mvc.xml
+D:\Desktop\SINAN\SINAN\bin\itextsharp.xml
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.dll.config
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.dll
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.pdb
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\csc.exe
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\csc.exe.config
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\csc.rsp
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\csi.exe
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\csi.rsp
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\System.AppContext.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\System.Collections.Immutable.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\System.Reflection.Metadata.dll
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\vbc.exe
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\vbc.exe.config
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\vbc.rsp
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe
+D:\Visual Studio\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe.config
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Win32.Primitives.dll
+D:\Visual Studio\SINAN\SINAN\bin\netstandard.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.AppContext.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Collections.Concurrent.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Collections.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Collections.NonGeneric.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Collections.Specialized.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.ComponentModel.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.ComponentModel.Primitives.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.ComponentModel.TypeConverter.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Console.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Data.Common.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Diagnostics.Contracts.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Diagnostics.Debug.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Diagnostics.Process.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Diagnostics.StackTrace.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Diagnostics.Tools.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Diagnostics.TraceSource.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Diagnostics.Tracing.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Drawing.Primitives.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Dynamic.Runtime.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Globalization.Calendars.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Globalization.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Globalization.Extensions.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.IO.Compression.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.IO.Compression.ZipFile.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.IO.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.IO.FileSystem.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.IO.FileSystem.Primitives.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.IO.FileSystem.Watcher.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.IO.IsolatedStorage.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.IO.MemoryMappedFiles.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.IO.Pipes.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Linq.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Linq.Expressions.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Linq.Parallel.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Linq.Queryable.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Net.Http.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Net.NameResolution.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Net.NetworkInformation.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Net.Ping.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Net.Primitives.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Net.Requests.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Net.Security.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Net.Sockets.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Net.WebHeaderCollection.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Net.WebSockets.Client.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Net.WebSockets.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.ObjectModel.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Reflection.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Reflection.Extensions.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Reflection.Primitives.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Resources.Reader.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Resources.ResourceManager.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Resources.Writer.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.Extensions.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.Handles.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.InteropServices.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.Numerics.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.Serialization.Formatters.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.Serialization.Json.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.Serialization.Primitives.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.Serialization.Xml.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Security.Claims.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Security.Cryptography.Algorithms.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Security.Cryptography.Csp.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Security.Cryptography.Encoding.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Security.Cryptography.Primitives.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Security.Principal.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Security.SecureString.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Text.Encoding.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Text.Encoding.Extensions.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Text.RegularExpressions.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Threading.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Threading.Overlapped.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Threading.Tasks.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Threading.Tasks.Parallel.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Threading.Thread.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Threading.ThreadPool.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Threading.Timer.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Xml.ReaderWriter.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Xml.XDocument.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Xml.XmlDocument.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Xml.XmlSerializer.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Xml.XPath.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Xml.XPath.XDocument.dll
+D:\Visual Studio\SINAN\SINAN\bin\AutoMapper.dll
+D:\Visual Studio\SINAN\SINAN\bin\itextsharp.dll
+D:\Visual Studio\SINAN\SINAN\bin\itextsharp.xmlworker.dll
+D:\Visual Studio\SINAN\SINAN\bin\log4net.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Design.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Logging.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Options.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Primitives.dll
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Web.Infrastructure.dll
+D:\Visual Studio\SINAN\SINAN\bin\MvcRazorToPdf.dll
+D:\Visual Studio\SINAN\SINAN\bin\Npgsql.dll
+D:\Visual Studio\SINAN\SINAN\bin\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Visual Studio\SINAN\SINAN\bin\PagedList.dll
+D:\Visual Studio\SINAN\SINAN\bin\PagedList.Mvc.dll
+D:\Visual Studio\SINAN\SINAN\bin\Remotion.Linq.dll
+D:\Visual Studio\SINAN\SINAN\bin\SimpleInjector.dll
+D:\Visual Studio\SINAN\SINAN\bin\SimpleInjector.Integration.Web.dll
+D:\Visual Studio\SINAN\SINAN\bin\SimpleInjector.Integration.Web.Mvc.dll
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Application.dll
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Domain.dll
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Infrastructure.CrossCutting.dll
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Infrastructure.Data.dll
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Infrastructure.Identity.dll
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Infrastructure.IoC.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Buffers.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Collections.Immutable.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.ComponentModel.Annotations.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Interactive.Async.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Memory.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Numerics.Vectors.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.ValueTuple.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Helpers.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Mvc.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Razor.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Webpages.Deployment.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Webpages.dll
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Webpages.Razor.dll
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Application.pdb
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Domain.pdb
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Infrastructure.CrossCutting.pdb
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Infrastructure.Data.pdb
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Infrastructure.Data.dll.config
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Infrastructure.Identity.pdb
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Infrastructure.Identity.dll.config
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Infrastructure.IoC.pdb
+D:\Visual Studio\SINAN\SINAN\bin\SINAN.Infrastructure.IoC.dll.config
+D:\Visual Studio\SINAN\SINAN\bin\AutoMapper.pdb
+D:\Visual Studio\SINAN\SINAN\bin\AutoMapper.xml
+D:\Visual Studio\SINAN\SINAN\bin\itextsharp.xml
+D:\Visual Studio\SINAN\SINAN\bin\log4net.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Design.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Logging.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Options.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.Extensions.Primitives.xml
+D:\Visual Studio\SINAN\SINAN\bin\Npgsql.xml
+D:\Visual Studio\SINAN\SINAN\bin\PagedList.xml
+D:\Visual Studio\SINAN\SINAN\bin\PagedList.Mvc.xml
+D:\Visual Studio\SINAN\SINAN\bin\Remotion.Linq.xml
+D:\Visual Studio\SINAN\SINAN\bin\SimpleInjector.xml
+D:\Visual Studio\SINAN\SINAN\bin\SimpleInjector.Integration.Web.xml
+D:\Visual Studio\SINAN\SINAN\bin\SimpleInjector.Integration.Web.Mvc.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Buffers.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Collections.Immutable.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Interactive.Async.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Memory.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Numerics.Vectors.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.ValueTuple.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Razor.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Webpages.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Webpages.Deployment.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Webpages.Razor.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Helpers.xml
+D:\Visual Studio\SINAN\SINAN\bin\System.Web.Mvc.xml
+D:\Visual Studio\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Visual Studio\SINAN\SINAN\bin\pt-br\System.Web.Razor.resources.dll
+D:\Visual Studio\SINAN\SINAN\bin\pt-br\System.Web.Webpages.resources.dll
+D:\Visual Studio\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+D:\Visual Studio\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+D:\Visual Studio\SINAN\SINAN\bin\pt-br\System.Web.Helpers.resources.dll
+D:\Visual Studio\SINAN\SINAN\bin\pt-br\System.Web.Mvc.resources.dll
+D:\Visual Studio\SINAN\SINAN\obj\Debug\SINAN.csprojAssemblyReference.cache
+D:\Visual Studio\SINAN\SINAN\obj\Debug\SINAN.csproj.CopyComplete
+D:\Visual Studio\SINAN\SINAN\obj\Debug\SINAN.dll
+D:\Visual Studio\SINAN\SINAN\obj\Debug\SINAN.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.dll.config
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\csc.exe
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\csc.exe.config
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\csc.rsp
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\csi.exe
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\csi.rsp
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\System.AppContext.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\vbc.exe
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\vbc.exe.config
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\vbc.rsp
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Win32.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\netstandard.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.AppContext.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Collections.Concurrent.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Collections.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Collections.NonGeneric.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Collections.Specialized.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.ComponentModel.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.ComponentModel.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Console.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Data.Common.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Diagnostics.Contracts.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Diagnostics.Debug.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Diagnostics.Process.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Diagnostics.StackTrace.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Diagnostics.Tools.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Diagnostics.TraceSource.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Diagnostics.Tracing.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Drawing.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Dynamic.Runtime.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Globalization.Calendars.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Globalization.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Globalization.Extensions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.IO.Compression.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.IO.Compression.ZipFile.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.IO.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.IO.FileSystem.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.IO.IsolatedStorage.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.IO.Pipes.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Linq.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Linq.Expressions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Linq.Parallel.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Linq.Queryable.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Net.Http.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Net.NameResolution.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Net.NetworkInformation.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Net.Ping.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Net.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Net.Requests.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Net.Security.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Net.Sockets.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Net.WebHeaderCollection.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Net.WebSockets.Client.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Net.WebSockets.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.ObjectModel.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Reflection.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Reflection.Extensions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Reflection.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Resources.Reader.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Resources.ResourceManager.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Resources.Writer.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.Extensions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.Handles.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.InteropServices.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.Numerics.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.Serialization.Json.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Security.Claims.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Security.Cryptography.Csp.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Security.Principal.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Security.SecureString.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Text.Encoding.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Text.Encoding.Extensions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Text.RegularExpressions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Threading.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Threading.Overlapped.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Threading.Tasks.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Threading.Thread.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Threading.ThreadPool.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Threading.Timer.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Xml.ReaderWriter.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Xml.XDocument.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Xml.XmlDocument.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Xml.XmlSerializer.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Xml.XPath.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Xml.XPath.XDocument.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\AutoMapper.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\itextsharp.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\itextsharp.xmlworker.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\log4net.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Logging.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Options.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\MvcRazorToPdf.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Npgsql.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\PagedList.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\PagedList.Mvc.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Remotion.Linq.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SimpleInjector.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SimpleInjector.Integration.Web.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Application.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Domain.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Infrastructure.CrossCutting.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Infrastructure.Data.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Infrastructure.Identity.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Infrastructure.IoC.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Buffers.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Collections.Immutable.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.ComponentModel.Annotations.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Interactive.Async.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Memory.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Numerics.Vectors.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.ValueTuple.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Helpers.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Mvc.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Razor.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Webpages.Deployment.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Webpages.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Webpages.Razor.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Application.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Domain.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Infrastructure.CrossCutting.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Infrastructure.Data.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Infrastructure.Data.dll.config
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Infrastructure.Identity.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Infrastructure.Identity.dll.config
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Infrastructure.IoC.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SINAN.Infrastructure.IoC.dll.config
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\AutoMapper.pdb
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\AutoMapper.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\itextsharp.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\log4net.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Design.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Logging.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Options.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Npgsql.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\PagedList.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\PagedList.Mvc.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Remotion.Linq.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SimpleInjector.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SimpleInjector.Integration.Web.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\SimpleInjector.Integration.Web.Mvc.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Buffers.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Collections.Immutable.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Interactive.Async.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Memory.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Numerics.Vectors.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.ValueTuple.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Razor.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Webpages.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Webpages.Deployment.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Webpages.Razor.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Helpers.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\System.Web.Mvc.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\obj\Debug\SINAN.csprojAssemblyReference.cache
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\obj\Debug\SINAN.csproj.CopyComplete
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\obj\Debug\SINAN.dll
+C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN\obj\Debug\SINAN.pdb

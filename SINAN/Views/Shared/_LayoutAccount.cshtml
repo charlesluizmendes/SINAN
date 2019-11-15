@@ -1,0 +1,29 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Style{
+    <!-- CSS -->
+    <link href="@Url.Content("~/Content/css/account/account.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/css/account/login.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/css/account/recuperar.css")" rel="stylesheet" />
+
+    @RenderSection("Style", false)
+}
+<div class="container">
+    @RenderBody()
+</div>
+
+<footer class="footer navbar-fixed-bottom">
+    <p style="margin: 5px;">
+        <span id="year"> &copy; @DateTime.Now.Year - </span> SINAN v @typeof(SINAN.MvcApplication).Assembly.GetName().Version.ToString()
+        <a id="labelECO" href="http://www.ecosistemas.com.br">www.ecosistemas.com.br</a> <img id="logoEco" src="@Url.Content("~/Content/img/logo_eco.png")" />
+    </p>
+</footer>
+
+@section Script{
+    <!-- JS -->
+    <script src="@Url.Content("~/Scripts/account/Account.js")"></script>
+
+    @RenderSection("Script", false)
+}
