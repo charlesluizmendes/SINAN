@@ -9,5 +9,6 @@ C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Domain\obj\Debug\SINAN.Dom
 C:\Users\charles.mendes\Documents\CHARLES\SINAN\SINAN.Domain\obj\Debug\SINAN.Domain.pdb
 D:\Visual Studio\SINAN\SINAN.Domain\bin\Debug\SINAN.Domain.dll
 D:\Visual Studio\SINAN\SINAN.Domain\bin\Debug\SINAN.Domain.pdb
+D:\Visual Studio\SINAN\SINAN.Domain\obj\Debug\SINAN.Domain.csprojAssemblyReference.cache
 D:\Visual Studio\SINAN\SINAN.Domain\obj\Debug\SINAN.Domain.dll
 D:\Visual Studio\SINAN\SINAN.Domain\obj\Debug\SINAN.Domain.pdb
