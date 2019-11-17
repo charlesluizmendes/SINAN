@@ -26,19 +26,19 @@ namespace SINAN.Controllers
         // GET: Relatorios/Sinan
         public PdfActionResult Sinan(int? Id)
         {
-            var sinan = _uow.sinan.GetById(Id);
-            var sinanDadosGerais = _uow.sinanDadosGerais.GetById(Id);
-            var sinanNotificacaoIndividual = _uow.sinanNotificacaoIndividual.GetById(Id);
-            var sinanDadosResidencia = _uow.sinanDadosResidencia.GetById(Id);
-            var sinanDadosDePessoaAtendida = _uow.sinanDadosDePessoaAtendida.GetById(Id);
-            var sinanDadosDaOcorrencia = _uow.sinanDadosDaOcorrencia.GetById(Id);
-            var sinanViolencia = _uow.sinanViolencia.GetById(Id);
-            var sinanViolenciaSexual = _uow.sinanViolenciaSexual.GetById(Id);
-            var sinanDadosDoProvavelAutorDaViolencia = _uow.sinanDadosDoProvavelAutorDaViolencia.GetById(Id);
-            var sinanEncaminhamento = _uow.sinanEncaminhamento.GetById(Id);
-            var sinanDadosFinais = _uow.sinanDadosFinais.GetById(Id);
-            var sinanObservacoes = _uow.sinanObservacoes.GetById(Id);
-            var sinanNotificador = _uow.sinanNotificador.GetById(Id);
+            var sinan = _uow.GetRepository<Sinan>().GetById(Id);
+            var sinanDadosGerais = _uow.GetRepository<Sinan_DadosGerais>().GetById(Id);
+            var sinanNotificacaoIndividual = _uow.GetRepository<Sinan_NotificacaoIndividual>().GetById(Id);
+            var sinanDadosResidencia = _uow.GetRepository<Sinan_DadosResidencia>().GetById(Id);
+            var sinanDadosDePessoaAtendida = _uow.GetRepository<Sinan_DadosDePessoaAtendida>().GetById(Id);
+            var sinanDadosDaOcorrencia = _uow.GetRepository<Sinan_DadosDaOcorrencia>().GetById(Id);
+            var sinanViolencia = _uow.GetRepository<Sinan_Violencia>().GetById(Id);
+            var sinanViolenciaSexual = _uow.GetRepository<Sinan_ViolenciaSexual>().GetById(Id);
+            var sinanDadosDoProvavelAutorDaViolencia = _uow.GetRepository<Sinan_DadosDoProvavelAutorDaViolencia>().GetById(Id);
+            var sinanEncaminhamento = _uow.GetRepository<Sinan_Encaminhamento>().GetById(Id);
+            var sinanDadosFinais = _uow.GetRepository<Sinan_DadosFinais>().GetById(Id);
+            var sinanObservacoes = _uow.GetRepository<Sinan_Observacoes>().GetById(Id);
+            var sinanNotificador = _uow.GetRepository<Sinan_Notificador>().GetById(Id);
 
             var viewmodel = new SinanViewModel
             {

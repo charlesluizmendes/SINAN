@@ -46,10 +46,10 @@ namespace SINAN.Controllers
             DateTime? searchDataOcorrencia,
             int? page)
         {
-            var obj = (from sinan in _uow.sinan.Get()
-                       join sinanNoticacaoIndividual in _uow.sinanNotificacaoIndividual.Get() on sinan.id equals sinanNoticacaoIndividual.id
-                       join sinanDadosGerais in _uow.sinanDadosGerais.Get() on sinan.id equals sinanDadosGerais.id
-                       join sinanViolencia in _uow.sinanViolencia.Get() on sinan.id equals sinanViolencia.id
+            var obj = (from sinan in _uow.GetRepository<Sinan>().Get()
+                       join sinanNoticacaoIndividual in _uow.GetRepository<Sinan_NotificacaoIndividual>().Get() on sinan.id equals sinanNoticacaoIndividual.id
+                       join sinanDadosGerais in _uow.GetRepository<Sinan_DadosGerais>().Get() on sinan.id equals sinanDadosGerais.id
+                       join sinanViolencia in _uow.GetRepository<Sinan_Violencia>().Get() on sinan.id equals sinanViolencia.id
                        select new
                        {
                            searchNome,
@@ -123,56 +123,56 @@ namespace SINAN.Controllers
                     data_envio = DateTime.Now
                 };
 
-                _uow.sinan.Insert(sinan);
-                _uow.sinan.Commit();
+                _uow.GetRepository<Sinan>().Insert(sinan);
+                _uow.GetRepository<Sinan>().Commit();
 
                 var sinanDadosGerais = Mapper.Map<Sinan_DadosGeraisViewModel, Sinan_DadosGerais>(viewmodel.Sinan_DadosGeraisViewModel);
                 sinanDadosGerais.id = sinan.id;
-                _uow.sinanDadosGerais.Insert(sinanDadosGerais);
+                _uow.GetRepository<Sinan_DadosGerais>().Insert(sinanDadosGerais);
 
                 var sinanNotificacaoIndividual = Mapper.Map<Sinan_NotificacaoIndividualViewModel, Sinan_NotificacaoIndividual>(viewmodel.Sinan_NotificacaoIndividualViewModel);
                 sinanNotificacaoIndividual.id = sinan.id;
-                _uow.sinanNotificacaoIndividual.Insert(sinanNotificacaoIndividual);
+                _uow.GetRepository<Sinan_NotificacaoIndividual>().Insert(sinanNotificacaoIndividual);
 
                 var sinanDadosResidencia = Mapper.Map<Sinan_DadosResidenciaViewModel, Sinan_DadosResidencia>(viewmodel.Sinan_DadosResidenciaViewModel);
                 sinanDadosResidencia.id = sinan.id;
-                _uow.sinanDadosResidencia.Insert(sinanDadosResidencia);
+                _uow.GetRepository<Sinan_DadosResidencia>().Insert(sinanDadosResidencia);
 
                 var sinanDadosDePessoaAtendida = Mapper.Map<Sinan_DadosDePessoaAtendidaViewModel, Sinan_DadosDePessoaAtendida>(viewmodel.Sinan_DadosDePessoaAtendidaViewModel);
                 sinanDadosDePessoaAtendida.id = sinan.id;
-                _uow.sinanDadosDePessoaAtendida.Insert(sinanDadosDePessoaAtendida);
+                _uow.GetRepository<Sinan_DadosDePessoaAtendida>().Insert(sinanDadosDePessoaAtendida);
 
                 var sinanDadosDaOcorrencia = Mapper.Map<Sinan_DadosDaOcorrenciaViewModel, Sinan_DadosDaOcorrencia>(viewmodel.Sinan_DadosDaOcorrenciaViewModel);
                 sinanDadosDaOcorrencia.id = sinan.id;
-                _uow.sinanDadosDaOcorrencia.Insert(sinanDadosDaOcorrencia);
+                _uow.GetRepository<Sinan_DadosDaOcorrencia>().Insert(sinanDadosDaOcorrencia);
 
                 var sinanViolencia = Mapper.Map<Sinan_ViolenciaViewModel, Sinan_Violencia>(viewmodel.Sinan_ViolenciaViewModel);
                 sinanViolencia.id = sinan.id;
-                _uow.sinanViolencia.Insert(sinanViolencia);
+                _uow.GetRepository<Sinan_Violencia>().Insert(sinanViolencia);
 
                 var sinanViolenciaSexual = Mapper.Map<Sinan_ViolenciaSexualViewModel, Sinan_ViolenciaSexual>(viewmodel.Sinan_ViolenciaSexualViewModel);
                 sinanViolenciaSexual.id = sinan.id;
-                _uow.sinanViolenciaSexual.Insert(sinanViolenciaSexual);
+                _uow.GetRepository<Sinan_ViolenciaSexual>().Insert(sinanViolenciaSexual);
 
                 var sinanDadosDoProvavelAutorDaViolencia = Mapper.Map<Sinan_DadosDoProvavelAutorViolenciaViewModel, Sinan_DadosDoProvavelAutorDaViolencia>(viewmodel.Sinan_DadosDoProvavelAutorViolenciaViewModel);
                 sinanDadosDoProvavelAutorDaViolencia.id = sinan.id;
-                _uow.sinanDadosDoProvavelAutorDaViolencia.Insert(sinanDadosDoProvavelAutorDaViolencia);
+                _uow.GetRepository<Sinan_DadosDoProvavelAutorDaViolencia>().Insert(sinanDadosDoProvavelAutorDaViolencia);
 
                 var sinanEncaminhamento = Mapper.Map<Sinan_EncaminhamentoViewModel, Sinan_Encaminhamento>(viewmodel.Sinan_EncaminhamentoViewModel);
                 sinanEncaminhamento.id = sinan.id;
-                _uow.sinanEncaminhamento.Insert(sinanEncaminhamento);
+                _uow.GetRepository<Sinan_Encaminhamento>().Insert(sinanEncaminhamento);
 
                 var sinanDadosFinais = Mapper.Map<Sinan_DadosFinaisViewModel, Sinan_DadosFinais>(viewmodel.Sinan_DadosFinaisViewModel);
                 sinanDadosFinais.id = sinan.id;
-                _uow.sinanDadosFinais.Insert(sinanDadosFinais);
+                _uow.GetRepository<Sinan_DadosFinais>().Insert(sinanDadosFinais);
 
                 var sinanObservacoes = Mapper.Map<Sinan_ObservacoesViewModel, Sinan_Observacoes>(viewmodel.Sinan_ObservacoesViewModel);
                 sinanObservacoes.id = sinan.id;
-                _uow.sinanObservacoes.Insert(sinanObservacoes);
+                _uow.GetRepository<Sinan_Observacoes>().Insert(sinanObservacoes);
 
                 var sinanNotificador = Mapper.Map<Sinan_NotificadorViewModel, Sinan_Notificador>(viewmodel.Sinan_NotificadorViewModel);
                 sinanNotificador.id = sinan.id;
-                _uow.sinanNotificador.Insert(sinanNotificador);
+                _uow.GetRepository<Sinan_Notificador>().Insert(sinanNotificador);
 
                 _uow.Commit();
 
@@ -189,19 +189,19 @@ namespace SINAN.Controllers
         // GET: Sinan/Editar      
         public ActionResult Editar(int Id)
         {
-            var sinan = _uow.sinan.GetById(Id);
-            var sinanDadosGerais = _uow.sinanDadosGerais.GetById(Id);
-            var sinanNotificacaoIndividual = _uow.sinanNotificacaoIndividual.GetById(Id);
-            var sinanDadosResidencia = _uow.sinanDadosResidencia.GetById(Id);
-            var sinanDadosDePessoaAtendida = _uow.sinanDadosDePessoaAtendida.GetById(Id);
-            var sinanDadosDaOcorrencia = _uow.sinanDadosDaOcorrencia.GetById(Id);
-            var sinanViolencia = _uow.sinanViolencia.GetById(Id);
-            var sinanViolenciaSexual = _uow.sinanViolenciaSexual.GetById(Id);
-            var sinanDadosDoProvavelAutorDaViolencia = _uow.sinanDadosDoProvavelAutorDaViolencia.GetById(Id);
-            var sinanEncaminhamento = _uow.sinanEncaminhamento.GetById(Id);
-            var sinanDadosFinais = _uow.sinanDadosFinais.GetById(Id);
-            var sinanObservacoes = _uow.sinanObservacoes.GetById(Id);
-            var sinanNotificador = _uow.sinanNotificador.GetById(Id);
+            var sinan = _uow.GetRepository<Sinan>().GetById(Id);
+            var sinanDadosGerais = _uow.GetRepository<Sinan_DadosGerais>().GetById(Id);
+            var sinanNotificacaoIndividual = _uow.GetRepository<Sinan_NotificacaoIndividual>().GetById(Id);
+            var sinanDadosResidencia = _uow.GetRepository<Sinan_DadosResidencia>().GetById(Id);
+            var sinanDadosDePessoaAtendida = _uow.GetRepository<Sinan_DadosDePessoaAtendida>().GetById(Id);
+            var sinanDadosDaOcorrencia = _uow.GetRepository<Sinan_DadosDaOcorrencia>().GetById(Id);
+            var sinanViolencia = _uow.GetRepository<Sinan_Violencia>().GetById(Id);
+            var sinanViolenciaSexual = _uow.GetRepository<Sinan_ViolenciaSexual>().GetById(Id);
+            var sinanDadosDoProvavelAutorDaViolencia = _uow.GetRepository<Sinan_DadosDoProvavelAutorDaViolencia>().GetById(Id);
+            var sinanEncaminhamento = _uow.GetRepository<Sinan_Encaminhamento>().GetById(Id);
+            var sinanDadosFinais = _uow.GetRepository<Sinan_DadosFinais>().GetById(Id);
+            var sinanObservacoes = _uow.GetRepository<Sinan_Observacoes>().GetById(Id);
+            var sinanNotificador = _uow.GetRepository<Sinan_Notificador>().GetById(Id);
 
             var viewmodel = new SinanViewModel
             {
@@ -238,55 +238,55 @@ namespace SINAN.Controllers
                     usu_codigo = Convert.ToInt32(Session["usu_codigo"]),
                     data_envio = DateTime.Now
                 };
-                _uow.sinan.Update(sinan);
+                _uow.GetRepository<Sinan>().Update(sinan);
 
                 var sinanDadosGerais = Mapper.Map<Sinan_DadosGeraisViewModel, Sinan_DadosGerais>(viewmodel.Sinan_DadosGeraisViewModel);
                 sinanDadosGerais.id = sinan.id;
-                _uow.sinanDadosGerais.Update(sinanDadosGerais);
+                _uow.GetRepository<Sinan_DadosGerais>().Update(sinanDadosGerais);
 
                 var sinanNotificacaoIndividual = Mapper.Map<Sinan_NotificacaoIndividualViewModel, Sinan_NotificacaoIndividual>(viewmodel.Sinan_NotificacaoIndividualViewModel);
                 sinanNotificacaoIndividual.id = sinan.id;
-                _uow.sinanNotificacaoIndividual.Update(sinanNotificacaoIndividual);
+                _uow.GetRepository<Sinan_NotificacaoIndividual>().Update(sinanNotificacaoIndividual);
 
                 var sinanDadosResidencia = Mapper.Map<Sinan_DadosResidenciaViewModel, Sinan_DadosResidencia>(viewmodel.Sinan_DadosResidenciaViewModel);
                 sinanDadosResidencia.id = sinan.id;
-                _uow.sinanDadosResidencia.Update(sinanDadosResidencia);
+                _uow.GetRepository<Sinan_DadosResidencia>().Update(sinanDadosResidencia);
 
                 var sinanDadosDePessoaAtendida = Mapper.Map<Sinan_DadosDePessoaAtendidaViewModel, Sinan_DadosDePessoaAtendida>(viewmodel.Sinan_DadosDePessoaAtendidaViewModel);
                 sinanDadosDePessoaAtendida.id = sinan.id;
-                _uow.sinanDadosDePessoaAtendida.Update(sinanDadosDePessoaAtendida);
+                _uow.GetRepository<Sinan_DadosDePessoaAtendida>().Update(sinanDadosDePessoaAtendida);
 
                 var sinanDadosDaOcorrencia = Mapper.Map<Sinan_DadosDaOcorrenciaViewModel, Sinan_DadosDaOcorrencia>(viewmodel.Sinan_DadosDaOcorrenciaViewModel);
                 sinanDadosDaOcorrencia.id = sinan.id;
-                _uow.sinanDadosDaOcorrencia.Update(sinanDadosDaOcorrencia);
+                _uow.GetRepository<Sinan_DadosDaOcorrencia>().Update(sinanDadosDaOcorrencia);
 
                 var sinanViolencia = Mapper.Map<Sinan_ViolenciaViewModel, Sinan_Violencia>(viewmodel.Sinan_ViolenciaViewModel);
                 sinanViolencia.id = sinan.id;
-                _uow.sinanViolencia.Update(sinanViolencia);
+                _uow.GetRepository<Sinan_Violencia>().Update(sinanViolencia);
 
                 var sinanViolenciaSexual = Mapper.Map<Sinan_ViolenciaSexualViewModel, Sinan_ViolenciaSexual>(viewmodel.Sinan_ViolenciaSexualViewModel);
                 sinanViolenciaSexual.id = sinan.id;
-                _uow.sinanViolenciaSexual.Update(sinanViolenciaSexual);
+                _uow.GetRepository<Sinan_ViolenciaSexual>().Update(sinanViolenciaSexual);
 
                 var sinanDadosDoProvavelAutorDaViolencia = Mapper.Map<Sinan_DadosDoProvavelAutorViolenciaViewModel, Sinan_DadosDoProvavelAutorDaViolencia>(viewmodel.Sinan_DadosDoProvavelAutorViolenciaViewModel);
                 sinanDadosDoProvavelAutorDaViolencia.id = sinan.id;
-                _uow.sinanDadosDoProvavelAutorDaViolencia.Update(sinanDadosDoProvavelAutorDaViolencia);
+                _uow.GetRepository<Sinan_DadosDoProvavelAutorDaViolencia>().Update(sinanDadosDoProvavelAutorDaViolencia);
 
                 var sinanEncaminhamento = Mapper.Map<Sinan_EncaminhamentoViewModel, Sinan_Encaminhamento>(viewmodel.Sinan_EncaminhamentoViewModel);
                 sinanEncaminhamento.id = sinan.id;
-                _uow.sinanEncaminhamento.Update(sinanEncaminhamento);
+                _uow.GetRepository<Sinan_Encaminhamento>().Update(sinanEncaminhamento);
 
                 var sinanDadosFinais = Mapper.Map<Sinan_DadosFinaisViewModel, Sinan_DadosFinais>(viewmodel.Sinan_DadosFinaisViewModel);
                 sinanDadosFinais.id = sinan.id;
-                _uow.sinanDadosFinais.Update(sinanDadosFinais);
+                _uow.GetRepository<Sinan_DadosFinais>().Update(sinanDadosFinais);
 
                 var sinanObservacoes = Mapper.Map<Sinan_ObservacoesViewModel, Sinan_Observacoes>(viewmodel.Sinan_ObservacoesViewModel);
                 sinanObservacoes.id = sinan.id;
-                _uow.sinanObservacoes.Update(sinanObservacoes);
+                _uow.GetRepository<Sinan_Observacoes>().Update(sinanObservacoes);
 
                 var sinanNotificador = Mapper.Map<Sinan_NotificadorViewModel, Sinan_Notificador>(viewmodel.Sinan_NotificadorViewModel);
                 sinanNotificador.id = sinan.id;
-                _uow.sinanNotificador.Update(sinanNotificador);
+                _uow.GetRepository<Sinan_Notificador>().Update(sinanNotificador);
 
                 _uow.Commit();
 
