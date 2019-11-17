@@ -48,6 +48,7 @@ namespace SINAN.Controllers
 
                 usuario.usu_senha = MD5Hash.GetMd5Hash(usuario.usu_senha);
                 usuario.usu_datacadastro = DateTime.Now;
+                usuario.usu_ativo = true;
 
                 if (ValidarCPF.ValidateCPF(usuario.usu_cpf))
                 {
