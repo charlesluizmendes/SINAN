@@ -112,8 +112,6 @@
 
     $.fn.list_end = function () {
 
-        $.fn.in_block_ui();
-
         var cep = $("#cep").val().replace("-", "");
         var token = $("[name='__RequestVerificationToken']").val();
 
@@ -158,13 +156,10 @@
                     //Logradouro
                     var logradouro_residencia = $("#logradouro_residencia");
                     logradouro_residencia.val(data.tlo_tx + " " + data.log_no);
-
-                    $.fn.out_block_ui();
                 }                
             },
             error: function (e) {
 
-                $.fn.out_block_ui();
             }
         });
     };

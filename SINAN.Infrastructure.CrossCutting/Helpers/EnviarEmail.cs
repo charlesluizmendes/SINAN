@@ -46,38 +46,6 @@ namespace SINAN.Infrastructure.CrossCutting.Helpers
             {
                 throw;
             }
-        }
-
-        public static void SendEmail(string from, string title, string to, string name, string subject, string body, byte[] attachment)
-        {
-            try
-            {
-                SmtpClient smtp = new SmtpClient();
-                smtp.Host = mailSettings.Smtp.Network.Host;
-                smtp.Port = mailSettings.Smtp.Network.Port;
-                smtp.EnableSsl = mailSettings.Smtp.Network.EnableSsl;
-                smtp.UseDefaultCredentials = mailSettings.Smtp.Network.DefaultCredentials;
-                smtp.Credentials = new System.Net.NetworkCredential(mailSettings.Smtp.Network.UserName, mailSettings.Smtp.Network.Password);
-
-                //ServicePointManager.ServerCertificateValidationCallback =
-                //delegate(object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
-                //{ return true; };
-
-                MailMessage mail = new MailMessage();
-                mail.From = new MailAddress(from, title);
-                mail.To.Add(new MailAddress(to, name));
-                mail.Subject = subject;
-                mail.Body = body;
-
-                Attachment att = new Attachment(new MemoryStream(attachment), "SINAN.pdf");
-                mail.Attachments.Add(att);
-
-                smtp.Send(mail);
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-        }
+        }        
     }
 }

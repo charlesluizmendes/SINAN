@@ -44,7 +44,6 @@ namespace SINAN.Controllers
             string searchCartaoSUS,
             int? searchMotivoOcorrencia,
             DateTime? searchDataOcorrencia,
-            DateTime? searchDataEnvio,
             int? page)
         {
             var obj = (from sinan in _uow.sinan.Get()
@@ -58,14 +57,12 @@ namespace SINAN.Controllers
                            searchCartaoSUS,
                            searchMotivoOcorrencia,
                            searchDataOcorrencia,
-                           searchDataEnvio,
                            sinanNoticacaoIndividual.id,
                            sinanNoticacaoIndividual.nome_paciente,
                            sinanNoticacaoIndividual.data_nascimento,
                            sinanNoticacaoIndividual.num_cartaosus,
                            sinanViolencia.motivo_ocorrencia,
                            sinanDadosGerais.data_violencia,
-                           sinan.data_envio
                        })
                       .ToList();
 
@@ -97,13 +94,7 @@ namespace SINAN.Controllers
             {
                 obj = obj.Where(a => a.data_violencia != null && a.data_violencia.Equals(searchDataOcorrencia))
                     .ToList();
-            }
-
-            if (searchDataEnvio != null)
-            {
-                obj = obj.Where(a => a.data_envio != null && a.data_envio.Equals(searchDataEnvio))
-                    .ToList();
-            }
+            }            
 
             var viewmodel = Mapper.Map<List<ListarViewModel>>(obj);
 

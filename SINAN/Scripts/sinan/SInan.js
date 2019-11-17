@@ -44,3 +44,17 @@
     $('body').scrollspy({ target: '#spy', offset: 80 });   
 
 });
+
+// Requisição Ajax
+
+$(document).ajaxStart(function () {
+
+    $.fn.in_block_ui();
+});
+
+// Requisição Ajax
+
+$(document).ajaxStop(function () {
+
+    $.fn.out_block_ui();
+});

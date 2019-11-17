@@ -19,8 +19,6 @@ namespace SINAN.Application.ViewModel
         public ViolenciaMotivada? searchMotivoOcorrencia { get; set; }
 
         public DateTime? searchDataOcorrencia { get; set; }
-
-        public DateTime? searchDataEnvio { get; set; }  
         
         public int id { get; set; }        
 
@@ -41,11 +39,6 @@ namespace SINAN.Application.ViewModel
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         [DataType(DataType.DateTime)]
         [Display(Name = "Data Ocorrência")]
-        public DateTime? data_violencia { get; set; }
-
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
-        [DataType(DataType.DateTime)]
-        [Display(Name = "Data Envio")]
-        public DateTime? data_envio { get; set; }
+        public DateTime? data_violencia { get; set; }        
     }
 }
