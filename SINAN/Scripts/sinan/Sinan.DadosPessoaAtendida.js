@@ -1,8 +1,8 @@
 ﻿$(document).ready(function () {
 
-    // Eventos
+    // Funções
 
-    $("#deficiencia").change(function () {
+    $.fn.deficiencia = function () {
 
         var deficiencia = $("#deficiencia");
 
@@ -14,7 +14,7 @@
             $("#deficiencia_intelectual").prop('disabled', false);
             $("#deficiencia_auditiva").prop('disabled', false);
             $("#trans_de_comportamento").prop('disabled', false);
-            $("#deficiencia_outros").prop('disabled', false);                      
+            $("#deficiencia_outros").prop('disabled', false);
 
         } else {
 
@@ -42,9 +42,9 @@
             $("#deficiencia_outros_extenso").val("");
             $("#deficiencia_outros_extenso").prop('disabled', true);
         }
-    });
+    };
 
-    $("#deficiencia_outros").change(function () {
+    $.fn.deficiencia_outros = function () {
 
         var deficiencia_outros = $("#deficiencia_outros");
 
@@ -57,7 +57,36 @@
             $("#deficiencia_outros_extenso").val("");
             $("#deficiencia_outros_extenso").prop('disabled', true);
         }
+    };
 
+    // Eventos
+
+    $("#deficiencia").change(function () {
+
+        $.fn.deficiencia();
     });
+
+    $("#deficiencia_outros").change(function () {
+
+        $.fn.deficiencia_outros();
+    });
+
+    // Variáveis
+
+    var deficiencia = $("#deficiencia").val();
+
+    var deficiencia_outros = $("#deficiencia_outros").val();
+
+    // Cargas
+
+    if (deficiencia) {
+
+        $.fn.deficiencia();
+    }
+
+    if (deficiencia_outros) {
+
+        $.fn.deficiencia_outros();
+    }
 
 });

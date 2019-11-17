@@ -15,7 +15,7 @@
 <div class="container">
     <div class="row">
         <div class="py-5 text-center">
-            <h2>Listar SINAN</h2>
+            <h2>Consultar</h2>
         </div>
         <br>
         @using (Html.BeginForm("Listar", "Sinan", FormMethod.Get,
@@ -42,12 +42,16 @@
                     <label>Data Ocorrência</label>
                     @Html.TextBoxFor(model => model.FirstOrDefault().searchDataOcorrencia, null, new { @type = "date", @class = "form-control" })
                 </div>
-                <div class="form-group col-md-2">
+                @*<div class="form-group col-md-2">
                     <label>Data Envio</label>
                     @Html.TextBoxFor(model => model.FirstOrDefault().searchDataEnvio, null, new { @type = "date", @class = "form-control" })
+                </div>*@
+                <div class="form-group col-md-2">
+                    <br />
+                    <input class="btn btn-md btn-danger" style="margin-top: 5px;" type="submit" name="submit" value="Procurar" />                    
                 </div>
             </div>
-            <div class="form-row">
+            @*<div class="form-row">
                 <div class="form-group col-md-5">
                 </div>
                 <div class="form-group col-md-2" style="text-align:center">
@@ -55,7 +59,7 @@
                 </div>
                 <div class="form-group col-md-5">
                 </div>
-            </div>
+            </div>*@
         }
     </div>
     <div class="row">
@@ -65,7 +69,8 @@
                     <thead>
                         <tr>
                             <th scope="col">
-                                #
+                            </th>
+                            <th scope="col">
                             </th>
                             <th scope="col">
                                 @Html.DisplayNameFor(model => model.First().nome_paciente)
@@ -82,44 +87,45 @@
                             <th scope="col">
                                 @Html.DisplayNameFor(model => model.First().data_violencia)
                             </th>
-                            <th scope="col">
+                            @*<th scope="col">
                                 @Html.DisplayNameFor(model => model.First().data_envio)
-                            </th>
-                            <th scope="col">
-                                #
-                            </th>
+                            </th>*@
                         </tr>
                     </thead>
                     <tbody>
                         @foreach (var item in Model)
                         {
-                        <tr>
-                            <th scope="row">
-                                @Html.ActionLink("Editar", "Editar", new { id = item.id })
-                            </th>
-                            <td>
-                                @Html.DisplayFor(model => item.nome_paciente)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(model => item.data_nascimento)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(model => item.num_cartaosus)
-                            </td>
-                            <td>                               
-                                @{ string motivo_ocorrencia = item.motivo_ocorrencia == 0 ? "" : item.motivo_ocorrencia.ToDescription(); }
-                                @Html.DisplayFor(model => motivo_ocorrencia)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(model => item.data_violencia)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(model => item.data_envio)
-                            </td>
-                            <th>
-                                <a href="@Url.Action("Sinan", "Relatorios", new { id = item.id })" target="_blank">Imprimir</a>
-                            </th>
-                        </tr>
+                            <tr>
+                                <th scope="row">
+                                    <a href="@Url.Action("Editar", "Sinan", new { id = item.id })" data-toggle="tooltip" title="Editar">
+                                        <span class="glyphicon glyphicon-edit"></span>
+                                    </a>
+                                </th>
+                                <th>
+                                    <a href="@Url.Action("Sinan", "Relatorios", new { id = item.id })" target="_blank" data-toggle="tooltip" title="Imprimir">
+                                        <span class="glyphicon glyphicon-print"></span>
+                                    </a>
+                                </th>
+                                <td>
+                                    @Html.DisplayFor(model => item.nome_paciente)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(model => item.data_nascimento)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(model => item.num_cartaosus)
+                                </td>
+                                <td>
+                                    @{ string motivo_ocorrencia = item.motivo_ocorrencia == 0 ? "" : item.motivo_ocorrencia.ToDescription(); }
+                                    @Html.DisplayFor(model => motivo_ocorrencia)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(model => item.data_violencia)
+                                </td>
+                                @*<td>
+                                    @Html.DisplayFor(model => item.data_envio)
+                                </td>*@
+                            </tr>
                         }
                     </tbody>
                 </table>
@@ -130,8 +136,8 @@
         <div class="col-md-4 order-md-1 mb-1">
         </div>
         <div id='Paging' class="col-md-4 order-md-1 mb-1" style="text-align:center">
-            Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
-            of @Model.PageCount
+            Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+            de @Model.PageCount
 
             @Html.PagedListPager(Model, page => Url.Action("Listar", "Sinan", new
             {

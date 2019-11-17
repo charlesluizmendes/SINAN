@@ -9,7 +9,7 @@ namespace SINAN.Domain.Entities
     public class Sinan_DadosDoProvavelAutorDaViolencia
     {
         public virtual int id { get; set; }
-        public virtual int? num_envolvido { get; set; }
+        public virtual int? num_envolvidos { get; set; }
         public virtual int? pai { get; set; }
         public virtual int? ex_conjugue { get; set; }
         public virtual int? amigos_conhecidos { get; set; }

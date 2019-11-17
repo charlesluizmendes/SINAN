@@ -1,8 +1,8 @@
 ﻿$(document).ready(function () {
 
-    // Eventos
+    // Funções
 
-    $("#sexo").change(function () {
+    $.fn.sexo = function () {
 
         var sexo = $("#sexo");
 
@@ -15,9 +15,9 @@
             $("#gestante").val(null);
             $("#gestante").prop('disabled', true);
         }
-    });
+    }; 
 
-    $("#continua_estudando").change(function () {
+    $.fn.continua_estudando = function () {
 
         var continua_estudando = $("#continua_estudando");
 
@@ -41,9 +41,9 @@
             $("#nome_escola").val('');
             $("#nome_escola").prop('disabled', true);
         }
-    });
+    };
 
-    $("#rede_ensino").change(function () {
+    $.fn.rede_ensino = function () {
 
         var rede_ensino = $("#rede_ensino");
 
@@ -56,6 +56,48 @@
             $("#esfera_ensino").val(null);
             $("#esfera_ensino").prop('disabled', true);
         }
+    };
+
+    // Eventos
+
+    $("#sexo").change(function () {
+
+        $.fn.sexo();
     });
+
+    $("#continua_estudando").change(function () {
+
+        $.fn.continua_estudando();
+    });
+
+    $("#rede_ensino").change(function () {
+
+        $.fn.rede_ensino();
+    });
+
+    // Variáveis
+
+    var sexo = $("#sexo").val();
+
+    var continua_estudando = $("#continua_estudando").val();
+
+    var rede_ensino = $("#rede_ensino").val();   
+
+    // Cargas
+
+    if (sexo) {
+
+        $.fn.sexo();
+    }
+
+    if (continua_estudando) {
+
+        $.fn.continua_estudando();
+    }
+
+    if (rede_ensino) {
+
+        $.fn.rede_ensino();
+    }
 
 });

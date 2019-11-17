@@ -28,6 +28,7 @@ namespace SINAN.Application.AutoMapper
                 .AfterMap((v, e) => e.uf_origem = v.uf_origem == null ? "" : Enum.GetName(typeof(UF), v.uf_origem))
                 .AfterMap((v, e) => e.unidade_notificadora = v.unidade_notificadora == null ? 0 : (int)v.unidade_notificadora);
             CreateMap<Sinan_NotificacaoIndividualViewModel, Sinan_NotificacaoIndividual>()
+                .AfterMap((v, e) => e.ou_idade = v.ou_idade == null ? 0 : (int)v.ou_idade)
                 .AfterMap((v, e) => e.sexo = v.sexo == null ? null : Enum.GetName(typeof(Sexo), v.sexo))
                 .AfterMap((v, e) => e.gestante = v.gestante == null ? 0 : (int)v.gestante)
                 .AfterMap((v, e) => e.raca = v.raca == null ? 0 : (int)v.raca)
@@ -93,6 +94,49 @@ namespace SINAN.Application.AutoMapper
                 .AfterMap((v, e) => e.coleta_de_sangue = v.coleta_de_sangue == null ? 0 : (int)v.coleta_de_sangue)
                 .AfterMap((v, e) => e.coleta_de_secrecao_vaginal = v.coleta_de_secrecao_vaginal == null ? 0 : (int)v.coleta_de_secrecao_vaginal)
                 .AfterMap((v, e) => e.aborto_previsto_em_lei = v.aborto_previsto_em_lei == null ? 0 : (int)v.aborto_previsto_em_lei);
+            CreateMap<Sinan_DadosDoProvavelAutorViolenciaViewModel, Sinan_DadosDoProvavelAutorDaViolencia>()
+                .AfterMap((v, e) => e.num_envolvidos = v.num_envolvidos == null ? 0 : (int)v.num_envolvidos)
+                .AfterMap((v, e) => e.pai = v.pai == null ? 0 : (int)v.pai)
+                .AfterMap((v, e) => e.ex_conjugue = v.ex_conjugue == null ? 0 : (int)v.ex_conjugue)
+                .AfterMap((v, e) => e.amigos_conhecidos = v.amigos_conhecidos == null ? 0 : (int)v.amigos_conhecidos)
+                .AfterMap((v, e) => e.policial_agente = v.policial_agente == null ? 0 : (int)v.policial_agente)
+                .AfterMap((v, e) => e.mae = v.mae == null ? 0 : (int)v.mae)
+                .AfterMap((v, e) => e.namoradoa = v.namoradoa == null ? 0 : (int)v.namoradoa)
+                .AfterMap((v, e) => e.desconhecidoa = v.desconhecidoa == null ? 0 : (int)v.desconhecidoa)
+                .AfterMap((v, e) => e.propria_pessoa = v.propria_pessoa == null ? 0 : (int)v.propria_pessoa)
+                .AfterMap((v, e) => e.padrassto = v.padrassto == null ? 0 : (int)v.padrassto)
+                .AfterMap((v, e) => e.ex_namoradoa = v.ex_namoradoa == null ? 0 : (int)v.ex_namoradoa)
+                .AfterMap((v, e) => e.cuidadoraa = v.cuidadoraa == null ? 0 : (int)v.cuidadoraa)
+                .AfterMap((v, e) => e.madrastra = v.madrastra == null ? 0 : (int)v.madrastra)
+                .AfterMap((v, e) => e.filhoa = v.filhoa == null ? 0 : (int)v.filhoa)
+                .AfterMap((v, e) => e.patrao_chefe = v.patrao_chefe == null ? 0 : (int)v.patrao_chefe)
+                .AfterMap((v, e) => e.conjugue = v.conjugue == null ? 0 : (int)v.conjugue)
+                .AfterMap((v, e) => e.irmaoa = v.irmaoa == null ? 0 : (int)v.irmaoa)
+                .AfterMap((v, e) => e.pessoa_relacao_intituc = v.pessoa_relacao_intituc == null ? 0 : (int)v.pessoa_relacao_intituc)
+                .AfterMap((v, e) => e.vinculo_outros = v.vinculo_outros == null ? 0 : (int)v.vinculo_outros)
+                .AfterMap((v, e) => e.sexo_autor = v.sexo_autor == null ? 0 : (int)v.sexo_autor)
+                .AfterMap((v, e) => e.uso_alcool = v.uso_alcool == null ? 0 : (int)v.uso_alcool)
+                .AfterMap((v, e) => e.ciclo_vida_autor = v.ciclo_vida_autor == null ? 0 : (int)v.ciclo_vida_autor);
+            CreateMap<Sinan_EncaminhamentoViewModel, Sinan_Encaminhamento>()
+                .AfterMap((v, e) => e.rede_saude = v.rede_saude == null ? 0 : (int)v.rede_saude)
+                .AfterMap((v, e) => e.conselho_do_idoso = v.conselho_do_idoso == null ? 0 : (int)v.conselho_do_idoso)
+                .AfterMap((v, e) => e.delegacia_atendimento_mulher = v.delegacia_atendimento_mulher == null ? 0 : (int)v.delegacia_atendimento_mulher)
+                .AfterMap((v, e) => e.rede_assistencia_social = v.rede_assistencia_social == null ? 0 : (int)v.rede_assistencia_social)
+                .AfterMap((v, e) => e.delegacia_atendimento_idoso = v.delegacia_atendimento_idoso == null ? 0 : (int)v.delegacia_atendimento_idoso)
+                .AfterMap((v, e) => e.outras_delegacias = v.outras_delegacias == null ? 0 : (int)v.outras_delegacias)
+                .AfterMap((v, e) => e.rede_educacao = v.rede_educacao == null ? 0 : (int)v.rede_educacao)
+                .AfterMap((v, e) => e.centro_referencia_diretos_humanos = v.centro_referencia_diretos_humanos == null ? 0 : (int)v.centro_referencia_diretos_humanos)
+                .AfterMap((v, e) => e.justica_da_infancia_juventude = v.justica_da_infancia_juventude == null ? 0 : (int)v.justica_da_infancia_juventude)
+                .AfterMap((v, e) => e.rede_atendimento_mulher = v.rede_atendimento_mulher == null ? 0 : (int)v.rede_atendimento_mulher)
+                .AfterMap((v, e) => e.delegacia_especializada_crianca_adolecente = v.delegacia_especializada_crianca_adolecente == null ? 0 : (int)v.delegacia_especializada_crianca_adolecente)
+                .AfterMap((v, e) => e.defensoria_publica = v.defensoria_publica == null ? 0 : (int)v.defensoria_publica)
+                .AfterMap((v, e) => e.conselho_tutelar = v.conselho_tutelar == null ? 0 : (int)v.conselho_tutelar)
+                .AfterMap((v, e) => e.ministerio_publico = v.ministerio_publico == null ? 0 : (int)v.ministerio_publico);
+            CreateMap<Sinan_DadosFinaisViewModel, Sinan_DadosFinais>()
+                .AfterMap((v, e) => e.violencia_trabalho = v.violencia_trabalho == null ? 0 : (int)v.violencia_trabalho)
+                .AfterMap((v, e) => e.emissao_cat = v.emissao_cat == null ? 0 : (int)v.emissao_cat);
+            CreateMap<Sinan_ObservacoesViewModel, Sinan_Observacoes>();
+            CreateMap<Sinan_NotificadorViewModel, Sinan_Notificador>();
         }
     }
 }

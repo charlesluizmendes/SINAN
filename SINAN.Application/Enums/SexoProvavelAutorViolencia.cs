@@ -7,13 +7,16 @@ using System.Threading.Tasks;
 
 namespace SINAN.Application.Enums
 {
-    public enum TemNomePaiRegistro
+    public enum SexoProvavelAutorViolencia
     {
-        [Display(Name = "Sim")]
-        Sim = 1,
+        [Display(Name = "Masculino")]
+        Masculino = 1,
 
-        [Display(Name = "Não")]
-        Nao = 1,
+        [Display(Name = "Feminino")]
+        Feminino = 2,
+
+        [Display(Name = "Ambos os sexos")]
+        AmbosOsSexos = 3,
 
         [Display(Name = "Ignorado")]
         Ignorado = 9,

@@ -147,7 +147,7 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="form-group col-md-8">
+                            <div class="form-group col-md-9">
                                 <label for="cboUnidadeSaudeGerais">8. Unidade de Saúde</label>
                                 @Html.DropDownListFor(model => model.Sinan_DadosGeraisViewModel.unidade_saude, Enumerable.Empty<SelectListItem>(), new { @id = "unidade_saude", @class = "form-control" })
                                 @Html.HiddenFor(model => model.Sinan_DadosGeraisViewModel.unidade_saude, new { @id = "unidade_saude_", })
@@ -186,7 +186,7 @@
                                         @Html.ValidationMessageFor(model => model.Sinan_NotificacaoIndividualViewModel.idade, "", new { @id = "idade", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-8">
-                                        @Html.TextBoxFor(model => model.Sinan_NotificacaoIndividualViewModel.ou_idade, new { @id = "ou_idade", @class = "form-control" })
+                                        @Html.EnumDropDownListFor(model => model.Sinan_NotificacaoIndividualViewModel.ou_idade, "-- selecione --", new { @id = "ou_idade", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_NotificacaoIndividualViewModel.ou_idade, "", new { @id = "ou_idade", @class = "text-danger" })
                                     </div>
                                 </div>
@@ -216,7 +216,10 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-2">
-                                <label for="cboContinuaEstudandoIndividual">16.1. Continua estudando?</label>
+                                <label for="cboContinuaEstudandoIndividual">
+                                    16.1. Continua estudando?
+
+                                </label>
                                 @Html.EnumDropDownListFor(model => model.Sinan_NotificacaoIndividualViewModel.continua_estudando, "-- selecione --", new { @id = "continua_estudando", @class = "form-control" })
                                 @Html.ValidationMessageFor(model => model.Sinan_NotificacaoIndividualViewModel.continua_estudando, "", new { @id = "continua_estudando", @class = "text-danger" })
                             </div>
@@ -230,8 +233,8 @@
                             </div>
                             <div class="form-group col-md-2">
                                 <label for="cboRedeDeEnsinoIndividual">
-                                    16.3. Rede de ensino<br />
-                                    &nbsp;
+                                    16.3. Rede de ensino
+
                                 </label>
                                 @Html.EnumDropDownListFor(model => model.Sinan_NotificacaoIndividualViewModel.rede_ensino, "-- selecione --", new { @id = "rede_ensino", @class = "form-control", @disabled = "disabled" })
                                 @Html.ValidationMessageFor(model => model.Sinan_NotificacaoIndividualViewModel.rede_ensino, "", new { @id = "rede_ensino", @class = "text-danger" })
@@ -415,47 +418,51 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-3">
-                                <label for="cboPossuiAlgumTipoDeficienciaTranstornoAtendida" style="margin-top: 3px;">38. Possui deficiência/trasntorno?</label>
+                                <label for="cboPossuiAlgumTipoDeficienciaTranstornoAtendida" style="margin-top: 3px; margin-bottom: 10px;">38. Possui deficiência/trasntorno?</label>
                                 @Html.EnumDropDownListFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia, "-- selecione --", new { @id = "deficiencia", @class = "form-control" })
                                 @Html.ValidationMessageFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia, "", new { @id = "deficiencia", @class = "text-danger" })
                             </div>
                             <div class="form-group col-md-9">
-                                <label for="cboTipoDeViolencia">39. Se sim, qual tipo de deficiência/transtorno?</label>
+                                <label for="cboTipoDeViolencia" style="margin-top: 3px;">39. Se sim, qual tipo de deficiência/transtorno?</label>
                                 <div class="row">
-                                    <div class="form-group col-md-2">
-                                        <label for="cboDeficienciaFisica"><small>Física</small></label>
+                                    <div class="form-group col-md-3">
+                                        <label for="cboDeficienciaFisica">
+                                            <small>Física</small>
+                                        </label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia_fisica, "-- selecione --", new { @id = "deficiencia_fisica", @class = "form-control", @disabled = "disabled" })
                                         @Html.ValidationMessageFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia_fisica, "", new { @id = "deficiencia_fisica", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-2">
+                                    <div class="form-group col-md-3">
                                         <label for="cboDeficienciaVisual"><small>Deficiência visual</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia_visual, "-- selecione --", new { @id = "deficiencia_visual", @class = "form-control", @disabled = "disabled" })
                                         @Html.ValidationMessageFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia_visual, "", new { @id = "deficiencia_visual", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-2">
+                                    <div class="form-group col-md-3">
                                         <label for="cboTranstornoMental"><small>Transtorno mental</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.transtorno_mental, "-- selecione --", new { @id = "transtorno_mental", @class = "form-control", @disabled = "disabled" })
                                         @Html.ValidationMessageFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.transtorno_mental, "", new { @id = "transtorno_mental", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-2">
-                                        <label for="cboDeficienciaIntelectual" style="font-size: 11px;"><small>Deficiência intelectual</small></label>
+                                    <div class="form-group col-md-3">
+                                        <label for="cboDeficienciaIntelectual"><small>Deficiência intelectual</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia_intelectual, "-- selecione --", new { @id = "deficiencia_intelectual", @class = "form-control", @disabled = "disabled" })
                                         @Html.ValidationMessageFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia_intelectual, "", new { @id = "deficiencia_intelectual", @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="form-group col-md-2">
+                                    <div class="form-group col-md-3">
                                         <label for="cboDeficienciaAuditiva"><small>Deficiência auditiva</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia_auditiva, "-- selecione --", new { @id = "deficiencia_auditiva", @class = "form-control", @disabled = "disabled" })
                                         @Html.ValidationMessageFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia_auditiva, "", new { @id = "deficiencia_auditiva", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-2">
-                                        <label for="cboTranstornoDeComportamento" style="font-size: 10px;"><small>Trasnt. de comportamento</small></label>
+                                    <div class="form-group col-md-3">
+                                        <label for="cboTranstornoDeComportamento"><small>Trasnt. de comportamento</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.trans_de_comportamento, "-- selecione --", new { @id = "trans_de_comportamento", @class = "form-control", @disabled = "disabled" })
                                         @Html.ValidationMessageFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.trans_de_comportamento, "", new { @id = "trans_de_comportamento", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-2">
-                                        <label for="cboOutrosSeSimQualTipo"><small>Outros</small></label>
+                                    <div class="form-group col-md-3">
+                                        <label for="cboOutrosSeSimQualTipo">
+                                            <small>Outros</small>
+                                        </label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia_outros, "-- selecione --", new { @id = "deficiencia_outros", @class = "form-control", @disabled = "disabled" })
                                         @Html.ValidationMessageFor(model => model.Sinan_DadosDePessoaAtendidaViewModel.deficiencia_outros, "", new { @id = "deficiencia_outros", @class = "text-danger" })
                                     </div>
@@ -474,7 +481,7 @@
                     <fieldset>
                         <legend id="anch5">Dados da Ocorrência</legend>
                         <div class="form-row">
-                            <div class="form-group col-md-2" style="width: auto;">
+                            <div class="form-group col-md-2">
                                 <label for="cboUFOcorrencia">40. UF</label>
                                 @Html.EnumDropDownListFor(model => model.Sinan_DadosDaOcorrenciaViewModel.uf_ocorrencia, "-- selecione --", new { @id = "uf_ocorrencia", @class = "form-control" })
                                 @Html.HiddenFor(model => model.Sinan_DadosDaOcorrenciaViewModel.uf_ocorrencia, new { @id = "uf_ocorrencia_" })
@@ -521,23 +528,23 @@
                                 @Html.TextBoxFor(model => model.Sinan_DadosDaOcorrenciaViewModel.numero_ocorrencia, new { @id = "numero_ocorrencia", @class = "form-control" })
                                 @Html.ValidationMessageFor(model => model.Sinan_DadosDaOcorrenciaViewModel.numero_ocorrencia, "", new { @id = "numero_ocorrencia", @class = "text-danger" })
                             </div>
-                            <div class="form-group col-md-6">
+                            <div class="form-group col-md-7">
                                 <label for="txtComplementoOcorrencia">46. Complemento <small>(apto., casa, ...)</small></label>
-                                 @Html.TextBoxFor(model => model.Sinan_DadosDaOcorrenciaViewModel.comp_ocorrencia, new { @id = "comp_ocorrencia", @class = "form-control" })
+                                @Html.TextBoxFor(model => model.Sinan_DadosDaOcorrenciaViewModel.comp_ocorrencia, new { @id = "comp_ocorrencia", @class = "form-control" })
                                 @Html.ValidationMessageFor(model => model.Sinan_DadosDaOcorrenciaViewModel.comp_ocorrencia, "", new { @id = "comp_ocorrencia", @class = "text-danger" })
                             </div>
-                            <div class="form-group col-md-2">
+                            <div class="form-group col-md-3">
                                 <label for="txtGeoCampoTresOcorrencia">47. Geo Campo 3</label>
                                 @Html.TextBoxFor(model => model.Sinan_DadosDaOcorrenciaViewModel.geo_campo3_ocorrencia, new { @id = "geo_campo3_ocorrencia", @class = "form-control" })
                                 @Html.ValidationMessageFor(model => model.Sinan_DadosDaOcorrenciaViewModel.geo_campo3_ocorrencia, "", new { @id = "geo_campo3_ocorrencia", @class = "text-danger" })
                             </div>
-                            <div class="form-group col-md-2">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-3">
                                 <label for="txtGeoCampoQuatroOcorrencia">48. Geo Campo 4</label>
                                 @Html.TextBoxFor(model => model.Sinan_DadosDaOcorrenciaViewModel.geo_campo4_ocorrencia, new { @id = "geo_campo4_ocorrencia", @class = "form-control" })
                                 @Html.ValidationMessageFor(model => model.Sinan_DadosDaOcorrenciaViewModel.geo_campo4_ocorrencia, "", new { @id = "geo_campo4_ocorrencia", @class = "text-danger" })
                             </div>
-                        </div>
-                        <div class="form-row">
                             <div class="form-group col-md-7">
                                 <label for="txtPontoReferenciaOcorrencia">49. Ponto de Referência</label>
                                 @Html.TextBoxFor(model => model.Sinan_DadosDaOcorrenciaViewModel.referencia_ocorrencia, new { @id = "referencia_ocorrencia", @class = "form-control" })
@@ -548,13 +555,13 @@
                                 @Html.EnumDropDownListFor(model => model.Sinan_DadosDaOcorrenciaViewModel.zona_ocorrencia, "-- selecione --", new { @id = "zona_ocorrencia", @class = "form-control" })
                                 @Html.ValidationMessageFor(model => model.Sinan_DadosDaOcorrenciaViewModel.zona_ocorrencia, "", new { @id = "zona_ocorrencia", @class = "text-danger" })
                             </div>
+                        </div>
+                        <div class="form-row">
                             <div class="form-group col-md-2">
-                                <label for="txtHoraOcorrencia">51. <small>Hora da ocorrência</small></label>
+                                <label for="txtHoraOcorrencia">51. <small>Hora Ocorrência</small></label>
                                 @Html.TextBoxFor(model => model.Sinan_DadosDaOcorrenciaViewModel.hora_ocorrencia, new { @id = "hora_ocorrencia", @class = "form-control" })
                                 @Html.ValidationMessageFor(model => model.Sinan_DadosDaOcorrenciaViewModel.hora_ocorrencia, "", new { @id = "hora_ocorrencia", @class = "text-danger" })
                             </div>
-                        </div>
-                        <div class="form-row">
                             <div class="form-group col-md-3">
                                 <label for="cboLocalOcorrencia">52. Local de ocorrência</label>
                                 @Html.EnumDropDownListFor(model => model.Sinan_DadosDaOcorrenciaViewModel.local_ocorrencia, "-- selecione --", new { @id = "local_ocorrencia", @class = "form-control" })
@@ -586,60 +593,60 @@
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="cboTipoDeViolencia">56.  Tipo de violência</label>
+                                <label for="cboTipoDeViolencia">56. Tipo de violência</label>
                                 <div class="row">
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboTipoViolenciaFisica"><small>Física</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.violencia_fisica, "-- selecione --", new { @id = "violencia_fisica", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.violencia_fisica, "", new { @id = "violencia_fisica", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboTraficoDeSeresHumanos"><small>Trafico de humanos</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.trafico_de_humanos, "-- selecione --", new { @id = "trafico_de_humanos", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.trafico_de_humanos, "", new { @id = "trafico_de_humanos", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboIntervensaoLegal"><small>Intervenção legal</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.intervencao_legal, "-- selecione --", new { @id = "intervencao_legal", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.intervencao_legal, "", new { @id = "intervencao_legal", @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboPisicilogicaMoral"><small>Psicológica/Moral</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.pisicologica_mental, "-- selecione --", new { @id = "pisicologica_mental", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.pisicologica_mental, "", new { @id = "pisicologica_mental", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboFinanceiraEconomica"><small>Financeira/Economica</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.financeira_economica, "-- selecione --", new { @id = "financeira_economica", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.financeira_economica, "", new { @id = "financeira_economica", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboTortura"><small>Tortura</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.tortura, "-- selecione --", new { @id = "tortura", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.tortura, "", new { @id = "tortura", @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboNegligenciaAbandono"><small>Negligência/Abandono</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.negligencia_abandono, "-- selecione --", new { @id = "negligencia_abandono", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.negligencia_abandono, "", new { @id = "negligencia_abandono", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboSexual"><small>Sexual</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.sexual, "-- selecione --", new { @id = "sexual", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.sexual, "", new { @id = "sexual", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboTrabalhoInfantil"><small>Trabalho Infantil</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.trabalho_infantil, "-- selecione --", new { @id = "trabalho_infantil", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.trabalho_infantil, "", new { @id = "trabalho_infantil", @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboOutrosTipoDeViolencia"><small>Outros</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.violencia_outros, "-- selecione --", new { @id = "violencia_outros", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.violencia_outros, "", new { @id = "violencia_outros", @class = "text-danger" })
@@ -654,53 +661,53 @@
                             <div class="form-group col-md-6">
                                 <label for="cboMeioDeAgressao">57. Meio de agressão</label>
                                 <div class="row">
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboCorpoEspancamento" style="font-size: 10px;"><small>Força corporal/espancam.</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.forca_corporal_espacamento, "-- selecione --", new { @id = "forca_corporal_espacamento", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.forca_corporal_espacamento, "", new { @id = "forca_corporal_espacamento", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboPerfuroCortante"><small>Obj. pérfuro-cortante</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.objeto_perfurante_cortante, "-- selecione --", new { @id = "objeto_perfurante_cortante", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.objeto_perfurante_cortante, "", new { @id = "objeto_perfurante_cortante", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboArmaDeFogo"><small>Arma de fogo</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.arma_de_fogo, "-- selecione --", new { @id = "arma_de_fogo", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.arma_de_fogo, "", new { @id = "arma_de_fogo", @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboEnforcamento"><small>Enforcamento</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.enforcamento, "-- selecione --", new { @id = "enforcamento", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.enforcamento, "", new { @id = "enforcamento", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboSubstanciaObjetoQuente" style="font-size: 10px;"><small>Substancia/Obj. quente</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.substancia_objeto_quente, "-- selecione --", new { @id = "substancia_objeto_quente", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.substancia_objeto_quente, "", new { @id = "substancia_objeto_quente", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboAmeaca"><small>Ameaça</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.ameaca, "-- selecione --", new { @id = "ameaca", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.ameaca, "", new { @id = "ameaca", @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboObjetoContundante"><small>Obj. contundente</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.objeto_contindente, "-- selecione --", new { @id = "objeto_contindente", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.objeto_contindente, "", new { @id = "objeto_contindente", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboEnvenenamentoIntoxicacao" style="font-size: 11px;"><small>Evenenamento/Intoxicação</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.envenenamento_intoxicacao, "-- selecione --", new { @id = "envenenamento_intoxicacao", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.envenenamento_intoxicacao, "", new { @id = "envenenamento_intoxicacao", @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-4">
                                         <label for="cboOutroMeioDeAgrecao"><small>Outros</small></label>
                                         @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaViewModel.agressao_outros, "-- selecione --", new { @id = "agressao_outros", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_ViolenciaViewModel.agressao_outros, "", new { @id = "agressao_outros", @class = "text-danger" })
@@ -719,91 +726,89 @@
                 <div class="col-md-12 well">
                     <fieldset>
                         <legend id="anch7">Violência Sexual</legend>
-                        <div class="form-row">
-                            <div class="form-group col-md-12" style="margin-bottom: 3px;">
-                                <label for="SeOcorreuViolenciaSexual">58. Se ocorreu violência sexual, qual o tipo?</label>
-                                <div class="row">
-                                    <div class="form-group col-md-2">
-                                        <label for="cboAssedioSexual"><small>Assédio sexual</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.assedio_sexual, "-- selecione --", new { @id = "assedio_sexual", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.assedio_sexual, "", new { @id = "assedio_sexual", @class = "text-danger" })
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                        <label for="cboEstupro HepatiteB"><small>Estupro</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.estupro, "-- selecione --", new { @id = "estupro", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.estupro, "", new { @id = "estupro", @class = "text-danger" })
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                        <label for="cboPornografiaInfantil"><small>Pornografia Infantil</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.pornorafia_infantil, "-- selecione --", new { @id = "pornorafia_infantil", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.pornorafia_infantil, "", new { @id = "pornorafia_infantil", @class = "text-danger" })
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                        <label for="cboExploracaoSexual"><small>Exploração sexual</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.exploracao_sexual, "-- selecione --", new { @id = "exploracao_sexual", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.exploracao_sexual, "", new { @id = "exploracao_sexual", @class = "text-danger" })
-                                    </div>
+                        <div class="form-group col-md-6">
+                            <label for="SeOcorreuViolenciaSexual">58. Se ocorreu violência sexual, qual o tipo?</label>
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <label for="cboAssedioSexual"><small>Assédio sexual</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.assedio_sexual, "-- selecione --", new { @id = "assedio_sexual", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.assedio_sexual, "", new { @id = "assedio_sexual", @class = "text-danger" })
                                 </div>
-                                <div class="row">
-                                    <div class="form-group col-md-2">
-                                        <label for="cboOutrosSeOcorreuViolenciaSexual"><small>Outros</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.outros_violencia_sexual, "-- selecione --", new { @id = "outros_violencia_sexual", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.outros_violencia_sexual, "", new { @id = "outros_violencia_sexual", @class = "text-danger" })
-                                    </div>
-                                    <div class="form-group col-md-2" style="margin-top: 5px;">
-                                        <label for="txtOutrosSeOcorreuViolenciaSexual"></label>
-                                        @Html.TextBoxFor(model => model.Sinan_ViolenciaSexualViewModel.outros_violencia_sexual_extenso, new { @id = "outros_violencia_sexual_extenso", @class = "form-control", @disabled = "disabled" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.outros_violencia_sexual_extenso, "", new { @id = "outros_violencia_sexual_extenso", @class = "text-danger" })
-                                    </div>
+                                <div class="form-group col-md-4">
+                                    <label for="cboEstupro HepatiteB"><small>Estupro</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.estupro, "-- selecione --", new { @id = "estupro", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.estupro, "", new { @id = "estupro", @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="cboPornografiaInfantil"><small>Pornografia Infantil</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.pornorafia_infantil, "-- selecione --", new { @id = "pornorafia_infantil", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.pornorafia_infantil, "", new { @id = "pornorafia_infantil", @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <label for="cboExploracaoSexual"><small>Exploração sexual</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.exploracao_sexual, "-- selecione --", new { @id = "exploracao_sexual", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.exploracao_sexual, "", new { @id = "exploracao_sexual", @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="cboOutrosSeOcorreuViolenciaSexual"><small>Outros</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.outros_violencia_sexual, "-- selecione --", new { @id = "outros_violencia_sexual", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.outros_violencia_sexual, "", new { @id = "outros_violencia_sexual", @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-md-4" style="margin-top: 5px;">
+                                    <label for="txtOutrosSeOcorreuViolenciaSexual"></label>
+                                    @Html.TextBoxFor(model => model.Sinan_ViolenciaSexualViewModel.outros_violencia_sexual_extenso, new { @id = "outros_violencia_sexual_extenso", @class = "form-control", @disabled = "disabled" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.outros_violencia_sexual_extenso, "", new { @id = "outros_violencia_sexual_extenso", @class = "text-danger" })
                                 </div>
                             </div>
                         </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-9">
-                                <label for="cboMeioDeAgressao">59. Procedimento realizado</label>
-                                <div class="row">
-                                    <div class="form-group col-md-3">
-                                        <label for="cboProfilaxiaDST"><small>Profilaxia DST</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.profilaxia_dst, "-- selecione --", new { @id = "profilaxia_dst", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.profilaxia_dst, "", new { @id = "profilaxia_dst", @class = "text-danger" })
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cboProfilaxiaHepatiteB"><small>Profilaxia Hepatite B</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.porfilaxia_hepatite_b, "-- selecione --", new { @id = "porfilaxia_hepatite_b", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.porfilaxia_hepatite_b, "", new { @id = "porfilaxia_hepatite_b", @class = "text-danger" })
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cboColetaDeSemen"><small>Coleta de sêmen</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_semen, "-- selecione --", new { @id = "coleta_de_semen", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_semen, "", new { @id = "coleta_de_semen", @class = "text-danger" })
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cboContracepcaoDeEmergência" style="font-size: 11px;"><small>Contracepção de emergência</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.contracepcao_de_emergencia, "-- selecione --", new { @id = "contracepcao_de_emergencia", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.contracepcao_de_emergencia, "", new { @id = "contracepcao_de_emergencia", @class = "text-danger" })
-                                    </div>
+                        <div class="form-group col-md-6">
+                            <label for="cboMeioDeAgressao">59. Procedimento realizado</label>
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <label for="cboProfilaxiaDST"><small>Profilaxia DST</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.profilaxia_dst, "-- selecione --", new { @id = "profilaxia_dst", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.profilaxia_dst, "", new { @id = "profilaxia_dst", @class = "text-danger" })
                                 </div>
-                                <div class="row">
-                                    <div class="form-group col-md-3">
-                                        <label for="cboProfilaxiaHIV"><small>Profilaxia HIV</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.profilacia_hiv, "-- selecione --", new { @id = "profilacia_hiv", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.profilacia_hiv, "", new { @id = "profilacia_hiv", @class = "text-danger" })
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cboCeletaDeSangue"><small>Celeta de sangue</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_sangue, "-- selecione --", new { @id = "coleta_de_sangue", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_sangue, "", new { @id = "coleta_de_sangue", @class = "text-danger" })
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cboColetaDeSecrecaoVaginal"><small>Coleta de secreção vaginal</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_secrecao_vaginal, "-- selecione --", new { @id = "coleta_de_secrecao_vaginal", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_secrecao_vaginal, "", new { @id = "coleta_de_secrecao_vaginal", @class = "text-danger" })
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cboAbortoPrevistoEmLei"><small>Aborto previsto em lei</small></label>
-                                        @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.aborto_previsto_em_lei, "-- selecione --", new { @id = "aborto_previsto_em_lei", @class = "form-control" })
-                                        @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.aborto_previsto_em_lei, "", new { @id = "aborto_previsto_em_lei", @class = "text-danger" })
-                                    </div>
+                                <div class="form-group col-md-4">
+                                    <label for="cboProfilaxiaHepatiteB"><small>Profilaxia Hepatite B</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.porfilaxia_hepatite_b, "-- selecione --", new { @id = "porfilaxia_hepatite_b", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.porfilaxia_hepatite_b, "", new { @id = "porfilaxia_hepatite_b", @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="cboColetaDeSemen"><small>Coleta de sêmen</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_semen, "-- selecione --", new { @id = "coleta_de_semen", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_semen, "", new { @id = "coleta_de_semen", @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <label for="cboContracepcaoDeEmergência" style="font-size: 11px;"><small>Contracepção de emergência</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.contracepcao_de_emergencia, "-- selecione --", new { @id = "contracepcao_de_emergencia", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.contracepcao_de_emergencia, "", new { @id = "contracepcao_de_emergencia", @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="cboProfilaxiaHIV"><small>Profilaxia HIV</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.profilacia_hiv, "-- selecione --", new { @id = "profilacia_hiv", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.profilacia_hiv, "", new { @id = "profilacia_hiv", @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="cboCeletaDeSangue"><small>Celeta de sangue</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_sangue, "-- selecione --", new { @id = "coleta_de_sangue", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_sangue, "", new { @id = "coleta_de_sangue", @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <label for="cboColetaDeSecrecaoVaginal" style="font-size: 11px;"><small>Coleta de secreção vaginal</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_secrecao_vaginal, "-- selecione --", new { @id = "coleta_de_secrecao_vaginal", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.coleta_de_secrecao_vaginal, "", new { @id = "coleta_de_secrecao_vaginal", @class = "text-danger" })
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="cboAbortoPrevistoEmLei"><small>Aborto previsto em lei</small></label>
+                                    @Html.EnumDropDownListFor(model => model.Sinan_ViolenciaSexualViewModel.aborto_previsto_em_lei, "-- selecione --", new { @id = "aborto_previsto_em_lei", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Sinan_ViolenciaSexualViewModel.aborto_previsto_em_lei, "", new { @id = "aborto_previsto_em_lei", @class = "text-danger" })
                                 </div>
                             </div>
                         </div>
@@ -816,7 +821,8 @@
                         <div class="form-row">
                             <div class="form-group col-md-2">
                                 <label for="cboNumeroEnvolvidos" style="margin-bottom: 8px;">60. Número de envolvidos</label>
-
+                                @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.num_envolvidos, "-- selecione --", new { @id = "num_envolvidos", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.num_envolvidos, "", new { @id = "num_envolvidos", @class = "text-danger" })
                             </div>
                         </div>
                         <div class="form-row">
@@ -825,87 +831,106 @@
                                 <div class="row">
                                     <div class="form-group col-md-3">
                                         <label for="cboPai"><small>Pai</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.pai, "-- selecione --", new { @id = "pai", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.pai, "", new { @id = "pai", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboExConjugue"><small>Ex-Cônjugue</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.ex_conjugue, "-- selecione --", new { @id = "ex_conjugue", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.ex_conjugue, "", new { @id = "ex_conjugue", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboAmigosConhecidos"><small>Amigos/Conhecidos</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.amigos_conhecidos, "-- selecione --", new { @id = "amigos_conhecidos", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.amigos_conhecidos, "", new { @id = "amigos_conhecidos", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboPolicialAgenteDaLei"><small>Policial/Agente</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.policial_agente, "-- selecione --", new { @id = "policial_agente", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.policial_agente, "", new { @id = "policial_agente", @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-md-3">
                                         <label for="cboMae"><small>Mãe</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.mae, "-- selecione --", new { @id = "mae", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.mae, "", new { @id = "mae", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboNamoradoa"><small>Namorado(a)</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.namoradoa, "-- selecione --", new { @id = "namoradoa", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.namoradoa, "", new { @id = "namoradoa", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboDesconhecido"><small>Desconhecido(a)</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.desconhecidoa, "-- selecione --", new { @id = "desconhecidoa", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.desconhecidoa, "", new { @id = "desconhecidoa", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboPropriaPessoa"><small>Própria pessoa</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.propria_pessoa, "-- selecione --", new { @id = "propria_pessoa", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.propria_pessoa, "", new { @id = "propria_pessoa", @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-md-3">
                                         <label for="cboPadrasto"><small>Padrasto</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.padrassto, "-- selecione --", new { @id = "padrassto", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.padrassto, "", new { @id = "padrassto", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboExNamoradoa"><small>Ex-Namorado(a)</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.ex_namoradoa, "-- selecione --", new { @id = "ex_namoradoa", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.ex_namoradoa, "", new { @id = "ex_namoradoa", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboCuidadora"><small>Cuidador(a)</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.cuidadoraa, "-- selecione --", new { @id = "cuidadoraa", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.cuidadoraa, "", new { @id = "cuidadoraa", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboMadrasta"><small>Madrasta</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.madrastra, "-- selecione --", new { @id = "madrastra", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.madrastra, "", new { @id = "madrastra", @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-md-3">
                                         <label for="cboFilhoa"><small>Filho(a)</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.filhoa, "-- selecione --", new { @id = "filhoa", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.filhoa, "", new { @id = "filhoa", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboPatraoChefe"><small>Patrão/Chefe</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.patrao_chefe, "-- selecione --", new { @id = "patrao_chefe", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.patrao_chefe, "", new { @id = "patrao_chefe", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboConjugue"><small>Cônjugue</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.conjugue, "-- selecione --", new { @id = "conjugue", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.conjugue, "", new { @id = "conjugue", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboIrmao"><small>Irmão(a)</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.irmaoa, "-- selecione --", new { @id = "irmaoa", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.irmaoa, "", new { @id = "irmaoa", @class = "text-danger" })
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-md-3">
                                         <label for="cboPessoaComRelacaoInstitucional" style="font-size: 10px;"><small>Pessoa relação/instit.</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.pessoa_relacao_intituc, "-- selecione --", new { @id = "pessoa_relacao_intituc", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.pessoa_relacao_intituc, "", new { @id = "pessoa_relacao_intituc", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-3">
                                         <label for="cboOutrosAutoViolencia" style="font-size: 10px;"><small>Outros</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.vinculo_outros, "-- selecione --", new { @id = "vinculo_outros", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.vinculo_outros, "", new { @id = "vinculo_outros", @class = "text-danger" })
                                     </div>
                                     <div class="form-group col-md-4" style="margin-top: 5px;">
                                         <label for="txtOutrosAutoViolencia"></label>
-
+                                        @Html.TextBoxFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.vinculo_outros_extenso, new { @id = "vinculo_outros_extenso", @class = "form-control", @disabled = "disabled" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.vinculo_outros_extenso, "", new { @id = "vinculo_outros_extenso", @class = "text-danger" })
                                     </div>
                                 </div>
                             </div>
@@ -913,19 +938,22 @@
                         <div class="form-row">
                             <div class="form-group col-md-2">
                                 <label for="cboSexoDoProvavelAutorDaViolencia" style="margin-bottom: 8px;">62. <small>Sexo do provável autor da violência</small></label>
-
+                                @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.sexo_autor, "-- selecione --", new { @id = "sexo_autor", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.sexo_autor, "", new { @id = "sexo_autor", @class = "text-danger" })
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-2">
                                 <label for="cboSuspeitaDeUsoDeAlcool" style="margin-top: 3px;">63. Suspeita de uso de álcool</label>
-
+                                @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.uso_alcool, "-- selecione --", new { @id = "uso_alcool", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.uso_alcool, "", new { @id = "uso_alcool", @class = "text-danger" })
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4">
                                 <label for="cboCicloDeVidaDoProvavelAutoDaViolencia">64. Ciclo de vida do provável autor da violência</label>
-
+                                @Html.EnumDropDownListFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.ciclo_vida_autor, "-- selecione --", new { @id = "ciclo_vida_autor", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_DadosDoProvavelAutorViolenciaViewModel.ciclo_vida_autor, "", new { @id = "ciclo_vida_autor", @class = "text-danger" })
                             </div>
                         </div>
                     </fieldset>
@@ -938,83 +966,90 @@
                             <div class="form-group col-md-12">
                                 <label for="cboEncaminhamentos">65. Encaminhamentos</label>
                                 <div class="row">
-                                    <div class="form-group col-md-4">
+                                    <div class="form-group col-md-2">
                                         <label for="cboRedeDaSaude"><small>Rede da Saúde (Unidade Básica, hospital, outras)</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.rede_saude, "-- selecione --", new { @id = "rede_saude", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.rede_saude, "", new { @id = "rede_saude", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cboConselhoDoIdoso"><small>Conselho do Idoso</small></label>
-
+                                    <div class="form-group col-md-2">
+                                        <label for="cboConselhoDoIdoso">
+                                            <small>Conselho do Idoso</small><br />
+                                            &nbsp;
+                                        </label>
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.conselho_do_idoso, "-- selecione --", new { @id = "conselho_do_idoso", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.conselho_do_idoso, "", new { @id = "conselho_do_idoso", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-2">
                                         <label for="cboDelegaciaDeAtendimentoAMulher"><small>Delegacia de Atendimento á Mulher</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.delegacia_atendimento_mulher, "-- selecione --", new { @id = "delegacia_atendimento_mulher", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.delegacia_atendimento_mulher, "", new { @id = "delegacia_atendimento_mulher", @class = "text-danger" })
                                     </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="form-group col-md-4">
+                                    <div class="form-group col-md-2">
                                         <label for="cboRedeDaAssistenciaSocial"><small>Rede da Assistência Social (CRAS, CREAS, outras)</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.rede_assistencia_social, "-- selecione --", new { @id = "rede_assistencia_social", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.rede_assistencia_social, "", new { @id = "rede_assistencia_social", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-2">
                                         <label for="cboDelegaciaDeAtendimentoAoIdoso"><small>Delegacia de Atendimento ao Idoso</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.delegacia_atendimento_idoso, "-- selecione --", new { @id = "delegacia_atendimento_idoso", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.delegacia_atendimento_idoso, "", new { @id = "delegacia_atendimento_idoso", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cboOutrasDelegacias"><small>Outras delegacias</small></label>
-
+                                    <div class="form-group col-md-2">
+                                        <label for="cboOutrasDelegacias">
+                                            <small>Outras delegacias</small><br />
+                                            &nbsp;
+                                        </label>
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.outras_delegacias, "-- selecione --", new { @id = "outras_delegacias", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.outras_delegacias, "", new { @id = "outras_delegacias", @class = "text-danger" })
                                     </div>
                                 </div>
-
                                 <div class="row">
-                                    <div class="form-group col-md-4">
+                                    <div class="form-group col-md-2">
                                         <label for="cboRedeDaEducacao"><small>Rede da Educação (Creche, escola, outras)</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.rede_educacao, "-- selecione --", new { @id = "rede_educacao", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.rede_educacao, "", new { @id = "rede_educacao", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cboCentroDaReferenciaDosDireitosHumanos" style="font-size: 11px;"><small>Centro da Referência dos Direitos Humanos</small></label>
-
+                                    <div class="form-group col-md-2">
+                                        <label for="cboCentroDaReferenciaDosDireitosHumanos"><small>Centro da Referência dos Direitos Humanos</small></label>
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.centro_referencia_diretos_humanos, "-- selecione --", new { @id = "centro_referencia_diretos_humanos", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.centro_referencia_diretos_humanos, "", new { @id = "centro_referencia_diretos_humanos", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-2">
                                         <label for="cboJusticaDaInfanciaEJuventude"><small>Justiça da Infancia e da Juventude</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.justica_da_infancia_juventude, "-- selecione --", new { @id = "justica_da_infancia_juventude", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.justica_da_infancia_juventude, "", new { @id = "justica_da_infancia_juventude", @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="cboRedeDeAtendimentoAMulher"><small>Rede de Atendimento a Mulher </small></label>
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.rede_atendimento_mulher, "-- selecione --", new { @id = "rede_atendimento_mulher", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.rede_atendimento_mulher, "", new { @id = "rede_atendimento_mulher", @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="cboDelegaciaEspecializadaDeProtecaoCriancaAdolecente" style="font-size: 12.5px; margin-bottom: 11px;"><small>Delegacia Especializada de Proteção á Criança e Adolecente</small></label>
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.delegacia_especializada_crianca_adolecente, "-- selecione --", new { @id = "delegacia_especializada_crianca_adolecente", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.delegacia_especializada_crianca_adolecente, "", new { @id = "delegacia_especializada_crianca_adolecente", @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group col-md-2">
+                                        <label for="cboDefensoriaPublica">
+                                            <small>Defensoria Pública</small><br />
+                                            &nbsp;
+                                        </label>
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.defensoria_publica, "-- selecione --", new { @id = "defensoria_publica", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.defensoria_publica, "", new { @id = "defensoria_publica", @class = "text-danger" })
                                     </div>
                                 </div>
-
                                 <div class="row">
-                                    <div class="form-group col-md-4">
-                                        <label for="cboRedeDeAtendimentoAMulher" style="font-size: 11px;"><small>Rede de Atendimento a Mulher (Centro Especializado de Atendimento a Mulher, Casa da Mulher Brasileira, outras)</small></label>
-
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cboDelegaciaEspecializadaDeProtecaoCriancaAdolecente" style="font-size: 11px;"><small>Delegacia Especializada de Proteção á Criança e Adolecente</small></label>
-
-                                    </div>
-                                    <div class="form-group col-md-3">
-                                        <label for="cboDefensoriaPublica" style="margin-bottom: 15px;"><small>Defensoria Pública</small></label>
-
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="form-group col-md-4">
+                                    <div class="form-group col-md-2">
                                         <label for="cboConselhoTutelar"><small>Conselho Tutelar</small></label>
-                                        <div class="row">
-                                            <div class="form-group col-md-4">
-
-                                            </div>
-                                            <div class="form-group col-md-4">
-
-                                            </div>
-                                        </div>
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.conselho_tutelar, "-- selecione --", new { @id = "conselho_tutelar", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.conselho_tutelar, "", new { @id = "conselho_tutelar", @class = "text-danger" })
                                     </div>
-                                    <div class="form-group col-md-3">
+                                    <div class="form-group col-md-2">
                                         <label for="cboMinisterioPublico"><small>Ministerio Público</small></label>
-
+                                        @Html.EnumDropDownListFor(model => model.Sinan_EncaminhamentoViewModel.ministerio_publico, "-- selecione --", new { @id = "ministerio_publico", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_EncaminhamentoViewModel.ministerio_publico, "", new { @id = "ministerio_publico", @class = "text-danger" })
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </fieldset>
@@ -1026,20 +1061,23 @@
                         <div class="form-row">
                             <div class="form-group col-md-3">
                                 <label for="cboViolenciaRelacionadaAoTrabalho">66. <small>Violência Relacionada ao Trabalho</small></label>
-
+                                @Html.EnumDropDownListFor(model => model.Sinan_DadosFinaisViewModel.violencia_trabalho, "-- selecione --", new { @id = "violencia_trabalho", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_DadosFinaisViewModel.violencia_trabalho, "", new { @id = "violencia_trabalho", @class = "text-danger" })
                             </div>
                             <div class="form-group col-md-5">
                                 <label for="cboSeSimEmitidaComunicacaoAcidenteTrabalho">67. <small>Se sim, foi emitida a Comunidade de Acidente do Trabalho (CAT)</small></label>
-
+                                @Html.EnumDropDownListFor(model => model.Sinan_DadosFinaisViewModel.emissao_cat, "-- selecione --", new { @id = "emissao_cat", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_DadosFinaisViewModel.emissao_cat, "", new { @id = "emissao_cat", @class = "text-danger" })
                             </div>
-                            <div class="form-group col-md-4" style="margin-bottom: 3px;">
-                                <label for="txtCirsustanciaDaLesao">68. Circusrância da lesão</label>
+                            <div class="form-group col-md-3" style="margin-bottom: 3px;">
+                                <label for="txtCirsustanciaDaLesao">68. Circunstância da lesão</label>
                                 <div class="row">
-                                    <div class="form-group col-md-7">
-
+                                    <div class="form-group col-md-7" style="margin-top: 10px; font-size:larger;">
+                                        CID 10 - Cap XX
                                     </div>
-                                    <div class="form-group col-md-4">
-
+                                    <div class="form-group col-md-5">
+                                        @Html.TextBoxFor(model => model.Sinan_DadosFinaisViewModel.circunstancia_lesao, new { @id = "circunstancia_lesao", @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.Sinan_DadosFinaisViewModel.circunstancia_lesao, "", new { @id = "circunstancia_lesao", @class = "text-danger" })
                                     </div>
                                 </div>
                             </div>
@@ -1047,7 +1085,8 @@
                         <div class="form-row">
                             <div class="form-group col-md-2">
                                 <label for="txtDataEncerramento">69. <small>Data encerramento</small></label>
-
+                                @Html.TextBoxFor(model => model.Sinan_DadosFinaisViewModel.data_encerramento, new { @id = "data_encerramento", @type = "date", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_DadosFinaisViewModel.data_encerramento, "", new { @id = "data_encerramento", @class = "text-danger" })
                             </div>
                         </div>
                     </fieldset>
@@ -1059,21 +1098,25 @@
                         <div class="form-row">
                             <div class="form-group col-md-4">
                                 <label for="txtNomeAcompanhante">Nome do acompanhante</label>
-
+                                @Html.TextBoxFor(model => model.Sinan_ObservacoesViewModel.nome_acompanhate, new { @id = "nome_acompanhate", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_ObservacoesViewModel.nome_acompanhate, "", new { @id = "nome_acompanhate", @class = "text-danger" })
                             </div>
                             <div class="form-group col-md-4">
                                 <label for="txtVinculoGrauParentesco">Vinculo/grau de parentesco</label>
-
+                                @Html.TextBoxFor(model => model.Sinan_ObservacoesViewModel.vinculo_acompanhate, new { @id = "vinculo_acompanhate", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_ObservacoesViewModel.vinculo_acompanhate, "", new { @id = "vinculo_acompanhate", @class = "text-danger" })
                             </div>
                             <div class="form-group col-md-3">
                                 <label for="txtTelefone">(DDD) Telefone</label>
-
+                                @Html.TextBoxFor(model => model.Sinan_ObservacoesViewModel.telefone_acompanhate, new { @id = "telefone_acompanhate", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_ObservacoesViewModel.telefone_acompanhate, "", new { @id = "telefone_acompanhate", @class = "text-danger" })
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="form-group col-md-12">
+                            <div class="form-group col-md-11">
                                 <label for="txtObservacoesAdicionais">Observações Adicionais</label>
-
+                                @Html.TextBoxFor(model => model.Sinan_ObservacoesViewModel.obs, new { @id = "obs", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_ObservacoesViewModel.obs, "", new { @id = "obs", @class = "text-danger" })
                             </div>
                         </div>
                     </fieldset>
@@ -1085,31 +1128,37 @@
                         <div class="form-row">
                             <div class="form-group col-md-9">
                                 <label for="txtMunicipioNomeUnidadeNotificadora">Municipio/Nome da Unidade Notificadora</label>
-
+                                @Html.TextBoxFor(model => model.Sinan_NotificadorViewModel.municipio_nome_unidade_notificadora, new { @id = "municipio_nome_unidade_notificadora", @class = "form-control", @readonly = "readonly" })
+                                @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.municipio_nome_unidade_notificadora, "", new { @id = "municipio_nome_unidade_notificadora", @class = "text-danger" })
                             </div>
                             <div class="form-group col-md-3">
                                 <label for="txtCodigoUnidadeNotificadora">Codigo da Unidade Notificadora</label>
-
+                                @Html.TextBoxFor(model => model.Sinan_NotificadorViewModel.codigo_unidade_notificadora, new { @id = "codigo_unidade_notificadora", @class = "form-control", @readonly = "readonly" })
+                                @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.codigo_unidade_notificadora, "", new { @id = "codigo_unidade_notificadora", @class = "text-danger" })
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-9">
                                 <label for="txtMunicipioUnidadeSaude">Municipio/Unidade de Saúde</label>
-
+                                @Html.TextBoxFor(model => model.Sinan_NotificadorViewModel.municipio_unidade_saude, new { @id = "municipio_unidade_saude", @class = "form-control", @readonly = "readonly" })
+                                @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.municipio_unidade_saude, "", new { @id = "municipio_unidade_saude", @class = "text-danger" })
                             </div>
                             <div class="form-group col-md-3">
                                 <label for="txtCodigoUnidadeSaudeCNES">Codigo da Unidade de Saúde (CNES)</label>
-
+                                @Html.TextBoxFor(model => model.Sinan_NotificadorViewModel.codigo_unidade_saude, new { @id = "codigo_unidade_saude", @class = "form-control", @readonly = "readonly" })
+                                @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.codigo_unidade_saude, "", new { @id = "codigo_unidade_saude", @class = "text-danger" })
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4">
                                 <label for="txtNome">Nome</label>
-
+                                @Html.TextBoxFor(model => model.Sinan_NotificadorViewModel.nome, new { @id = "nome", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.nome, "", new { @id = "nome", @class = "text-danger" })
                             </div>
                             <div class="form-group col-md-3">
                                 <label for="txtFuncao">Função</label>
-
+                                @Html.TextBoxFor(model => model.Sinan_NotificadorViewModel.funcao, new { @id = "funcao", @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.funcao, "", new { @id = "funcao", @class = "text-danger" })
                             </div>
                         </div>
                     </fieldset>

@@ -29,14 +29,15 @@ namespace SINAN.Application.AutoMapper
                 .AfterMap((e, v) => v.data_violencia = e.data_violencia == null ? null : Convert.ToDateTime(e.data_violencia).ToString("yyyy-MM-dd"));
             CreateMap<Sinan_NotificacaoIndividual, Sinan_NotificacaoIndividualViewModel>()
                 .AfterMap((e, v) => v.data_nascimento = e.data_nascimento == null ? null : Convert.ToDateTime(e.data_nascimento).ToString("yyyy-MM-dd"))
+                .AfterMap((e, v) => v.ou_idade = (OuIdade)e.ou_idade)
                 .AfterMap((e, v) => v.gestante = (Gestante)e.gestante)
                 .AfterMap((e, v) => v.raca = (Raca)e.raca)
                 .AfterMap((e, v) => v.escolaridade = (Escolaridade)e.escolaridade)
-                .AfterMap((e, v) => v.continua_estudando = (ContinuaEstudando)e.continua_estudando)
+                .AfterMap((e, v) => v.continua_estudando = (SimNaoNaoSeAplicaIgnorado)e.continua_estudando)
                 .AfterMap((e, v) => v.ano_de_escolaridade = (AnoEscolaridade)e.ano_de_escolaridade)
                 .AfterMap((e, v) => v.rede_ensino = (RedeEnsino)e.rede_ensino)
                 .AfterMap((e, v) => v.esfera_ensino = (EsferaEnsino)e.esfera_ensino)
-                .AfterMap((e, v) => v.tem_nome_pai_registro = (TemNomePaiRegistro)e.tem_nome_pai_registro);
+                .AfterMap((e, v) => v.tem_nome_pai_registro = (SimNaoIgnorado)e.tem_nome_pai_registro);
             CreateMap<Sinan_DadosResidencia, Sinan_DadosResidenciaViewModel>()
                 .AfterMap((e, v) => v.zona = (Zona)e.zona);
             CreateMap<Sinan_DadosDePessoaAtendida, Sinan_DadosDePessoaAtendidaViewModel>()
@@ -91,6 +92,50 @@ namespace SINAN.Application.AutoMapper
                 .AfterMap((e, v) => v.coleta_de_sangue = (SimNaoNaoSeAplicaIgnorado)e.coleta_de_sangue)
                 .AfterMap((e, v) => v.coleta_de_secrecao_vaginal = (SimNaoNaoSeAplicaIgnorado)e.coleta_de_secrecao_vaginal)
                 .AfterMap((e, v) => v.aborto_previsto_em_lei = (SimNaoNaoSeAplicaIgnorado)e.aborto_previsto_em_lei);
+            CreateMap<Sinan_DadosDoProvavelAutorDaViolencia, Sinan_DadosDoProvavelAutorViolenciaViewModel>()
+                .AfterMap((e, v) => v.num_envolvidos = (UmDoisOuMaisIgnorado)e.num_envolvidos)
+                .AfterMap((e, v) => v.pai = (SimNaoIgnorado)e.pai)
+                .AfterMap((e, v) => v.ex_conjugue = (SimNaoIgnorado)e.ex_conjugue)
+                .AfterMap((e, v) => v.amigos_conhecidos = (SimNaoIgnorado)e.amigos_conhecidos)
+                .AfterMap((e, v) => v.policial_agente = (SimNaoIgnorado)e.policial_agente)
+                .AfterMap((e, v) => v.mae = (SimNaoIgnorado)e.mae)
+                .AfterMap((e, v) => v.namoradoa = (SimNaoIgnorado)e.namoradoa)
+                .AfterMap((e, v) => v.desconhecidoa = (SimNaoIgnorado)e.desconhecidoa)
+                .AfterMap((e, v) => v.propria_pessoa = (SimNaoIgnorado)e.propria_pessoa)
+                .AfterMap((e, v) => v.padrassto = (SimNaoIgnorado)e.padrassto)
+                .AfterMap((e, v) => v.ex_namoradoa = (SimNaoIgnorado)e.ex_namoradoa)
+                .AfterMap((e, v) => v.cuidadoraa = (SimNaoIgnorado)e.cuidadoraa)
+                .AfterMap((e, v) => v.madrastra = (SimNaoIgnorado)e.madrastra)
+                .AfterMap((e, v) => v.filhoa = (SimNaoIgnorado)e.filhoa)
+                .AfterMap((e, v) => v.patrao_chefe = (SimNaoIgnorado)e.patrao_chefe)
+                .AfterMap((e, v) => v.conjugue = (SimNaoIgnorado)e.conjugue)
+                .AfterMap((e, v) => v.irmaoa = (SimNaoIgnorado)e.irmaoa)
+                .AfterMap((e, v) => v.pessoa_relacao_intituc = (SimNaoIgnorado)e.pessoa_relacao_intituc)
+                .AfterMap((e, v) => v.vinculo_outros = (SimNaoIgnorado)e.vinculo_outros)
+                .AfterMap((e, v) => v.sexo_autor = (SexoProvavelAutorViolencia)e.sexo_autor)
+                .AfterMap((e, v) => v.uso_alcool = (SimNaoIgnorado)e.uso_alcool)
+                .AfterMap((e, v) => v.ciclo_vida_autor = (CicloVidaProvavelAutorViolencia)e.ciclo_vida_autor);
+            CreateMap<Sinan_Encaminhamento, Sinan_EncaminhamentoViewModel>()
+                .AfterMap((e, v) => v.rede_saude = (SimNaoIgnorado)e.rede_saude)
+                .AfterMap((e, v) => v.conselho_do_idoso = (SimNaoIgnorado)e.conselho_do_idoso)
+                .AfterMap((e, v) => v.delegacia_atendimento_mulher = (SimNaoIgnorado)e.delegacia_atendimento_mulher)
+                .AfterMap((e, v) => v.rede_assistencia_social = (SimNaoIgnorado)e.rede_assistencia_social)
+                .AfterMap((e, v) => v.delegacia_atendimento_idoso = (SimNaoIgnorado)e.delegacia_atendimento_idoso)
+                .AfterMap((e, v) => v.outras_delegacias = (SimNaoIgnorado)e.outras_delegacias)
+                .AfterMap((e, v) => v.rede_educacao = (SimNaoIgnorado)e.rede_educacao)
+                .AfterMap((e, v) => v.centro_referencia_diretos_humanos = (SimNaoIgnorado)e.centro_referencia_diretos_humanos)
+                .AfterMap((e, v) => v.justica_da_infancia_juventude = (SimNaoIgnorado)e.justica_da_infancia_juventude)
+                .AfterMap((e, v) => v.rede_atendimento_mulher = (SimNaoIgnorado)e.rede_atendimento_mulher)
+                .AfterMap((e, v) => v.delegacia_especializada_crianca_adolecente = (SimNaoIgnorado)e.delegacia_especializada_crianca_adolecente)
+                .AfterMap((e, v) => v.defensoria_publica = (SimNaoIgnorado)e.defensoria_publica)
+                .AfterMap((e, v) => v.conselho_tutelar = (SimNaoIgnorado)e.conselho_tutelar)
+                .AfterMap((e, v) => v.ministerio_publico = (SimNaoIgnorado)e.ministerio_publico);
+            CreateMap<Sinan_DadosFinais, Sinan_DadosFinaisViewModel>()
+                .AfterMap((e, v) => v.violencia_trabalho = (SimNaoIgnorado)e.violencia_trabalho)
+                .AfterMap((e, v) => v.emissao_cat = (SimNaoNaoSeAplicaIgnorado)e.emissao_cat)
+                .AfterMap((e, v) => v.data_encerramento = e.data_encerramento == null ? null : Convert.ToDateTime(e.data_encerramento).ToString("yyyy-MM-dd"));
+            CreateMap<Sinan_Observacoes, Sinan_ObservacoesViewModel>();
+            CreateMap<Sinan_Notificador, Sinan_NotificadorViewModel>();
         }
     }
 }

@@ -107,7 +107,7 @@ namespace SINAN.Controllers
 
             var viewmodel = Mapper.Map<List<ListarViewModel>>(obj);
 
-            int paginaTamanho = 10;
+            int paginaTamanho = 5;
             int paginaNumero = (page ?? 1);
 
             return View(viewmodel.ToPagedList(paginaNumero, paginaTamanho));
@@ -163,6 +163,26 @@ namespace SINAN.Controllers
                 sinanViolenciaSexual.id = sinan.id;
                 _uow.sinanViolenciaSexual.Insert(sinanViolenciaSexual);
 
+                var sinanDadosDoProvavelAutorDaViolencia = Mapper.Map<Sinan_DadosDoProvavelAutorViolenciaViewModel, Sinan_DadosDoProvavelAutorDaViolencia>(viewmodel.Sinan_DadosDoProvavelAutorViolenciaViewModel);
+                sinanDadosDoProvavelAutorDaViolencia.id = sinan.id;
+                _uow.sinanDadosDoProvavelAutorDaViolencia.Insert(sinanDadosDoProvavelAutorDaViolencia);
+
+                var sinanEncaminhamento = Mapper.Map<Sinan_EncaminhamentoViewModel, Sinan_Encaminhamento>(viewmodel.Sinan_EncaminhamentoViewModel);
+                sinanEncaminhamento.id = sinan.id;
+                _uow.sinanEncaminhamento.Insert(sinanEncaminhamento);
+
+                var sinanDadosFinais = Mapper.Map<Sinan_DadosFinaisViewModel, Sinan_DadosFinais>(viewmodel.Sinan_DadosFinaisViewModel);
+                sinanDadosFinais.id = sinan.id;
+                _uow.sinanDadosFinais.Insert(sinanDadosFinais);
+
+                var sinanObservacoes = Mapper.Map<Sinan_ObservacoesViewModel, Sinan_Observacoes>(viewmodel.Sinan_ObservacoesViewModel);
+                sinanObservacoes.id = sinan.id;
+                _uow.sinanObservacoes.Insert(sinanObservacoes);
+
+                var sinanNotificador = Mapper.Map<Sinan_NotificadorViewModel, Sinan_Notificador>(viewmodel.Sinan_NotificadorViewModel);
+                sinanNotificador.id = sinan.id;
+                _uow.sinanNotificador.Insert(sinanNotificador);
+
                 _uow.Commit();
 
                 TempData["Success"] = "SINAN Cadastrado";
@@ -186,6 +206,11 @@ namespace SINAN.Controllers
             var sinanDadosDaOcorrencia = _uow.sinanDadosDaOcorrencia.GetById(Id);
             var sinanViolencia = _uow.sinanViolencia.GetById(Id);
             var sinanViolenciaSexual = _uow.sinanViolenciaSexual.GetById(Id);
+            var sinanDadosDoProvavelAutorDaViolencia = _uow.sinanDadosDoProvavelAutorDaViolencia.GetById(Id);
+            var sinanEncaminhamento = _uow.sinanEncaminhamento.GetById(Id);
+            var sinanDadosFinais = _uow.sinanDadosFinais.GetById(Id);
+            var sinanObservacoes = _uow.sinanObservacoes.GetById(Id);
+            var sinanNotificador = _uow.sinanNotificador.GetById(Id);
 
             var viewmodel = new SinanViewModel
             {
@@ -198,7 +223,12 @@ namespace SINAN.Controllers
                 Sinan_DadosDePessoaAtendidaViewModel = Mapper.Map<Sinan_DadosDePessoaAtendida, Sinan_DadosDePessoaAtendidaViewModel>(sinanDadosDePessoaAtendida),
                 Sinan_DadosDaOcorrenciaViewModel = Mapper.Map<Sinan_DadosDaOcorrencia, Sinan_DadosDaOcorrenciaViewModel>(sinanDadosDaOcorrencia),
                 Sinan_ViolenciaViewModel = Mapper.Map<Sinan_Violencia, Sinan_ViolenciaViewModel>(sinanViolencia),
-                Sinan_ViolenciaSexualViewModel = Mapper.Map<Sinan_ViolenciaSexual, Sinan_ViolenciaSexualViewModel>(sinanViolenciaSexual)
+                Sinan_ViolenciaSexualViewModel = Mapper.Map<Sinan_ViolenciaSexual, Sinan_ViolenciaSexualViewModel>(sinanViolenciaSexual),
+                Sinan_DadosDoProvavelAutorViolenciaViewModel = Mapper.Map<Sinan_DadosDoProvavelAutorDaViolencia, Sinan_DadosDoProvavelAutorViolenciaViewModel>(sinanDadosDoProvavelAutorDaViolencia),
+                Sinan_EncaminhamentoViewModel = Mapper.Map<Sinan_Encaminhamento, Sinan_EncaminhamentoViewModel>(sinanEncaminhamento),
+                Sinan_DadosFinaisViewModel = Mapper.Map<Sinan_DadosFinais, Sinan_DadosFinaisViewModel>(sinanDadosFinais),
+                Sinan_ObservacoesViewModel = Mapper.Map<Sinan_Observacoes, Sinan_ObservacoesViewModel>(sinanObservacoes),
+                Sinan_NotificadorViewModel = Mapper.Map<Sinan_Notificador, Sinan_NotificadorViewModel>(sinanNotificador)
             };
 
             return View(viewmodel);
@@ -246,6 +276,26 @@ namespace SINAN.Controllers
                 var sinanViolenciaSexual = Mapper.Map<Sinan_ViolenciaSexualViewModel, Sinan_ViolenciaSexual>(viewmodel.Sinan_ViolenciaSexualViewModel);
                 sinanViolenciaSexual.id = sinan.id;
                 _uow.sinanViolenciaSexual.Update(sinanViolenciaSexual);
+
+                var sinanDadosDoProvavelAutorDaViolencia = Mapper.Map<Sinan_DadosDoProvavelAutorViolenciaViewModel, Sinan_DadosDoProvavelAutorDaViolencia>(viewmodel.Sinan_DadosDoProvavelAutorViolenciaViewModel);
+                sinanDadosDoProvavelAutorDaViolencia.id = sinan.id;
+                _uow.sinanDadosDoProvavelAutorDaViolencia.Update(sinanDadosDoProvavelAutorDaViolencia);
+
+                var sinanEncaminhamento = Mapper.Map<Sinan_EncaminhamentoViewModel, Sinan_Encaminhamento>(viewmodel.Sinan_EncaminhamentoViewModel);
+                sinanEncaminhamento.id = sinan.id;
+                _uow.sinanEncaminhamento.Update(sinanEncaminhamento);
+
+                var sinanDadosFinais = Mapper.Map<Sinan_DadosFinaisViewModel, Sinan_DadosFinais>(viewmodel.Sinan_DadosFinaisViewModel);
+                sinanDadosFinais.id = sinan.id;
+                _uow.sinanDadosFinais.Update(sinanDadosFinais);
+
+                var sinanObservacoes = Mapper.Map<Sinan_ObservacoesViewModel, Sinan_Observacoes>(viewmodel.Sinan_ObservacoesViewModel);
+                sinanObservacoes.id = sinan.id;
+                _uow.sinanObservacoes.Update(sinanObservacoes);
+
+                var sinanNotificador = Mapper.Map<Sinan_NotificadorViewModel, Sinan_Notificador>(viewmodel.Sinan_NotificadorViewModel);
+                sinanNotificador.id = sinan.id;
+                _uow.sinanNotificador.Update(sinanNotificador);
 
                 _uow.Commit();
 

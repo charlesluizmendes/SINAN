@@ -24,11 +24,9 @@ namespace SINAN.Application.ViewModel
         [RegularExpression(@"^[0-9]*$", ErrorMessage = "Digite uma Idade válida")]
         [Display(Name = "Idade")]
         public string idade { get; set; }
-
-        [MaxLength(2)]
-        [RegularExpression(@"^[0-9]*$", ErrorMessage = "Digite uma Idade válida")]
+      
         [Display(Name = "Ou Idade")]
-        public string ou_idade { get; set; }
+        public OuIdade? ou_idade { get; set; }
 
         [Display(Name = "Sexo")]
         public Sexo? sexo { get; set; }
@@ -43,7 +41,7 @@ namespace SINAN.Application.ViewModel
         public Escolaridade? escolaridade { get; set; }
 
         [Display(Name = "Continua Estudando")]
-        public ContinuaEstudando? continua_estudando { get; set; }
+        public SimNaoNaoSeAplicaIgnorado? continua_estudando { get; set; }
 
         [Display(Name = "Ano")]
         public AnoEscolaridade? ano_de_escolaridade { get; set; }
@@ -75,6 +73,6 @@ namespace SINAN.Application.ViewModel
         public string nome_mae { get; set; }
 
         [Display(Name = "Tem Nome do Pai")]
-        public TemNomePaiRegistro? tem_nome_pai_registro { get; set; }
+        public SimNaoIgnorado? tem_nome_pai_registro { get; set; }
     }
 }

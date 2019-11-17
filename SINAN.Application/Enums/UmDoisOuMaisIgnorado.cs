@@ -7,16 +7,13 @@ using System.Threading.Tasks;
 
 namespace SINAN.Application.Enums
 {
-    public enum ContinuaEstudando
+    public enum UmDoisOuMaisIgnorado
     {
-        [Display(Name = "Sim")]
-        Sim = 1,
+        [Display(Name = "Um")]
+        Um = 1,
 
-        [Display(Name = "Não")]
-        Nao = 2,
-
-        [Display(Name = "Não se aplica")]
-        NaoSeAplica = 3,
+        [Display(Name = "Dois ou mais")]
+        DoisOuMais = 2,
 
         [Display(Name = "Ignorado")]
         Ignorado = 9,
