@@ -12,7 +12,8 @@ using SINAN.Application.ViewModel;
 using SINAN.Infrastructure.CrossCutting.Helpers;
 
 namespace SINAN.Controllers
-{  
+{
+    [Authorize]
     public class RelatoriosController : Controller
     {
         private readonly IUnitOfWork _uow;

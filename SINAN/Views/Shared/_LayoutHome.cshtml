@@ -7,7 +7,7 @@
     <link href="@Url.Content("~/Content/css/home/home.css")" rel="stylesheet" />
     <link href="@Url.Content("~/Content/css/home/dashboard.css")" rel="stylesheet" />
     <link href="@Url.Content("~/Content/css/home/criar.css")" rel="stylesheet" />
-    <link href="@Url.Content("~/Content/css/home/alterar.css")" rel="stylesheet" />    
+    <link href="@Url.Content("~/Content/css/home/alterar.css")" rel="stylesheet" />
 
     @RenderSection("Style", false)
 }
@@ -28,7 +28,10 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li><a href="@Url.Action("Dashboard", "Home")"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                <li><a href="@Url.Action("CriarConta", "Home")"><span class="glyphicon glyphicon-user"></span> Criar Conta</a></li>
+                @if (Roles.IsUserInRole("Administrador"))
+                {
+                    <li><a href="@Url.Action("CriarConta", "Home")"><span class="glyphicon glyphicon-user"></span> Criar Conta</a></li>
+                }
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a id="alterarSenha" href="@Url.Action("AlterarSenha", "Home")"><span class="glyphicon glyphicon-lock"></span> Alterar Senha</a></li>

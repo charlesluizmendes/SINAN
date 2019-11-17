@@ -26,8 +26,9 @@ namespace SINAN.Controllers
         public ActionResult Dashboard()
         {
             return View();
-        }             
+        }
 
+        [Authorize(Roles = "Administrador")]
         public ActionResult CriarConta()
         {
             var viewmodel = new CriarContaViewModel();
@@ -36,6 +37,7 @@ namespace SINAN.Controllers
         }
 
         // POST: Home/CriarConta
+        [Authorize(Roles = "Administrador")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult CriarConta(CriarContaViewModel viewmodel)
