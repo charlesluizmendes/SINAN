@@ -5,6 +5,7 @@
     $("#cep").mask("99999-999");
     $("#telefone").mask("(99) 99999 - 9999");
     $("#hora_ocorrencia").mask("99:99");
+    $("#telefone_acompanhate").mask("(99) 99999 - 9999");
        
     // Block UI 
 

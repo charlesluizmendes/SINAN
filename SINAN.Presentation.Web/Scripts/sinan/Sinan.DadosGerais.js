@@ -131,6 +131,10 @@
                     cod_cnes.empty();
                     cod_cnes.val(data.text);                    
 
+                    var codigo_unidade_saude = $("#codigo_unidade_saude");
+                    codigo_unidade_saude.empty();
+                    codigo_unidade_saude.val(data.text);
+
                     $.fn.cod_unidade();
                 } 
             },
@@ -145,7 +149,12 @@
         var cod_unidade = $("#cod_unidade");
         cod_unidade.empty();
         var id = $("#unidade_saude").val();
-        cod_unidade.val(id);        
+        cod_unidade.val(id);   
+
+        var codigo_unidade_notificadora = $("#codigo_unidade_notificadora");
+        codigo_unidade_notificadora.empty();
+        var id_ = $("#unidade_saude").val();
+        codigo_unidade_notificadora.val(id_);
     };
 
     // Eventos
@@ -157,6 +166,9 @@
         $("#unidade_saude").empty();
         $("#cod_cnes").val('');
         $("#cod_unidade").val('');
+
+        $("#codigo_unidade_saude").val('');
+        $("#codigo_unidade_notificadora").val('');
 
         uf_origem_ = null;
         mun_origem_ = null;
@@ -175,6 +187,9 @@
         $("#cod_cnes").val('');
         $("#cod_unidade").val('');
 
+        $("#codigo_unidade_saude").val('');
+        $("#codigo_unidade_notificadora").val('');
+
         mun_origem_ = null;
         cod_ibge_ = null;
         unidade_saude_ = null;
@@ -186,6 +201,9 @@
 
         $("#cod_cnes").val('');
         $("#cod_unidade").val('');
+
+        $("#codigo_unidade_saude").val('');
+        $("#codigo_unidade_notificadora").val('');
 
         cod_ibge_ = null;
         unidade_saude_ = null;

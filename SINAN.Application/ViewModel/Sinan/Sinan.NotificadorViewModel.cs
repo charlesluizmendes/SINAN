@@ -10,16 +10,12 @@ namespace SINAN.Application.ViewModel
 {
     public class Sinan_NotificadorViewModel
     {
-        [MaxLength(255)]
-        [RegularExpression(@"^[ a-zA-Z á]*$", ErrorMessage = "Digite um Municipio/Unidade válido")]
         [Display(Name = "Município/Unidade de Saúde")]
         public string municipio_nome_unidade_notificadora { get; set; }
 
         [Display(Name = "Cód. da Unid. de Saúde/CNE")]
         public int? codigo_unidade_notificadora { get; set; }
 
-        [MaxLength(255)]
-        [RegularExpression(@"^[ a-zA-Z á]*$", ErrorMessage = "Digite um Municipio/Unidade válido")]
         [Display(Name = "Município/Unidade Notificadora")]
         public string municipio_unidade_saude { get; set; }
 

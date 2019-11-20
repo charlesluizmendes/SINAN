@@ -1072,10 +1072,12 @@
                             <div class="form-group col-md-3" style="margin-bottom: 3px;">
                                 <label for="txtCirsustanciaDaLesao">68. Circunstância da lesão</label>
                                 <div class="row">
-                                    <div class="form-group col-md-7" style="margin-top: 10px; font-size:larger;">
+                                    <div class="form-group col-md-7" style="margin-top: 10px;">
+                                        <br />
                                         CID 10 - Cap XX
                                     </div>
                                     <div class="form-group col-md-5">
+                                        <br />
                                         @Html.TextBoxFor(model => model.Sinan_DadosFinaisViewModel.circunstancia_lesao, new { @id = "circunstancia_lesao", @class = "form-control" })
                                         @Html.ValidationMessageFor(model => model.Sinan_DadosFinaisViewModel.circunstancia_lesao, "", new { @id = "circunstancia_lesao", @class = "text-danger" })
                                     </div>
@@ -1132,7 +1134,7 @@
                                 @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.municipio_nome_unidade_notificadora, "", new { @id = "municipio_nome_unidade_notificadora", @class = "text-danger" })
                             </div>
                             <div class="form-group col-md-3">
-                                <label for="txtCodigoUnidadeNotificadora">Codigo da Unidade Notificadora</label>
+                                <label for="txtCodigoUnidadeNotificadora"><small>Codigo da Unidade Notificadora</small></label>
                                 @Html.TextBoxFor(model => model.Sinan_NotificadorViewModel.codigo_unidade_notificadora, new { @id = "codigo_unidade_notificadora", @class = "form-control", @readonly = "readonly" })
                                 @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.codigo_unidade_notificadora, "", new { @id = "codigo_unidade_notificadora", @class = "text-danger" })
                             </div>
@@ -1144,7 +1146,7 @@
                                 @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.municipio_unidade_saude, "", new { @id = "municipio_unidade_saude", @class = "text-danger" })
                             </div>
                             <div class="form-group col-md-3">
-                                <label for="txtCodigoUnidadeSaudeCNES">Codigo da Unidade de Saúde (CNES)</label>
+                                <label for="txtCodigoUnidadeSaudeCNES"><small>Codigo da Unidade de Saúde (CNES)</small></label>
                                 @Html.TextBoxFor(model => model.Sinan_NotificadorViewModel.codigo_unidade_saude, new { @id = "codigo_unidade_saude", @class = "form-control", @readonly = "readonly" })
                                 @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.codigo_unidade_saude, "", new { @id = "codigo_unidade_saude", @class = "text-danger" })
                             </div>
@@ -1155,7 +1157,7 @@
                                 @Html.TextBoxFor(model => model.Sinan_NotificadorViewModel.nome, new { @id = "nome", @class = "form-control" })
                                 @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.nome, "", new { @id = "nome", @class = "text-danger" })
                             </div>
-                            <div class="form-group col-md-3">
+                            <div class="form-group col-md-4">
                                 <label for="txtFuncao">Função</label>
                                 @Html.TextBoxFor(model => model.Sinan_NotificadorViewModel.funcao, new { @id = "funcao", @class = "form-control" })
                                 @Html.ValidationMessageFor(model => model.Sinan_NotificadorViewModel.funcao, "", new { @id = "funcao", @class = "text-danger" })
