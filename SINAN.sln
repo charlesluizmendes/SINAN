@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SINAN", "SINAN\SINAN.csproj", "{C42DF315-A822-43C4-B13F-84EF8014B373}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layers", "Layers", "{86DDE507-0744-4DA5-84B5-C2EDF50D3F43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SINAN.Application", "SINAN.Application\SINAN.Application.csproj", "{FF8AAA1E-2287-4C15-B6D6-81B4CE269AB6}"
@@ -19,16 +17,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SINAN.Infrastructure.Identi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SINAN.Infrastructure.IoC", "SINAN.Infrastructure.IoC\SINAN.Infrastructure.IoC.csproj", "{A4997CED-079C-4D7E-A98E-178FEC5943B3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{69AC73B3-F4F8-42A2-BA7C-1FA2A70D5A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SINAN.Services.API", "SINAN.Services.API\SINAN.Services.API.csproj", "{F980E736-614A-4F27-A3C4-E5DB18903B52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B12874B6-50AE-4AF0-B326-D0565401E737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SINAN.Presentation.Web", "SINAN.Presentation.Web\SINAN.Presentation.Web.csproj", "{DA53B580-262D-4A7B-AFE1-BF9443F3B9EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C42DF315-A822-43C4-B13F-84EF8014B373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C42DF315-A822-43C4-B13F-84EF8014B373}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C42DF315-A822-43C4-B13F-84EF8014B373}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C42DF315-A822-43C4-B13F-84EF8014B373}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FF8AAA1E-2287-4C15-B6D6-81B4CE269AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FF8AAA1E-2287-4C15-B6D6-81B4CE269AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF8AAA1E-2287-4C15-B6D6-81B4CE269AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,6 +55,14 @@ Global
 		{A4997CED-079C-4D7E-A98E-178FEC5943B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4997CED-079C-4D7E-A98E-178FEC5943B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4997CED-079C-4D7E-A98E-178FEC5943B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F980E736-614A-4F27-A3C4-E5DB18903B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F980E736-614A-4F27-A3C4-E5DB18903B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F980E736-614A-4F27-A3C4-E5DB18903B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F980E736-614A-4F27-A3C4-E5DB18903B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA53B580-262D-4A7B-AFE1-BF9443F3B9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA53B580-262D-4A7B-AFE1-BF9443F3B9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA53B580-262D-4A7B-AFE1-BF9443F3B9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA53B580-262D-4A7B-AFE1-BF9443F3B9EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +74,8 @@ Global
 		{2DAADDC9-C0B9-4CC3-BD22-38A860B6B16E} = {86DDE507-0744-4DA5-84B5-C2EDF50D3F43}
 		{F3248813-6D98-4B8A-A97A-64B84AFB3224} = {86DDE507-0744-4DA5-84B5-C2EDF50D3F43}
 		{A4997CED-079C-4D7E-A98E-178FEC5943B3} = {86DDE507-0744-4DA5-84B5-C2EDF50D3F43}
+		{F980E736-614A-4F27-A3C4-E5DB18903B52} = {69AC73B3-F4F8-42A2-BA7C-1FA2A70D5A06}
+		{DA53B580-262D-4A7B-AFE1-BF9443F3B9EE} = {B12874B6-50AE-4AF0-B326-D0565401E737}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AED8E1D2-7A94-4BF0-9D57-0F51A395438E}
